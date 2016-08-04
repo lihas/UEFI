@@ -1,0 +1,6 @@
+=======================================================================================================================
+                                                       BUG FIXES
+=======================================================================================================================
+1.  PcatRealTimeClockRuntimeDxe: Initialize alarm register in entrypoint to fix a GetWakeupTime() failure.
+2.  PcatRealTimeClockRuntimeDxe: Fix a Y2K bug to only support year in 100 range.
+3.  PcatRealTimeClockRuntimeDxe: Fix a bug that RegisterB Hour Format bit is not cleared to use BCD format sometimes.

@@ -1,0 +1,12 @@
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/PeiServicesTablePointerLib/PeiServicesTablePointerLib/OUTPUT/PeiServicesTablePointerLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/PeiExtractGuidedSectionLib/PeiExtractGuidedSectionLib/OUTPUT/PeiExtractGuidedSectionLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/PeimEntryPoint/PeimEntryPoint/OUTPUT/PeimEntryPoint.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/PeiCrc32GuidedSectionExtractLib/PeiCrc32GuidedSectionExtractLib/OUTPUT/PeiCrc32GuidedSectionExtractLib.lib
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionPei/SectionExtractionPei/OUTPUT/SectionExtractionPei.lib

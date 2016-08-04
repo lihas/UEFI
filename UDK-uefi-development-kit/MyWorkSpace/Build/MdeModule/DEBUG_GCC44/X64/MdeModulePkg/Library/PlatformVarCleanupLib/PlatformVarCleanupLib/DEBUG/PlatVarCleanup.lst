@@ -1,0 +1,123 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) 
+//
+extern unsigned char PlatformVarCleanupLibStrings[];
+typedef struct {
+  UINT8 SelectAll;
+  UINT8 UserVariable[0x1000];
+} VARIABLE_CLEANUP_DATA;
+formset
+>00000000: 0E A7 8A 4D F1 24 A8 D7 91 49 91 E0 96 C3 B7 DB 84 56 02 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x24f14d8a, 0xd7a8, 0x4991, { 0x91, 0xe0, 0x96, 0xc3, 0xb7, 0xdb, 0x84, 0x56 } },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0004),
+  varstore VARIABLE_CLEANUP_DATA,
+>00000033: 24 26 8A 4D F1 24 A8 D7 91 49 91 E0 96 C3 B7 DB 84 56 00 80 01 10 56 61 72 69 61 62 6C 65 43 6C 65 61 6E 75 70 00 
+    varid = 0x8000,
+    name = VariableCleanup,
+    guid = { 0x24f14d8a, 0xd7a8, 0x4991, { 0x91, 0xe0, 0x96, 0xc3, 0xb7, 0xdb, 0x84, 0x56 } };
+  form formid = 0x8000,
+>00000059: 01 86 00 80 03 00 
+    title = STRING_TOKEN(0x0003);
+    checkbox varid = VARIABLE_CLEANUP_DATA.SelectAll,
+>0000005F: 06 8E 05 00 06 00 FD 7F 00 80 00 00 04 00 
+      prompt = STRING_TOKEN(0x0005),
+      help = STRING_TOKEN(0x0006),
+      flags = INTERACTIVE,
+      key = 0x7FFD,
+    endcheckbox;
+>0000006D: 29 02 
+    label 0x0000;
+>0000006F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 00 
+    label 0xFFFF;
+>00000084: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000099: 29 02 
+endformset;
+>0000009B: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 8A 4D F1 24 A8 D7 91 49 91 E0 96 C3 B7 DB 84 56 02 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 24 26 8A 4D F1 24 A8 D7 91 49 91 E0 96 C3 B7 DB 84 56 00 80 01 10 56 61 72 69 61 62 6C 65 43 6C 65 61 6E 75 70 00 
+>00000059: 01 86 00 80 03 00 
+>0000005F: 06 8E 05 00 06 00 FD 7F 00 80 00 00 04 00 
+>0000006D: 29 02 
+>0000006F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 00 
+>00000084: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000099: 29 02 
+>0000009B: 29 02 
+
+Total Size of all record is 0x0000009D
+
+
+***************************************************************
+		mPackAlign = 8
+		struct VARIABLE_CLEANUP_DATA : mAlign [1] mTotalSize [0x1001]
+
+		struct VARIABLE_CLEANUP_DATA {
+			+00000000[00000000] SelectAll <UINT8>
+			+00000001[00000001] UserVariable[4096] <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

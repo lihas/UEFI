@@ -1,0 +1,29 @@
+========================================================================================================================
+                                               UEFI/PI SPECIFICATION COMPLIANCE
+========================================================================================================================
+1.  PI: Add CPU MP protocol support in CpuDxe.
+2.  PI 1.4: Add CpuMpPei to support CPU MP PPI.
+3.  PI 1.4: Support SEC Platform Information2 PPI.
+
+========================================================================================================================
+                                                PACKAGE INTERFACE CHANGES
+========================================================================================================================
+1.  Add the following PCDs:
+      PcdCpuApInitTimeOutInMicroSeconds
+      PcdCpuMicrocodePatchAddress
+      PcdCpuMicrocodePatchRegionSize
+2.  Add some CPUID definitions in Include/Register/LocalApic.h
+
+========================================================================================================================
+                                                NEW FEATURES AND CHANGES
+========================================================================================================================
+1.  BaseXApicLib/BaseXApicX2ApicLib: Support IA32 processors without MSR_IA32_APIC_BASE_ADDRESS.
+2.  CpuDxe: Get CPU BIST information from Guided HOB.
+3.  CpuExceptionHandlerLib: Support IA32 processors without DE or FXSAVE/FXRESTOR.
+4.  Use safe string functions.
+
+=======================================================================================================================
+                                                       BUG FIXES
+=======================================================================================================================
+1.  Avoid "error A2085" when DDK3790 tool chain is used.
+2.  MtrrLib: MtrrValidBitsMask and MtrrValidAddressMask wrong.

@@ -1,0 +1,21 @@
+================================================================================
+                            NEW FEATURES AND CHANGES
+================================================================================
+1. OpenSSL version was updated to the latest 1.0.2d (released at 09-Jul-2015).
+   Please refer to CryptoPkg/Library/OpensslLib/Patch-HOWTO.txt on how to
+   download and use OpenSSL 1.0.2d.
+
+================================================================================
+                            PACKAGE INTERFACE CHANGES
+================================================================================
+1. The following APIs were added into BaseCryptLib.h
+   1) Sha384GetContextSize(), Sha384Init(), Sha384Update(), Sha384Final()
+      for SHA-384 algorithm support;
+   2) Sha512GetContextSize(), Sha512Init(), Sha512Update(), Sha512Final()
+      for SHA-512 algorithm support;
+   3) ImageTimestampVerify()
+      for RFC3161 Timestamp counterSignature verification support;
+   4) X509GetTBSCert()
+      for X509 TBSCertificate data retrievement support;
+   5) Pkcs7GetAttachededContent()
+      for PKCS7 attached content retrievement support;

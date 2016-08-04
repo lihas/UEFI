@@ -1,0 +1,222 @@
+## @file
+# Platform console driver manages console devices.
+#
+# Console Platfrom DXE Driver that specifies whether device can be used as console
+# input/output device or error output device and update global variables accordingly.
+#
+# Copyright (c) 2006 - 2014, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution. The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.php
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+#
+##
+
+# DO NOT EDIT
+# FILE auto-generated
+
+[Defines]
+  INF_VERSION                = 0x00010017
+  BASE_NAME                  = ConPlatformDxe
+  FILE_GUID                  = 51ccf399-4fdf-4e55-a45b-e123f84d456a
+  MODULE_TYPE                = UEFI_DRIVER
+  VERSION_STRING             = 1.0
+  ENTRY_POINT                = InitializeConPlatform
+  MODULE_UNI_FILE            = ConPlatformDxe.uni
+
+[Packages.IA32]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[Binaries.IA32]
+  PE32|ConPlatformDxe.efi
+
+[PatchPcd.IA32]
+
+[Protocols.IA32]
+  ## SOMETIMES_CONSUMES
+  ## TO_START
+  gEfiDevicePathProtocolGuid
+
+  ## TO_START
+  gEfiSimpleTextInProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  ## TO_START
+  gEfiSimpleTextOutProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPciIoProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  ## SOMETIMES_CONSUMES
+  gEfiGraphicsOutputProtocolGuid
+
+  ## CONSUMES
+  gEfiStatusCodeRuntimeProtocolGuid
+
+  ## CONSUMES
+  gEfiDevicePathUtilitiesProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiDevicePathToTextProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiDevicePathFromTextProtocolGuid
+
+  ## SOMETIMES_PRODUCES
+  gEfiDriverBindingProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiHiiFontProtocolGuid
+
+  ## SOMETIMES_CONSUMES # Consumes if gEfiGraphicsOutputProtocolGuid uninstalled
+  gEfiUgaDrawProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiComponentNameProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiComponentName2ProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverConfigurationProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverConfiguration2ProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverDiagnosticsProtocolGuid
+
+  ## SOMETIMES_PRODUCES # User chooses to produce it
+  gEfiDriverDiagnostics2ProtocolGuid
+
+  ## PRODUCES
+  gEfiDebugMaskProtocolGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiLoadedImageProtocolGuid
+
+
+[Ppis.IA32]
+
+[Guids.IA32]
+  ## SOMETIMES_CONSUMES  ## Variable
+  #
+  # This is the VendorGuid of all architecturally defined variables in UEFI spec.
+  #
+  ## SOMETIMES_CONSUMES ## Variable:L"ConIn"
+  ## SOMETIMES_CONSUMES ## Variable:L"ConOut"
+  ## SOMETIMES_CONSUMES ## Variable:L"ErrOut"
+  ## SOMETIMES_PRODUCES ## Variable:L"ConInDev"
+  ## SOMETIMES_PRODUCES ## Variable:L"ConOutDev"
+  ## SOMETIMES_PRODUCES ## Variable:L"ErrOutDev"
+  gEfiGlobalVariableGuid
+
+  #
+  # This GUID is used to specify the device is the standard error device.
+  # If the device is a standard error device, this GUID as the protocol GUID will be installed
+  # onto this device handle.
+  #
+  ## SOMETIMES_PRODUCES ## UNDEFINED # protocol GUID installed on device handle
+  gEfiStandardErrorDeviceGuid
+
+  #
+  # This GUID is used to specify the device is the console output device.
+  # If the device is a console output device, this GUID as the protocol GUID will be installed
+  # onto this device handle.
+  #
+  ## SOMETIMES_PRODUCES ## UNDEFINED # protocol GUID installed on device handle
+  gEfiConsoleOutDeviceGuid
+
+  #
+  # This GUID is used to specify the device is the console input device.
+  # If the device is a console input device, this GUID as the protocol GUID will be installed
+  # onto this device handle.
+  #
+  ## SOMETIMES_PRODUCES ## UNDEFINED # protocol GUID installed on device handle
+  gEfiConsoleInDeviceGuid
+
+  ## SOMETIMES_CONSUMES ## UNDEFINED
+  gEfiStatusCodeSpecificDataGuid
+
+  ## SOMETIMES_CONSUMES ## UNDEFINED
+  ## SOMETIMES_CONSUMES ## GUID
+  gEfiStatusCodeDataTypeDebugGuid
+
+  ## SOMETIMES_CONSUMES  ## Event
+  gEfiEventReadyToBootGuid
+
+  ## SOMETIMES_CONSUMES  ## Event
+  gEfiEventLegacyBootGuid
+
+  ## CONSUMES  ## SystemTable
+  gEfiHobListGuid
+
+  ## SOMETIMES_PRODUCES   ## Variable:L"EFIDebug"
+  ## SOMETIMES_CONSUMES   ## Variable:L"EFIDebug"
+  ## SOMETIMES_CONSUMES   ## HOB
+  gEfiGenericVariableGuid
+
+
+[PcdEx.IA32]
+
+[LibraryClasses.IA32]
+## @LIB_INSTANCES
+#  MdePkg/Library/BaseLib/BaseLib.inf
+#  MdeModulePkg/Library/DxeReportStatusCodeLib/DxeReportStatusCodeLib.inf
+#  MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
+#  MdeModulePkg/Library/PeiDxeDebugLibReportStatusCode/PeiDxeDebugLibReportStatusCode.inf
+#  MdePkg/Library/BaseMemoryLibOptDxe/BaseMemoryLibOptDxe.inf
+#  MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.inf
+#  MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
+#  MdePkg/Library/BasePrintLib/BasePrintLib.inf
+#  MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.inf
+#  MdePkg/Library/UefiDevicePathLibDevicePathProtocol/UefiDevicePathLibDevicePathProtocol.inf
+#  MdePkg/Library/UefiLib/UefiLib.inf
+#  MdePkg/Library/DxeHobLib/DxeHobLib.inf
+#  MdeModulePkg/Library/DxeDebugPrintErrorLevelLib/DxeDebugPrintErrorLevelLib.inf
+#  MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint.inf
+
+[Depex.IA32]
+#  (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiDevicePathUtilitiesProtocolGuid) AND (gEfiBdsArchProtocolGuid AND gEfiCpuArchProtocolGuid AND gEfiMetronomeArchProtocolGuid AND gEfiMonotonicCounterArchProtocolGuid AND gEfiRealTimeClockArchProtocolGuid AND gEfiResetArchProtocolGuid AND gEfiRuntimeArchProtocolGuid AND gEfiSecurityArchProtocolGuid AND gEfiTimerArchProtocolGuid AND gEfiVariableWriteArchProtocolGuid AND gEfiVariableArchProtocolGuid AND gEfiWatchdogTimerArchProtocolGuid)
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF EBC
+#
+#  DRIVER_BINDING                =  gConPlatformTextInDriverBinding
+#  COMPONENT_NAME                =  gConPlatformComponentName
+#  COMPONENT_NAME2               =  gConPlatformComponentName2
+#  DRIVER_BINDING                =  gConPlatformTextOutDriverBinding
+#  COMPONENT_NAME                =  gConPlatformComponentName
+#  COMPONENT_NAME2               =  gConPlatformComponentName2
+#
+
+[BuildOptions.IA32]
+## @AsBuilt
+##   GCC:DEBUG_GCC49_IA32_SYMRENAME_FLAGS = Symbol renaming not needed for
+##   GCC:DEBUG_GCC49_IA32_ASLDLINK_FLAGS = -nostdlib -n -q --gc-sections -z common-page-size=0x40 --entry ReferenceAcpiTable -u ReferenceAcpiTable -m elf_i386
+##   GCC:DEBUG_GCC49_IA32_VFR_FLAGS = -l -n
+##   GCC:DEBUG_GCC49_IA32_PP_FLAGS = -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
+##   GCC:DEBUG_GCC49_IA32_GENFW_FLAGS = 
+##   GCC:DEBUG_GCC49_IA32_OPTROM_FLAGS = -e
+##   GCC:DEBUG_GCC49_IA32_RC_FLAGS = -I binary -O elf32-i386          -B i386    --rename-section .data=.hii
+##   GCC:DEBUG_GCC49_IA32_ASM_FLAGS = -c -x assembler -imacros $(DEST_DIR_DEBUG)/AutoGen.h -m32 -march=i386
+##   GCC:DEBUG_GCC49_IA32_ASL_FLAGS = 
+##   GCC:DEBUG_GCC49_IA32_CC_FLAGS = -g -fshort-wchar -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -ffunction-sections -fdata-sections -c -include AutoGen.h -fno-common -DSTRING_ARRAY_NAME=$(BASE_NAME)Strings -m32 -march=i586 -malign-double -fno-stack-protector -D EFI32 -fno-asynchronous-unwind-tables -Wno-address -Os
+##   GCC:DEBUG_GCC49_IA32_VFRPP_FLAGS = -x c -E -P -DVFRCOMPILE --include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
+##   GCC:DEBUG_GCC49_IA32_ASLCC_FLAGS = -x c -m32
+##   GCC:DEBUG_GCC49_IA32_DLINK2_FLAGS = --defsym=PECOFF_HEADER_SIZE=0x220 --script=$(EDK_TOOLS_PATH)/Scripts/GccBase.lds
+##   GCC:DEBUG_GCC49_IA32_DLINK_FLAGS = -nostdlib -n -q --gc-sections -z common-page-size=0x40 --entry $(IMAGE_ENTRY_POINT) -u $(IMAGE_ENTRY_POINT) -Map $(DEST_DIR_DEBUG)/$(BASE_NAME).map -m elf_i386 --oformat=elf32-i386 /EXPORT:InitializeDriver=$(IMAGE_ENTRY_POINT) /BASE:0x10000 /ALIGN:4096 /FILEALIGN:4096 /SUBSYSTEM:CONSOLE
+##   GCC:DEBUG_GCC49_IA32_NASMB_FLAGS = -f bin
+##   GCC:DEBUG_GCC49_IA32_ASLPP_FLAGS = -x c -E -P
+##   GCC:DEBUG_GCC49_IA32_OBJCOPY_FLAGS = 
+##   GCC:DEBUG_GCC49_IA32_APP_FLAGS = 
+##   GCC:DEBUG_GCC49_IA32_ASMLINK_FLAGS = /nologo /tiny
+##   GCC:DEBUG_GCC49_IA32_NASM_FLAGS = -f elf32

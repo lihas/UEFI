@@ -1,0 +1,7 @@
+========================================================================================================================
+                                                NEW FEATURES AND CHANGES
+========================================================================================================================
+1.  Update EFI_COMPATIBILITY16_TABLE to CSM 0.98.
+2.  Add BuildResourceDescriptorWithOwnerHob() API in HobLib.
+3.  Update BuildResourceDescriptorWithOwnerHob() to align the behavior of BuildResourceDescriptorHob().
+4.  Use safe string functions.

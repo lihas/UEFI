@@ -1,0 +1,1117 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj) (ProcessLibraryConstructorList)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj) (SectionExtractionDxeEntry)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj) (CopyMem)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj) (InternalMemCopyMem)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj) (DebugPrint)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj) (UefiBootServicesTableLibConstructor)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj) (AllocatePool)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj) (DxeExtractGuidedSectionLibConstructor)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj) (DxeCrc32GuidedSectionExtractLibConstructor)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj) (ZeroMem)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj) (InternalMemZeroMem)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj) (CopyGuid)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj) (InternalMemSetMem)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj) (ReadUnaligned64)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj) (BitFieldWrite32)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj) (RShiftU64)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj) (LShiftU64)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj) (InternalMathLShiftU64)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj) (SwapBytes32)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj) (SwapBytes16)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.unlikely.EfiMain
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.EfiMain  0x0000000000000000        0x5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessLibraryConstructorList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessLibraryDestructorList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessModuleEntryPointList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text.unlikely.ExitDriver
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text.ExitDriver
+                0x0000000000000000       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessModuleUnloadList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .rodata._gDxeRevision
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .data.gEfiMdePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .data.rel.local.gEfiCallerBaseName
+                0x0000000000000000        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .data.gEfiCallerIdGuid
+                0x0000000000000000       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .text.unlikely.CustomGuidedSectionExtract
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .text.unlikely.SectionExtractionDxeEntry
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .text.unlikely.CopyMem
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .text.unlikely.InternalMemCopyMem
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugPrint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugAssert
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugClearMemory
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.DebugClearMemory
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugAssertEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugPrintEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugCodeEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.DebugCodeEnabled
+                0x0000000000000000        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugClearMemoryEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.DebugClearMemoryEnabled
+                0x0000000000000000        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugPrintLevelEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .text.unlikely.UefiBootServicesTableLibConstructor
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.InternalAllocatePages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.InternalAllocatePages
+                0x0000000000000000       0x39 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocatePages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocatePages
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateRuntimePages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateRuntimePages
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateReservedPages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateReservedPages
+                0x0000000000000000       0x9b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.FreePages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.FreePages
+                0x0000000000000000       0xa3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.InternalAllocateAlignedPages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.InternalAllocateAlignedPages
+                0x0000000000000000      0x288 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateAlignedPages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateAlignedPages
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateAlignedRuntimePages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateAlignedRuntimePages
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateAlignedReservedPages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateAlignedReservedPages
+                0x0000000000000000       0x9b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.FreeAlignedPages
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.FreeAlignedPages
+                0x0000000000000000       0xa3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.InternalAllocatePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocatePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateRuntimePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateRuntimePool
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateReservedPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateReservedPool
+                0x0000000000000000       0x9b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.InternalAllocateZeroPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateZeroPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateZeroPool
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateRuntimeZeroPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateRuntimeZeroPool
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateReservedZeroPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateReservedZeroPool
+                0x0000000000000000       0x9b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.InternalAllocateCopyPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateCopyPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateRuntimeCopyPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateRuntimeCopyPool
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.AllocateReservedCopyPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.AllocateReservedCopyPool
+                0x0000000000000000       0x9b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.FreePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.InternalReallocatePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.ReallocatePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.ReallocateRuntimePool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.ReallocateRuntimePool
+                0x0000000000000000       0xa1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.unlikely.ReallocateReservedPool
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text.ReallocateReservedPool
+                0x0000000000000000       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.ReallocateExtractHandlerTable
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.DxeExtractGuidedSectionLibConstructor
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.ExtractGuidedSectionGetGuidList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.ExtractGuidedSectionRegisterHandlers
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.ExtractGuidedSectionGetInfo
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.ExtractGuidedSectionDecode
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.unlikely.ExtractGuidedSectionGetHandlers
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text.ExtractGuidedSectionGetHandlers
+                0x0000000000000000       0xa6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .text.unlikely.Crc32GuidedSectionHandler
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .text.unlikely.Crc32GuidedSectionGetInfo
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .text.unlikely.DxeCrc32GuidedSectionExtractLibConstructor
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .text.unlikely.ZeroMem
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemSetMem16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemSetMem16
+                0x0000000000000000       0x11 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemSetMem32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemSetMem32
+                0x0000000000000000       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemSetMem64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemSetMem64
+                0x0000000000000000       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemZeroMem
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemCompareMem
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemCompareMem
+                0x0000000000000000       0x24 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemScanMem8
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemScanMem8
+                0x0000000000000000       0x19 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemScanMem16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemScanMem16
+                0x0000000000000000       0x16 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemScanMem32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemScanMem32
+                0x0000000000000000       0x15 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.unlikely.InternalMemScanMem64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text.InternalMemScanMem64
+                0x0000000000000000       0x15 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .text.unlikely.CopyGuid
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .text.unlikely.CompareGuid
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .rodata.str1.1
+                0x0000000000000000       0xfa /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .text.unlikely.ScanGuid
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .text.ScanGuid
+                0x0000000000000000       0xb9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .text.unlikely.InternalMemSetMem
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.ReadUnaligned16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.ReadUnaligned16
+                0x0000000000000000       0x37 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.WriteUnaligned16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned16
+                0x0000000000000000       0x3d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.ReadUnaligned24
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.ReadUnaligned24
+                0x0000000000000000       0x3b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.WriteUnaligned24
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned24
+                0x0000000000000000       0x4e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.ReadUnaligned32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.ReadUnaligned32
+                0x0000000000000000       0x36 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.WriteUnaligned32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.WriteUnaligned32
+                0x0000000000000000       0x3c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.ReadUnaligned64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text.unlikely.WriteUnaligned64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.InternalBaseLibBitFieldReadUint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.InternalBaseLibBitFieldReadUint
+                0x0000000000000000       0x1f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .rodata.str1.1
+                0x0000000000000000      0x1e4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.InternalBaseLibBitFieldOrUint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.InternalBaseLibBitFieldOrUint
+                0x0000000000000000       0x72 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.InternalBaseLibBitFieldAndUint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.InternalBaseLibBitFieldAndUint
+                0x0000000000000000       0x75 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldRead8
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldRead8
+                0x0000000000000000       0x7e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldOr8
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldOr8
+                0x0000000000000000       0x7b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAnd8
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAnd8
+                0x0000000000000000       0x7b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAndThenOr8
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAndThenOr8
+                0x0000000000000000       0x95 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldWrite8
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldWrite8
+                0x0000000000000000       0x82 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldRead16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldRead16
+                0x0000000000000000       0x7e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldOr16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldOr16
+                0x0000000000000000       0x7b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAnd16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAnd16
+                0x0000000000000000       0x7b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAndThenOr16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAndThenOr16
+                0x0000000000000000       0x94 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldWrite16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldWrite16
+                0x0000000000000000       0x81 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldRead32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldRead32
+                0x0000000000000000       0x7b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldOr32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldOr32
+                0x0000000000000000       0x79 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAnd32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAnd32
+                0x0000000000000000       0x79 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAndThenOr32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAndThenOr32
+                0x0000000000000000       0x90 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldWrite32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldWrite32
+                0x0000000000000000       0x7d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldRead64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldRead64
+                0x0000000000000000       0x84 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldOr64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldOr64
+                0x0000000000000000       0xe0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAnd64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAnd64
+                0x0000000000000000       0xe3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldAndThenOr64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldAndThenOr64
+                0x0000000000000000       0x94 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.unlikely.BitFieldWrite64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text.BitFieldWrite64
+                0x0000000000000000       0x80 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_info    0x0000000000000000     0x18ea /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_abbrev  0x0000000000000000      0x14e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_loc     0x0000000000000000     0x1a46 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_aranges
+                0x0000000000000000      0x190 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_ranges  0x0000000000000000      0x180 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_line    0x0000000000000000      0x558 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_str     0x0000000000000000      0x406 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .debug_frame   0x0000000000000000      0x680 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .rodata.str1.1
+                0x0000000000000000       0x6e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .text.unlikely.RShiftU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .text.RShiftU64
+                0x0000000000000000       0x44 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_info    0x0000000000000000      0x149 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_abbrev  0x0000000000000000       0xa3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_loc     0x0000000000000000       0xbe /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_line    0x0000000000000000      0x184 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_str     0x0000000000000000      0x242 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .debug_frame   0x0000000000000000       0x48 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .rodata.str1.1
+                0x0000000000000000       0x6e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .text.unlikely.LShiftU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .text.LShiftU64
+                0x0000000000000000       0x44 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_info    0x0000000000000000      0x149 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_abbrev  0x0000000000000000       0xa3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_loc     0x0000000000000000       0xbe /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_line    0x0000000000000000      0x184 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_str     0x0000000000000000      0x242 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .debug_frame   0x0000000000000000       0x48 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathLShiftU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathLShiftU64
+                0x0000000000000000        0x9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathRShiftU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathRShiftU64
+                0x0000000000000000        0x9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathARShiftU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathARShiftU64
+                0x0000000000000000        0x9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathLRotU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathLRotU64
+                0x0000000000000000        0x9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathRRotU64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathRRotU64
+                0x0000000000000000        0x9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathSwapBytes64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathSwapBytes64
+                0x0000000000000000       0x32 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathMultU64x32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathMultU64x32
+                0x0000000000000000        0x7 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathMultU64x64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathMultU64x64
+                0x0000000000000000        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathDivU64x32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivU64x32
+                0x0000000000000000        0xc /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathModU64x32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathModU64x32
+                0x0000000000000000        0xe /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathDivRemU64x32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivRemU64x32
+                0x0000000000000000       0x1c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathDivRemU64x64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivRemU64x64
+                0x0000000000000000       0x1c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.unlikely.InternalMathDivRemS64x64
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text.InternalMathDivRemS64x64
+                0x0000000000000000       0x1c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_info    0x0000000000000000      0x463 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_abbrev  0x0000000000000000      0x105 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_loc     0x0000000000000000      0x347 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_aranges
+                0x0000000000000000       0xf0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_ranges  0x0000000000000000       0xe0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_line    0x0000000000000000      0x27e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_str     0x0000000000000000      0x392 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .debug_frame   0x0000000000000000      0x168 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .text.unlikely.SwapBytes32
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .text.SwapBytes32
+                0x0000000000000000       0x2f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_info    0x0000000000000000      0x10e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_abbrev  0x0000000000000000       0xa4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_loc     0x0000000000000000       0xb7 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_line    0x0000000000000000      0x16d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_str     0x0000000000000000      0x225 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .debug_frame   0x0000000000000000       0x48 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .text.unlikely.SwapBytes16
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .text.SwapBytes16
+                0x0000000000000000        0x5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_info    0x0000000000000000       0xa2 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_abbrev  0x0000000000000000       0x5e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_aranges
+                0x0000000000000000       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_ranges  0x0000000000000000       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_line    0x0000000000000000      0x100 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_str     0x0000000000000000      0x1fb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+ .debug_frame   0x0000000000000000       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0x1b30
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text._DriverUnloadHandler
+                0x0000000000000240       0x31 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                0x0000000000000240                _DriverUnloadHandler
+ .text._ModuleEntryPoint
+                0x0000000000000271       0xe8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                0x0000000000000271                _ModuleEntryPoint
+ .text.ProcessLibraryConstructorList
+                0x0000000000000359      0x133 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x0000000000000359                ProcessLibraryConstructorList
+ .text.ProcessLibraryDestructorList
+                0x000000000000048c        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x000000000000048c                ProcessLibraryDestructorList
+ .text.ProcessModuleEntryPointList
+                0x000000000000048d        0x5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x000000000000048d                ProcessModuleEntryPointList
+ .text.ProcessModuleUnloadList
+                0x0000000000000492        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x0000000000000492                ProcessModuleUnloadList
+ .text.CustomGuidedSectionExtract
+                0x0000000000000495      0x161 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                0x0000000000000495                CustomGuidedSectionExtract
+ .text.SectionExtractionDxeEntry
+                0x00000000000005f6       0xbc /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                0x00000000000005f6                SectionExtractionDxeEntry
+ .text.CopyMem  0x00000000000006b2       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                0x00000000000006b2                CopyMem
+ .text.InternalMemCopyMem
+                0x0000000000000750       0x3a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                0x0000000000000750                InternalMemCopyMem
+ .text.DebugPrint
+                0x000000000000078a        0xb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x000000000000078a                DebugPrint
+ .text.DebugAssert
+                0x0000000000000795        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x0000000000000795                DebugAssert
+ .text.DebugAssertEnabled
+                0x0000000000000796        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x0000000000000796                DebugAssertEnabled
+ .text.DebugPrintEnabled
+                0x0000000000000799        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x0000000000000799                DebugPrintEnabled
+ .text.DebugPrintLevelEnabled
+                0x000000000000079c        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x000000000000079c                DebugPrintLevelEnabled
+ .text.UefiBootServicesTableLibConstructor
+                0x000000000000079f       0xaa /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x000000000000079f                UefiBootServicesTableLibConstructor
+ .text.InternalAllocatePool
+                0x0000000000000849       0x34 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x0000000000000849                InternalAllocatePool
+ .text.AllocatePool
+                0x000000000000087d       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x000000000000087d                AllocatePool
+ .text.InternalAllocateZeroPool
+                0x000000000000091b       0x23 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x000000000000091b                InternalAllocateZeroPool
+ .text.InternalAllocateCopyPool
+                0x000000000000093e       0xaa /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x000000000000093e                InternalAllocateCopyPool
+ .text.AllocateCopyPool
+                0x00000000000009e8       0x9e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x00000000000009e8                AllocateCopyPool
+ .text.FreePool
+                0x0000000000000a86       0x6e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x0000000000000a86                FreePool
+ .text.InternalReallocatePool
+                0x0000000000000af4       0x56 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x0000000000000af4                InternalReallocatePool
+ .text.ReallocatePool
+                0x0000000000000b4a       0xa1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                0x0000000000000b4a                ReallocatePool
+ .text.ReallocateExtractHandlerTable
+                0x0000000000000beb       0xd1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000000beb                ReallocateExtractHandlerTable
+ .text.DxeExtractGuidedSectionLibConstructor
+                0x0000000000000cbc        0x5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000000cbc                DxeExtractGuidedSectionLibConstructor
+ .text.ExtractGuidedSectionGetGuidList
+                0x0000000000000cc1       0x44 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000000cc1                ExtractGuidedSectionGetGuidList
+ .text.ExtractGuidedSectionRegisterHandlers
+                0x0000000000000d05      0x169 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000000d05                ExtractGuidedSectionRegisterHandlers
+ .text.ExtractGuidedSectionGetInfo
+                0x0000000000000e6e      0x135 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000000e6e                ExtractGuidedSectionGetInfo
+ .text.ExtractGuidedSectionDecode
+                0x0000000000000fa3      0x10f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000000fa3                ExtractGuidedSectionDecode
+ .text.Crc32GuidedSectionHandler
+                0x00000000000010b2      0x13d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+                0x00000000000010b2                Crc32GuidedSectionHandler
+ .text.Crc32GuidedSectionGetInfo
+                0x00000000000011ef       0x95 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+                0x00000000000011ef                Crc32GuidedSectionGetInfo
+ .text.DxeCrc32GuidedSectionExtractLibConstructor
+                0x0000000000001284       0x1a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+                0x0000000000001284                DxeCrc32GuidedSectionExtractLibConstructor
+ .text.ZeroMem  0x000000000000129e       0x74 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                0x000000000000129e                ZeroMem
+ .text.InternalMemZeroMem
+                0x0000000000001312        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                0x0000000000001312                InternalMemZeroMem
+ .text.CopyGuid
+                0x000000000000131a       0x3e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                0x000000000000131a                CopyGuid
+ .text.CompareGuid
+                0x0000000000001358       0x4d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                0x0000000000001358                CompareGuid
+ .text.InternalMemSetMem
+                0x00000000000013a5       0x17 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                0x00000000000013a5                InternalMemSetMem
+ .text.ReadUnaligned64
+                0x00000000000013bc       0x37 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                0x00000000000013bc                ReadUnaligned64
+ .text.WriteUnaligned64
+                0x00000000000013f3       0x3f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                0x00000000000013f3                WriteUnaligned64
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000001432       0xac /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rodata.str1.1
+                0x00000000000014de       0xc6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                                         0xfb (size before relaxing)
+ .rodata._gDriverUnloadImageCount
+                0x00000000000015a4        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x00000000000015a4                _gDriverUnloadImageCount
+ *fill*         0x00000000000015a5        0x3 
+ .rodata._gUefiDriverRevision
+                0x00000000000015a8        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x00000000000015a8                _gUefiDriverRevision
+ .rodata.str1.1
+                0x00000000000015ac       0xd0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                                        0x105 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000167c       0xef /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .rodata.str1.1
+                0x000000000000176b       0xc8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .rodata.str1.1
+                0x0000000000001833       0xfc /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                                        0x148 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000192f      0x1cb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .rodata.str1.1
+                0x0000000000001afa      0x116 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .rodata.str1.1
+                0x0000000000001c10       0xcc /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .rodata.str1.1
+                0x0000000000001cdc       0x63 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                                         0x7a (size before relaxing)
+ *(.got .got.*)
+ *:AutoGen.obj(.data .data.* .bss .bss.*)
+ *fill*         0x0000000000001d3f        0x1 
+ .data.gEfiSecurityPolicyProtocolGuid
+                0x0000000000001d40       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x0000000000001d40                gEfiSecurityPolicyProtocolGuid
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000001d50       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x0000000000001d50                gEfiLoadedImageProtocolGuid
+ .data.gEfiCrc32GuidedSectionExtractionGuid
+                0x0000000000001d60       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                0x0000000000001d60                gEfiCrc32GuidedSectionExtractionGuid
+
+.iplt           0x0000000000001d70        0x0
+ .iplt          0x0000000000001d70        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.data           0x0000000000001d80       0x48
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local.mCustomGuidedSectionExtractionProtocol
+                0x0000000000001d80        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                0x0000000000001d80                mCustomGuidedSectionExtractionProtocol
+ *(.bss .bss.*)
+ .bss.mSectionExtractionHandle
+                0x0000000000001d88        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                0x0000000000001d88                mSectionExtractionHandle
+ .bss.gBS       0x0000000000001d90        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000001d90                gBS
+ .bss.gST       0x0000000000001d98        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000001d98                gST
+ .bss.gImageHandle
+                0x0000000000001da0        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000001da0                gImageHandle
+ .bss.mExtractGetInfoHandlerTable
+                0x0000000000001da8        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000001da8                mExtractGetInfoHandlerTable
+ .bss.mExtractDecodeHandlerTable
+                0x0000000000001db0        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000001db0                mExtractDecodeHandlerTable
+ .bss.mExtractHandlerGuidTable
+                0x0000000000001db8        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000001db8                mExtractHandlerGuidTable
+ .bss.mMaxNumberOfExtractHandler
+                0x0000000000001dc0        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000001dc0                mMaxNumberOfExtractHandler
+ .bss.mNumberOfExtractHandler
+                0x0000000000001dc4        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                0x0000000000001dc4                mNumberOfExtractHandler
+
+.igot.plt       0x0000000000001dc8        0x0
+ .igot.plt      0x0000000000001dc8        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000001de0        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text._DriverUnloadHandler
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text._ModuleEntryPoint
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ProcessLibraryConstructorList
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ProcessModuleEntryPointList
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ExitDriver
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.CustomGuidedSectionExtract
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SectionExtractionDxeEntry
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.CopyMem
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.InternalAllocateZeroPool
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ExtractGuidedSectionRegisterHandlers
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ExtractGuidedSectionGetInfo
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ExtractGuidedSectionDecode
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ExtractGuidedSectionGetHandlers
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.Crc32GuidedSectionHandler
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.Crc32GuidedSectionGetInfo
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ZeroMem
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.InternalMemZeroMem
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.CopyGuid
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.CompareGuid
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.WriteUnaligned24
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.BitFieldRead64
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.BitFieldOr64
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.BitFieldAnd64
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.RShiftU64
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.LShiftU64
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.InternalMathSwapBytes64
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SwapBytes32
+                0x0000000000001de0        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.hii
+ *(.hii)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash)
+ *(.comment)
+ *(COMMON)
+OUTPUT(/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/DEBUG/SectionExtractionDxe.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000     0xd552
+ .debug_info    0x0000000000000000     0x1aa1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_info    0x0000000000001aa1     0x1bb9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_info    0x000000000000365a     0x1ae3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_info    0x000000000000513d      0x1a7 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_info    0x00000000000052e4      0x117 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_info    0x00000000000053fb      0x1b6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_info    0x00000000000055b1     0x17b3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_info    0x0000000000006d64     0x1e72 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_info    0x0000000000008bd6     0x1f8e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_info    0x000000000000ab64     0x1aca /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_info    0x000000000000c62e      0x18a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_info    0x000000000000c7b8      0x406 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_info    0x000000000000cbbe      0x3f3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_info    0x000000000000cfb1       0xf6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_info    0x000000000000d0a7      0x4ab /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+
+.debug_abbrev   0x0000000000000000     0x1688
+ .debug_abbrev  0x0000000000000000      0x264 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_abbrev  0x0000000000000264      0x267 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_abbrev  0x00000000000004cb      0x266 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_abbrev  0x0000000000000731       0xb8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_abbrev  0x00000000000007e9       0xa1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_abbrev  0x000000000000088a       0xb9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_abbrev  0x0000000000000943      0x1d4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_abbrev  0x0000000000000b17      0x2bb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_abbrev  0x0000000000000dd2      0x27a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_abbrev  0x000000000000104c      0x26d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_abbrev  0x00000000000012b9       0xaa /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_abbrev  0x0000000000001363       0xc5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_abbrev  0x0000000000001428      0x10a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_abbrev  0x0000000000001532       0x95 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_abbrev  0x00000000000015c7       0xc1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+
+.debug_loc      0x0000000000000000     0x38a5
+ .debug_loc     0x0000000000000000      0x252 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_loc     0x0000000000000252      0x214 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_loc     0x0000000000000466      0x3ce /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_loc     0x0000000000000834      0x143 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_loc     0x0000000000000977      0x18b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_loc     0x0000000000000b02       0x85 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_loc     0x0000000000000b87     0x1312 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_loc     0x0000000000001e99      0x868 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_loc     0x0000000000002701      0x4ae /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_loc     0x0000000000002baf       0xbe /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_loc     0x0000000000002c6d      0x48e /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_loc     0x00000000000030fb      0x313 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_loc     0x000000000000340e      0x123 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_loc     0x0000000000003531      0x374 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+
+.debug_aranges  0x0000000000000000      0x6b0
+ .debug_aranges
+                0x0000000000000000       0x50 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_aranges
+                0x0000000000000050       0x70 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_aranges
+                0x00000000000000c0       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_aranges
+                0x0000000000000100       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_aranges
+                0x0000000000000130       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_aranges
+                0x0000000000000160       0x70 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_aranges
+                0x00000000000001d0       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_aranges
+                0x0000000000000200      0x1d0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_aranges
+                0x00000000000003d0       0x90 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_aranges
+                0x0000000000000460       0x50 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_aranges
+                0x00000000000004b0       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_aranges
+                0x00000000000004e0       0xb0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_aranges
+                0x0000000000000590       0x50 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_aranges
+                0x00000000000005e0       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_aranges
+                0x0000000000000610       0xa0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+
+.debug_ranges   0x0000000000000000      0x5f0
+ .debug_ranges  0x0000000000000000       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_ranges  0x0000000000000040       0x60 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_ranges  0x00000000000000a0       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_ranges  0x00000000000000d0       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_ranges  0x00000000000000f0       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_ranges  0x0000000000000110       0x60 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_ranges  0x0000000000000170       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_ranges  0x0000000000000190      0x1f0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_ranges  0x0000000000000380       0x80 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_ranges  0x0000000000000400       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_ranges  0x0000000000000440       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_ranges  0x0000000000000460       0xa0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_ranges  0x0000000000000500       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_ranges  0x0000000000000540       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_ranges  0x0000000000000560       0x90 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+
+.debug_line     0x0000000000000000     0x2cea
+ .debug_line    0x0000000000000000      0x371 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_line    0x0000000000000371      0x40a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_line    0x000000000000077b      0x409 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_line    0x0000000000000b84      0x1a4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_line    0x0000000000000d28      0x10f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_line    0x0000000000000e37      0x159 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_line    0x0000000000000f90      0x31d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_line    0x00000000000012ad      0x6d3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_line    0x0000000000001980      0x564 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_line    0x0000000000001ee4      0x4b8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_line    0x000000000000239c      0x1a1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_line    0x000000000000253d      0x21b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_line    0x0000000000002758      0x23a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_line    0x0000000000002992      0x104 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_line    0x0000000000002a96      0x254 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+
+.debug_str      0x0000000000000000     0x2588
+ .debug_str     0x0000000000000000     0x13a4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                                       0x14ae (size before relaxing)
+ .debug_str     0x00000000000013a4      0x2ca /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+                                       0x1636 (size before relaxing)
+ .debug_str     0x000000000000166e      0x226 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+                                       0x153f (size before relaxing)
+ .debug_str     0x0000000000001894       0xa0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+                                        0x260 (size before relaxing)
+ .debug_str     0x0000000000001934       0x7c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+                                        0x245 (size before relaxing)
+ .debug_str     0x00000000000019b0       0xc6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                                        0x29a (size before relaxing)
+ .debug_str     0x0000000000001a76       0x83 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                                       0x1321 (size before relaxing)
+ .debug_str     0x0000000000001af9      0x2b6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                                        0xf51 (size before relaxing)
+ .debug_str     0x0000000000001daf      0x2c1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+                                       0x1659 (size before relaxing)
+ .debug_str     0x0000000000002070      0x13c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+                                       0x1593 (size before relaxing)
+ .debug_str     0x00000000000021ac       0x81 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+                                        0x248 (size before relaxing)
+ .debug_str     0x000000000000222d      0x12a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+                                        0x320 (size before relaxing)
+ .debug_str     0x0000000000002357       0xf5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+                                        0x30b (size before relaxing)
+ .debug_str     0x000000000000244c       0x66 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+                                        0x224 (size before relaxing)
+ .debug_str     0x00000000000024b2       0xd6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                                        0x2bd (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1330
+ .debug_frame   0x0000000000000000       0x98 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_frame   0x0000000000000098       0xc8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(AutoGen.obj)
+ .debug_frame   0x0000000000000160       0xb8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SectionExtractionDxe/SectionExtractionDxe/OUTPUT/SectionExtractionDxe.lib(SectionExtractionDxe.obj)
+ .debug_frame   0x0000000000000218       0x68 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+ .debug_frame   0x0000000000000280       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+ .debug_frame   0x00000000000002b0       0xd8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_frame   0x0000000000000388       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_frame   0x00000000000003c8      0x8c8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+ .debug_frame   0x0000000000000c90      0x220 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+ .debug_frame   0x0000000000000eb0       0xc8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+ .debug_frame   0x0000000000000f78       0x50 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+ .debug_frame   0x0000000000000fc8       0xf0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+ .debug_frame   0x00000000000010b8       0xd0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+ .debug_frame   0x0000000000001188       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+ .debug_frame   0x00000000000011b8      0x178 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)

@@ -1,0 +1,85 @@
+================================================================================
+Intel(R) UDK Debugger Tool v1.5 for Linux Release Notes
+June 30th, 2015
+================================================================================
+
+================================================================================
+                                   DISCLAIMER
+================================================================================
+This release note as well as the software described in it is furnished under license
+and may only be used or copied in accordance with the terms of the license. The
+information in this manual is furnished for informational use only, is subject to
+change without notice, and should not be construed as a commitment by Intel Corporation.
+Intel Corporation assumes no responsibility or liability for any errors or inaccuracies
+that may appear in this document or any software that may be provided in association
+with this document.
+Except as permitted by such license, no part of this document may be reproduced,
+stored in a retrieval system, or transmitted in any form or by any means without
+the express written consent of Intel Corporation.
+
+================================================================================
+                                     INDEX
+================================================================================
+
+A.  FILE LIST
+B.  NEW FEATURES
+C.  BUGS FIXED
+D.  KNOWN ISSUES
+E.  MISC
+
+========================================================================================================================
+A.  FILE LIST
+========================================================================================================================
+
+1. "UDK_Debugger_Tool_Lnx-ReleaseNotes.txt"
+
+   Release Notes (this file)
+
+2. "UDK_Debugger_Tool_v1_5_x86_32.bin"
+
+   Installation file for the Intel(R) UEFI Development Kit Debugger Tool for 32-bit Linux
+
+3. "UDK_Debugger_Tool_v1_5_x86_64.bin"
+
+   Installation file for the Intel(R) UEFI Development Kit Debugger Tool for 64-bit Linux
+
+========================================================================================================================
+B.  NEW FEATURES
+========================================================================================================================
+1.  Support debugging through USB 3.0 debug cable.
+
+2.  Support debugging Quark platform firmware.
+
+3.  Improved the logging performance by logging asynchronously.
+
+4.  Improved the HOST/TARGET communication performance by more than 20% through the transfer protocol optimization.
+
+5.  Provide "/t" flag to "py" extension command to measure python script execution time.
+
+6.  Add a new trace capability to dump all data transferred between HOST and TARGET.
+
+========================================================================================================================
+C.  BUGS FIXED
+========================================================================================================================
+1.  Fixed the potential hang issue that halting TARGET when it's initializing memory controller.
+
+2.  Fixed the potential hang issue when crazy halting/resuming TARGET in WinDbg.
+
+3.  Fixed the potential hang issue when accessing invalid memory address in single stepping.
+
+4.  Fixed the potential hang issue when TARGET system has 1GB memory.
+
+========================================================================================================================
+D.  KNOWN ISSUES
+========================================================================================================================
+No known issues.
+
+========================================================================================================================
+E.  MISC
+========================================================================================================================
+1. Virus scanned by McAfee VirusScan Enterprise 8.8.0, Virus Definitions 7847, 
+   no virus detected.
+
+* Other names and brands may be claimed as the property of others.
+
+[END OF RELEASE NOTES]

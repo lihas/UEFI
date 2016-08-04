@@ -1,0 +1,6 @@
+#!/usr/bin/python3.4
+
+from cx_Freeze import main
+
+main()
+

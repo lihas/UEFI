@@ -1,0 +1,210 @@
+========================================================================================================================
+Intel(R) UEFI Development Kit (UDK) 2015 Base Tools Release
+September 29th, 2015
+========================================================================================================================
+
+========================================================================================================================
+                                   DISCLAIMER
+========================================================================================================================
+This release note as well as the software described in it is furnished under license and may only be used or copied in accordance
+with the terms of the license. The information in this manual is furnished for informational use only, is subject to change
+without notice, and should not be construed as a commitment by Intel Corporation. Intel Corporation assumes no responsibility
+or liability for any errors or inaccuracies that may appear in this document or any software that may be provided in association
+with this document. Except as permitted by such license, no part of this document may be reproduced, stored in a retrieval
+system, or transmitted in any form or by any means without the express written consent of Intel Corporation.
+
+========================================================================================================================
+                                     INDEX
+========================================================================================================================
+A.  INTRODUCTION
+B.  NEW FEATURES AND ENHANCEMENTS
+C.  BUG FIXES
+D.  KNOWN ISSUES
+E.  NOTES
+F.  BEST KNOWN METHODS
+
+========================================================================================================================
+A.  INTRODUCTION
+========================================================================================================================
+This is the primary set of tools for processing EDK II content. It contains configuration templates and source files.
+The tools support a Makefile based EDK II build with no additional packages required--the compiler tool chain, an assembler
+and optional ACPI assembler are the only additional tools need to build the EDK II project.
+
+Source code is divided into two types:
+1) Tools written in C (ANSI C) are primarily for tools that modify binary data structures.
+2) Tools based on Python (Python) are primarily for tools that parse or process text files.
+
+========================================================================================================================
+B.  NEW FEATURES AND ENHANCEMENTS
+========================================================================================================================
+1.  Add ConvertMasmToNasm.py script
+    This script is intended to assist with MASM to NASM syntax conversions.
+2.  Modify gcc 4.4 - 4.9 tool chain definition to support building from Windows
+3.  Add SDL support
+    - BaseTool add ATTRIBUTE (+/-RT, RO) support in PCD declaration in DSC file.
+    - BaseTool collect valid PCD value in DEC file and generate data base for runtime sanity check.
+    - BaseTool support SetPcd error.
+4.  Support all skuid in the Pcd DB system skuid table
+    Update PcdDataBase System SkuIdTable. The system SkuId Table should have all the platform supported skuid.
+5.  Add refresh form opcode in VfrCompiler
+6.  Enable buffer type value for default and oneofoption opcode in VfrCompiler
+7.  Enable Match2 Opcode in VfrCompiler
+8.  Enhance the check for numeric opcode with EFI_IFR_DISPLAY_INT_DEC attribute in VfrCompiler
+9.  Implement BUILDRULEORDER for tools_def
+    This feature allows the toolchain to choose a preference for source file extensions in tools_def.txt.
+    The first extension has the highest priority.
+10. Add reconnect request flag for question in VfrCompiler
+11. Add extern declaration for protocols/PPI/GUID in AutoGen.h
+12. Support build options for specific module type in DSC
+    This patch extended BuildOptions section in DSC to support [BuildOptions.ARCH.CodeBase.MODULE_TYPE].
+13. Generate a FV EXT entry for FV UI name if FvNameString = TRUE in FDF
+14. Support 4K alignment build
+15. Handle EFI_IMAGE_REL_BASED_DIR64 in generic code
+    Relocations of type EFI_IMAGE_REL_BASED_DIR64 are handled in exactly the same way on all 64-bit machine types (IPF, X64 and AARCH64).
+    So move the handling of this type to the generic part of the relocation routine PeCoffLoaderRelocateImage().
+16. GenFw: move .debug contents to .data to save space
+17. GenFw: move PE/COFF header closer to payload
+18. Use GUID identifiable section for FFS alignment padding
+    Instead of using an anonymous section of type EFI_SECTION_RAW to pad out the first aligned FFS section to its required
+    alignment, use a section with a dedicated GUID if the size of the padding permits it.
+    This allows for more flexibility when placing such FFS images in a firmware volume, because we will now be able to remove
+    padding rather than add more, by shrinking the size of this section instead of padding out the start of the FFS image
+    to file alignment.
+19. GenFv: optimize away redundant padding
+    To prevent double padding of XIP modules leading to excessive waste of FV space, try to adjust existing padding rather
+    than adding more.
+20. GCC: add unified GCC linker script for all archs and versions
+21. Allow AArch64 tiny and small code model relocations
+22. Add CLANG35 toolchain with AARCH64 support
+23. Add ARCH detection for AARCH64 and ARM
+24. Remove ARMGCC and ARMLINUXGCC toolchains
+25. Add /arch:IA32 option in VS2012 and VS2013
+26. AARCH64: use tiny code model by default
+    The AARCH64 tiny code model produces more efficient code, since it uses relative symbol references rather than absolute
+    references.
+27. Follow PI spec to update ExtendedSize in EFI_FFS_FILE_HEADER2 for FFS data above 16 bytes alignment requirement
+28. Generate macros for the size of PCD value
+    PcdLib introduces new APIs to get the size of PCD value.
+    BaseTools generates those macros in AutoGen code.
+29. Nested !include support in DSC and FDF files
+
+========================================================================================================================
+C.  BUG FIXES
+========================================================================================================================
+1.  Correct slash and quote handling in the strings of UNI files
+2.  Fix bug that 'build run' doesn't work for NT32 X64 build
+3.  Fix SET statement bug which is always evaluated even it is in a False conditional statement in FDF
+4.  Fix a bug to generate correct path of macro PACKAGE_RELATIVE_PATH
+5.  Fix Build Option override bug
+6.  Don't generate build report if build failed
+7.  Fix a bug that Build Report always uses DEC default value for VPD PCD
+8.  Fix build on FreeBSD and allow use of non-gcc system compiler
+9.  Fix incorrect alignment bug
+    The alignment in rule section is shared by modules to generate FFS, it should not be modified by certain module.
+10. Fix heap overrun in ReadMemoryFileLine ()
+11. Make AutoGen.h array declaration match AutoGen.c definition
+12. Fix a bug that cannot trim long values
+13. Fix bug for single FV generating
+    If -i is specified and this FV has no BlockSize defined, tool did not inherit FD's BlockSize.
+
+========================================================================================================================
+D.  KNOWN ISSUES
+========================================================================================================================
+1.  Use multiple "!if" or "!endif" statements in external file will cause build break.
+    In one of DSC section, use the following !include statement such as:
+    [Components]
+    !include externalFile.txt
+    !endif
+    !endif
+    and in externalFile.txt, the content is:
+    !if True
+    !if True
+    TestPkg1/TestModule1/Test1.Inf
+    then build will break.
+2.  If you do not specify build target information both in command line and Conf\target.txt file, build tool will exit build
+    immediately.
+3.  PCD used in FDF conditional directive statement without SET statement define this PCD in FDF file will cause build break.
+    An example as following:
+    In DEC file:
+    [PcdsFixedAtBuild]
+      gEfiPcdname.Pcdtoken|0x0|UINT32|0x11112222
+    IN DSC file:
+    [PcdsFixedAtBuild]
+      gEfiPcdname.Pcdtoken|0x0
+    IN FDF file:
+    [FD.NT32]
+    !if gEfiPcdname.Pcdtoken == 0x00000000
+      XXXXXXXXXXX
+    !endif
+    Another Example is:
+    [FD.Nt32]
+      BaseAddress   = 0x0|gEfiNt32PkgTokenSpaceGuid.PcdWinNtFdBaseAddress
+      !if gEfiNt32PkgTokenSpaceGuid.PcdWinNtFdBaseAddress
+        xxxxx
+      !endif
+4.  Using SET statement in FDF [FV] section will cause build break.
+5.  Using SET statement in FDF [FD] after <TokenStatements> directly and at the end of FD section is OK, at other places
+    will cause build break.
+6.  Using SET statement in FDF [CAPSULE] after <UefiTokens> and at the end of section is OK, at other places will cause
+    build break.
+7.  VOID* type PCD value as <CARRAY> like {0x3{0x1}} will cause break. Like {0x1,0x32,0xAB} can pass build.
+8.  VolInfo doesn't support large FFS files > 16M. But, BaseTools project has added this support at revision 2650.
+9.  Large FFS file implementation follows PI1.3 specification that only supports one byte FFS data alignment.
+    This is a PI specification issue. Once it is resolved in new PI spec, EDKII code will be updated for it.
+10. If building with tool chain DDK3790 and ARCH X64, and HII resource is generated by RC tool, build will break. But BaseTools
+    project has added this support at revision 2656. The workaround is add WINDDK_BIN32 into %PATH%.
+11. The target path name cannot exceed 256 characters for nmake, long file path feature can only support pure binary build
+    which does not genereate Makefile.
+
+========================================================================================================================
+E.  NOTES
+========================================================================================================================
+1.  Macros referenced in DSC/FDF files now requires the enclosure of "$()" to avoid ambiguity.
+2.  EFI_SPECIFICATION_VERSION and PI_SPECIFICATION_VERSION are no longer public macro definitions in autogen code.
+3.  The feature of CLM support increases the chances of two platform builds failure under one workspace. We need to
+    avoid the concurrent build of different platforms under one workspace.
+4.  The execution order prediction feature of BRG requires the new internal python tool named EOT. It requires the
+    installation of ANTRL v3.0.1 in Python home for Python runtime support. The tool parses all the source files
+    involved in the platform build and it may even take hours to complete the parse and generate the report.
+5.  The blank setting for CAPSULE_FLAGS in [Capsule] section of FDF file is not supported. If no CAPSULE_FLAGS is set,
+    CAPSULE_FLAGS need not be specified in [Capsule] section.
+6.  The Global Macro is not allowed in EDKII INF except some predefined cases; see details in INF spec 1.22 chapter 2.2.6.
+7.  The path after !include directive in FDF/DSC can only use $(WORKSPACE), $(EDK_SOURCE), $(EFI_SOURCE), $(ECP_SOURCE)
+    if macro is part of the path.
+8.  The expression after !if, !ifdef, !elseif cannot be empty.
+9.  The section header in FDF cannot contain macros.
+10. The name and value definition in define section must follow DSC spec.
+11. The type of a PCD defined in a DSC file should match the possible types for this PCD in the DEC file.
+12. For MACRO usage scope, please refer to meta-data file spec for details. Following is some general information.
+    INF - [Defines] section or any statements contain <PATH> or [BuildOptions] section
+    DEC - [Defines] section or any statements contain <PATH>
+    DSC - [Defines] section or any statements contain <PATH> or [BuildOptions] or Conditional Directive statements
+    FDF - Whole File
+13. Tools support use expression as conditional directive statements, the PCD and MACRO used in conditional statements,
+    support common operator and operands in expression, the rule are generally follow C programming language.
+    For DSC file, please refer to DSC spec 1.22 chapters 2.2.7, 2.2.8 and 3.2.3 for detail information, for FDF file, please
+    refer to FDF spec 1.22 chapters 2.2.8, 2.2.9 and 3.2.3 for detail information.
+14. VfrCompile tool adds data type check for Oneof and Numeric opcode. The valid data type for Oneof and Numeric question
+    are UINT8, UINT16, UINT32 and UINT64.
+
+========================================================================================================================
+F.  BEST KNOWN METHODS
+========================================================================================================================
+1.  When the build tools are updated, the build configuration template in $(WORKSPACE)\BaseTools\Conf\*.template may also
+    be updated, which needs to be merged with local $(WORKSPACE)\Conf\*.txt to avoid some build error.
+2.  To ensure the platform is clean rebuild without any previous build impact, the cached meta data information directory
+    i.e.$(WORKSPACE)\Conf\.cache can be removed.
+3.  In case of build failure due to access error of $(WORKSPACE)\Conf\.cache\build.db, the tip can be rebuilt again without
+    any concurrent build process under the same workspace.
+4.  When the different MACRO settings are used to enable the different drivers with same module GUID and driver name in
+    two build times, the incremental build will not work well. The clean build is required for the second build.
+5.  The EOT tool depends on ANTRL 3.0.1 runtime library and newer ANTRL release (e.g. 3.1.2) is not compatible with older
+    release. So it is required to download ANTLR 3.0.1 from www.antlr.org and install python runtime library to the local
+    python home.
+6.  The notification function related features are not integrated to BRG output plain text report file. As the invocation
+    of EOT (from BRG) generates Report.html under workspace directory. This HTML report file shows the details of the notification
+    functions under each module if available.
+
+* Other names and brands may be claimed as the property of others.
+
+[END OF RELEASE NOTES]

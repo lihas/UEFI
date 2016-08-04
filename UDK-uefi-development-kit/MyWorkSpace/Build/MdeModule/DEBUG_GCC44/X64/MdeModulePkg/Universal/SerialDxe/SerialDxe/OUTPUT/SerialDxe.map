@@ -1,0 +1,438 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                              (_ModuleEntryPoint)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj) (ProcessLibraryConstructorList)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj) (SerialDxeInitialize)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj) (DebugPrint)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj) (UefiBootServicesTableLibConstructor)
+/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                              /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj) (SerialPortInitialize)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.unlikely._DriverUnloadHandler
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.unlikely._ModuleEntryPoint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.unlikely.EfiMain
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text.EfiMain  0x0000000000000000        0x5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessLibraryConstructorList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessLibraryDestructorList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessModuleEntryPointList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text.unlikely.ExitDriver
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text.ExitDriver
+                0x0000000000000000       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text.unlikely.ProcessModuleUnloadList
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .rodata._gDxeRevision
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdDebugPropertyMask
+                0x0000000000000000        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .rodata._gPcd_FixedAtBuild_PcdVerifyNodeInList
+                0x0000000000000000        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .data.gEfiMdePkgTokenSpaceGuid
+                0x0000000000000000       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .data.rel.local.gEfiCallerBaseName
+                0x0000000000000000        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .data.gEfiCallerIdGuid
+                0x0000000000000000       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialSetAttributes
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialSetControl
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialGetControl
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialWrite
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialRead
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialReset
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text.unlikely.SerialDxeInitialize
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugPrint
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugAssert
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugClearMemory
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.DebugClearMemory
+                0x0000000000000000        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugAssertEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugPrintEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugCodeEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.DebugCodeEnabled
+                0x0000000000000000        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugClearMemoryEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.DebugClearMemoryEnabled
+                0x0000000000000000        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text.unlikely.DebugPrintLevelEnabled
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .text.unlikely.UefiBootServicesTableLibConstructor
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .text          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .data          0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .bss           0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortInitialize
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortWrite
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortRead
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortPoll
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortSetControl
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortGetControl
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .text.unlikely.SerialPortSetAttributes
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .comment       0x0000000000000000       0x35 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib
+LOAD /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240      0x950
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text._DriverUnloadHandler
+                0x0000000000000240       0x31 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                0x0000000000000240                _DriverUnloadHandler
+ .text._ModuleEntryPoint
+                0x0000000000000271       0xe8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                0x0000000000000271                _ModuleEntryPoint
+ .text.ProcessLibraryConstructorList
+                0x0000000000000359       0x69 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000359                ProcessLibraryConstructorList
+ .text.ProcessLibraryDestructorList
+                0x00000000000003c2        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x00000000000003c2                ProcessLibraryDestructorList
+ .text.ProcessModuleEntryPointList
+                0x00000000000003c3        0x5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x00000000000003c3                ProcessModuleEntryPointList
+ .text.ProcessModuleUnloadList
+                0x00000000000003c8        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x00000000000003c8                ProcessModuleUnloadList
+ .text.SerialSetAttributes
+                0x00000000000003cb      0x14a /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x00000000000003cb                SerialSetAttributes
+ .text.SerialSetControl
+                0x0000000000000515        0x7 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000515                SerialSetControl
+ .text.SerialGetControl
+                0x000000000000051c        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x000000000000051c                SerialGetControl
+ .text.SerialWrite
+                0x0000000000000524       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000524                SerialWrite
+ .text.SerialRead
+                0x0000000000000554       0x45 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000554                SerialRead
+ .text.SerialReset
+                0x0000000000000599      0x120 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000599                SerialReset
+ .text.SerialDxeInitialize
+                0x00000000000006b9      0x11d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x00000000000006b9                SerialDxeInitialize
+ .text.DebugPrint
+                0x00000000000007d6        0xb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x00000000000007d6                DebugPrint
+ .text.DebugAssert
+                0x00000000000007e1        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x00000000000007e1                DebugAssert
+ .text.DebugAssertEnabled
+                0x00000000000007e2        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x00000000000007e2                DebugAssertEnabled
+ .text.DebugPrintEnabled
+                0x00000000000007e5        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x00000000000007e5                DebugPrintEnabled
+ .text.DebugPrintLevelEnabled
+                0x00000000000007e8        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                0x00000000000007e8                DebugPrintLevelEnabled
+ .text.UefiBootServicesTableLibConstructor
+                0x00000000000007eb       0xaa /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x00000000000007eb                UefiBootServicesTableLibConstructor
+ .text.SerialPortInitialize
+                0x0000000000000895        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x0000000000000895                SerialPortInitialize
+ .text.SerialPortWrite
+                0x0000000000000898        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x0000000000000898                SerialPortWrite
+ .text.SerialPortRead
+                0x000000000000089b        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x000000000000089b                SerialPortRead
+ .text.SerialPortPoll
+                0x000000000000089e        0x3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x000000000000089e                SerialPortPoll
+ .text.SerialPortSetControl
+                0x00000000000008a1        0xb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x00000000000008a1                SerialPortSetControl
+ .text.SerialPortGetControl
+                0x00000000000008ac        0xb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x00000000000008ac                SerialPortGetControl
+ .text.SerialPortSetAttributes
+                0x00000000000008b7        0xb /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                0x00000000000008b7                SerialPortSetAttributes
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x00000000000008c2       0xac /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rodata.str1.1
+                0x000000000000096e       0xa5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                                         0xda (size before relaxing)
+ .rodata._gDriverUnloadImageCount
+                0x0000000000000a13        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a13                _gDriverUnloadImageCount
+ .rodata._gUefiDriverRevision
+                0x0000000000000a14        0x4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a14                _gUefiDriverRevision
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultReceiveFifoDepth
+                0x0000000000000a18        0x2 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a18                _gPcd_FixedAtBuild_PcdUartDefaultReceiveFifoDepth
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultStopBits
+                0x0000000000000a1a        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a1a                _gPcd_FixedAtBuild_PcdUartDefaultStopBits
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultParity
+                0x0000000000000a1b        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a1b                _gPcd_FixedAtBuild_PcdUartDefaultParity
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultDataBits
+                0x0000000000000a1c        0x1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a1c                _gPcd_FixedAtBuild_PcdUartDefaultDataBits
+ *fill*         0x0000000000000a1d        0x3 
+ .rodata._gPcd_FixedAtBuild_PcdUartDefaultBaudRate
+                0x0000000000000a20        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000a20                _gPcd_FixedAtBuild_PcdUartDefaultBaudRate
+ .rodata.str1.1
+                0x0000000000000a28       0x6c /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                                         0xa1 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000000a94       0xc8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ *(.got .got.*)
+ *:AutoGen.obj(.data .data.* .bss .bss.*)
+ *fill*         0x0000000000000b5c        0x4 
+ .data.gEfiLoadedImageProtocolGuid
+                0x0000000000000b60       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000b60                gEfiLoadedImageProtocolGuid
+ .data.gEfiDevicePathProtocolGuid
+                0x0000000000000b70       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000b70                gEfiDevicePathProtocolGuid
+ .data.gEfiSerialIoProtocolGuid
+                0x0000000000000b80       0x10 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                0x0000000000000b80                gEfiSerialIoProtocolGuid
+
+.iplt           0x0000000000000b90        0x0
+ .iplt          0x0000000000000b90        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.data           0x0000000000000ba0       0xb0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local.mSerialIoTemplate
+                0x0000000000000ba0       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000ba0                mSerialIoTemplate
+ .data.mSerialIoMode
+                0x0000000000000be0       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000be0                mSerialIoMode
+ .data.mSerialDevicePath
+                0x0000000000000c00       0x2b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000c00                mSerialDevicePath
+ *(.bss .bss.*)
+ *fill*         0x0000000000000c2b        0x5 
+ .bss.mSerialHandle
+                0x0000000000000c30        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                0x0000000000000c30                mSerialHandle
+ .bss.gBS       0x0000000000000c38        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000000c38                gBS
+ .bss.gST       0x0000000000000c40        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000000c40                gST
+ .bss.gImageHandle
+                0x0000000000000c48        0x8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                0x0000000000000c48                gImageHandle
+
+.igot.plt       0x0000000000000c50        0x0
+ .igot.plt      0x0000000000000c50        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.eh_frame
+ *(.eh_frame)
+
+.rela           0x0000000000000c60        0x0
+ *(.rela .rela.*)
+ .rela.iplt     0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text._DriverUnloadHandler
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text._ModuleEntryPoint
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ProcessLibraryConstructorList
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ProcessModuleEntryPointList
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.ExitDriver
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialSetAttributes
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialSetControl
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialGetControl
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialWrite
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialRead
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialReset
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .rela.text.SerialDxeInitialize
+                0x0000000000000c60        0x0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+
+.hii
+ *(.hii)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash)
+ *(.comment)
+ *(COMMON)
+OUTPUT(/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/DEBUG/SerialDxe.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000     0x7156
+ .debug_info    0x0000000000000000     0x1aa1 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_info    0x0000000000001aa1     0x1aba /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_info    0x000000000000355b     0x1ffe /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_info    0x0000000000005559      0x1b6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_info    0x000000000000570f     0x17b3 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_info    0x0000000000006ec2      0x294 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+
+.debug_abbrev   0x0000000000000000      0xafd
+ .debug_abbrev  0x0000000000000000      0x264 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_abbrev  0x0000000000000264      0x267 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_abbrev  0x00000000000004cb      0x2c0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_abbrev  0x000000000000078b       0xb9 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_abbrev  0x0000000000000844      0x1d4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_abbrev  0x0000000000000a18       0xe5 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+
+.debug_loc      0x0000000000000000      0xb90
+ .debug_loc     0x0000000000000000      0x252 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_loc     0x0000000000000252      0x179 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_loc     0x00000000000003cb      0x740 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_loc     0x0000000000000b0b       0x85 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+
+.debug_aranges  0x0000000000000000      0x270
+ .debug_aranges
+                0x0000000000000000       0x50 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_aranges
+                0x0000000000000050       0x70 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_aranges
+                0x00000000000000c0       0x90 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_aranges
+                0x0000000000000150       0x70 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_aranges
+                0x00000000000001c0       0x30 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_aranges
+                0x00000000000001f0       0x80 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+
+.debug_ranges   0x0000000000000000      0x210
+ .debug_ranges  0x0000000000000000       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_ranges  0x0000000000000040       0x60 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_ranges  0x00000000000000a0       0x80 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_ranges  0x0000000000000120       0x60 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_ranges  0x0000000000000180       0x20 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_ranges  0x00000000000001a0       0x70 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+
+.debug_line     0x0000000000000000     0x12b4
+ .debug_line    0x0000000000000000      0x371 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_line    0x0000000000000371      0x3b6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_line    0x0000000000000727      0x4d8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_line    0x0000000000000bff      0x159 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_line    0x0000000000000d58      0x31d /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_line    0x0000000000001075      0x23f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+
+.debug_str      0x0000000000000000     0x1bdc
+ .debug_str     0x0000000000000000     0x13c4 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+                                       0x14ae (size before relaxing)
+ .debug_str     0x00000000000013c4      0x325 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+                                       0x1691 (size before relaxing)
+ .debug_str     0x00000000000016e9      0x31f /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+                                       0x17a3 (size before relaxing)
+ .debug_str     0x0000000000001a08       0xc6 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+                                        0x29a (size before relaxing)
+ .debug_str     0x0000000000001ace       0x83 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+                                       0x1321 (size before relaxing)
+ .debug_str     0x0000000000001b51       0x8b /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)
+                                        0x394 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x458
+ .debug_frame   0x0000000000000000       0x98 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+ .debug_frame   0x0000000000000098       0xb0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(AutoGen.obj)
+ .debug_frame   0x0000000000000148      0x138 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/SerialDxe/SerialDxe/OUTPUT/SerialDxe.lib(SerialIo.obj)
+ .debug_frame   0x0000000000000280       0xd8 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+ .debug_frame   0x0000000000000358       0x40 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+ .debug_frame   0x0000000000000398       0xc0 /home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdePkg/Library/BaseSerialPortLibNull/BaseSerialPortLibNull/OUTPUT/BaseSerialPortLibNull.lib(BaseSerialPortLibNull.obj)

@@ -1,0 +1,206 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) 
+//
+extern unsigned char PlatDriOverrideDxeStrings[];
+extern EFI_GUID { 0x8614567d, 0x35be, 0x4415, { 0x8d, 0x88, 0xbd, 0x7d, 0xc, 0x9c, 0x70, 0xc0 }};
+typedef struct {
+  UINT8 DriOrder[0x00FF];
+  UINT8 PciDeviceFilter;
+} PLAT_OVER_MNGR_DATA;
+formset
+>00000000: 0E A7 7D 56 14 86 BE 35 15 44 8D 88 BD 7D 0C 9C 70 C0 02 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+  guid = { 0x8614567d, 0x35be, 0x4415, {0x8d, 0x88, 0xbd, 0x7d, 0xc, 0x9c, 0x70, 0xc0} },
+  title = STRING_TOKEN(0x0002),
+  help = STRING_TOKEN(0x0004),
+  varstore PLAT_OVER_MNGR_DATA,
+>00000033: 24 1B 7D 56 14 86 BE 35 15 44 8D 88 BD 7D 0C 9C 70 C0 00 10 00 01 44 61 74 61 00 
+    varid = 0x1000,
+    name = Data,
+    guid = { 0x8614567d, 0x35be, 0x4415, {0x8d, 0x88, 0xbd, 0x7d, 0xc, 0x9c, 0x70, 0xc0} };
+  form formid = 0x1100,
+>0000004E: 01 86 00 11 03 00 
+       title = STRING_TOKEN(0x0003);
+    text
+      help = STRING_TOKEN(0x0008),
+      text = STRING_TOKEN(0x0007),
+      flags = INTERACTIVE,
+>00000054: 0C 8F 07 00 08 00 34 12 00 00 FF FF 04 00 00 
+      key = 0x1234;
+>00000063: 29 02 
+    checkbox varid = Data.PciDeviceFilter,
+>00000065: 06 8E 0B 00 0C 00 35 12 00 10 FF 00 04 00 
+      prompt = STRING_TOKEN(0x000B),
+      help = STRING_TOKEN(0x000C),
+      flags = INTERACTIVE,
+      key = 0x1235,
+    endcheckbox;
+>00000073: 29 02 
+    label 0x1100;
+>00000075: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 11 
+    label 0xffff;
+>0000008A: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    subtitle text = STRING_TOKEN(0x000F);
+>0000009F: 02 87 0F 00 00 00 00 
+>000000A6: 29 02 
+    goto 0x1100,
+>000000A8: 0F 0F 12 00 13 00 36 12 00 00 FF FF 14 00 11 
+      prompt = STRING_TOKEN(0x0012),
+      help = STRING_TOKEN(0x0013),
+      flags = INTERACTIVE | RESET_REQUIRED,
+      key = 0x1236;
+  endform;
+>000000B7: 29 02 
+  form formid = 0x1200,
+>000000B9: 01 86 00 12 03 00 
+       title = STRING_TOKEN(0x0003);
+    goto 0x1100,
+>000000BF: 0F 0F 10 00 0F 00 00 13 00 00 FF FF 04 00 11 
+      prompt = STRING_TOKEN(0x0010),
+      help = STRING_TOKEN(0x000F),
+      flags = INTERACTIVE,
+      key = 0x1300;
+    goto 0x1500,
+>000000CE: 0F 0F 05 00 06 00 01 13 00 00 FF FF 04 00 15 
+      prompt = STRING_TOKEN(0x0005),
+      help = STRING_TOKEN(0x0006),
+      flags = INTERACTIVE,
+      key = 0x1301;
+    label 0x1200;
+>000000DD: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 12 
+    label 0xffff;
+>000000F2: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+  endform;
+>00000107: 29 02 
+  form formid = 0x1500,
+>00000109: 01 86 00 15 03 00 
+       title = STRING_TOKEN(0x0003);
+    goto 0x1200,
+>0000010F: 0F 0F 10 00 0F 00 00 20 00 00 FF FF 04 00 12 
+      prompt = STRING_TOKEN(0x0010),
+      help = STRING_TOKEN(0x000F),
+      flags = INTERACTIVE,
+      key = 0x2000;
+    label 0x1500;
+>0000011E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 15 
+    label 0xffff;
+>00000133: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+    subtitle text = STRING_TOKEN(0x000F);
+>00000148: 02 87 0F 00 00 00 00 
+>0000014F: 29 02 
+    text
+      help = STRING_TOKEN (0x000F),
+      text = STRING_TOKEN (0x0011),
+      flags = INTERACTIVE | RESET_REQUIRED,
+>00000151: 0C 8F 11 00 0F 00 00 18 00 00 FF FF 14 00 00 
+      key = 0x1800;
+>00000160: 29 02 
+  endform;
+>00000162: 29 02 
+endformset;
+>00000164: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 7D 56 14 86 BE 35 15 44 8D 88 BD 7D 0C 9C 70 C0 02 00 04 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 00 00 00 00 
+>0000002D: 5C 06 00 00 01 00 
+>00000033: 24 1B 7D 56 14 86 BE 35 15 44 8D 88 BD 7D 0C 9C 70 C0 00 10 00 01 44 61 74 61 00 
+>0000004E: 01 86 00 11 03 00 
+>00000054: 0C 8F 07 00 08 00 34 12 00 00 FF FF 04 00 00 
+>00000063: 29 02 
+>00000065: 06 8E 0B 00 0C 00 35 12 00 10 FF 00 04 00 
+>00000073: 29 02 
+>00000075: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 11 
+>0000008A: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>0000009F: 02 87 0F 00 00 00 00 
+>000000A6: 29 02 
+>000000A8: 0F 0F 12 00 13 00 36 12 00 00 FF FF 14 00 11 
+>000000B7: 29 02 
+>000000B9: 01 86 00 12 03 00 
+>000000BF: 0F 0F 10 00 0F 00 00 13 00 00 FF FF 04 00 11 
+>000000CE: 0F 0F 05 00 06 00 01 13 00 00 FF FF 04 00 15 
+>000000DD: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 12 
+>000000F2: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000107: 29 02 
+>00000109: 01 86 00 15 03 00 
+>0000010F: 0F 0F 10 00 0F 00 00 20 00 00 FF FF 04 00 12 
+>0000011E: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 15 
+>00000133: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 FF FF 
+>00000148: 02 87 0F 00 00 00 00 
+>0000014F: 29 02 
+>00000151: 0C 8F 11 00 0F 00 00 18 00 00 FF FF 14 00 00 
+>00000160: 29 02 
+>00000162: 29 02 
+>00000164: 29 02 
+
+Total Size of all record is 0x00000166
+
+
+***************************************************************
+		mPackAlign = 8
+		struct PLAT_OVER_MNGR_DATA : mAlign [1] mTotalSize [0x100]
+
+		struct PLAT_OVER_MNGR_DATA {
+			+00000000[00000000] DriOrder[255] <UINT8>
+			+00000255[000000ff] PciDeviceFilter <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

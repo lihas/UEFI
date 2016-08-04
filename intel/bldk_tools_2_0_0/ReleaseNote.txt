@@ -1,0 +1,216 @@
+================================================================================
+Intel(R) Boot Loader Development Kit (Intel(R) BLDK) Golden v2.0.0 Release
+Intel(R) BLDK DEVELOPEMNT APPLICATION RELEASE NOTES
+Oct 13, 2011
+================================================================================
+
+================================================================================
+                                   DISCLAIMER
+================================================================================
+These release notes as well as the software described in it is furnished under
+license and may only be used or copied in accordance with the terms of the
+license. The information in this manual is furnished for informational use only,
+is subject to change without notice, and should not be construed as a
+commitment by Intel Corporation. Intel Corporation assumes no responsibility
+or liability for any errors or inaccuracies that may appear in this document or
+any software that may be provided in association with this document. Except as
+permitted by such license, no part of this document may be reproduced, stored
+in a retrieval system, or transmitted in any form or by any means without the
+express written consent of Intel Corporation.
+
+* Other names and brands may be claimed as the property of others.
+================================================================================
+                                ADDITIONAL DISCLAIMER
+================================================================================
+This release is provided with a complete release level test.
+================================================================================
+RELEASE NOTES CONTENTS
+================================================================================
+
+A. OVERVIEW
+B. FILES LIST
+C. HOW TO INSTALL AND USE THE Intel(R) BLDK DEVELOPMENT APPLICATION ON A LINUX* OS
+D. NEW FEATURES AND/OR FIXES
+E. KNOWN ISSUES
+F. RESOLVED ISSUES
+G. OTHER NOTES 
+
+================================================================================
+A.  OVERVIEW
+================================================================================
+The Intel(R) BLDK Development Application provides a single integrated environment, 
+with tools and control environments for developing customized firmware boot loaders. 
+It includes a Graphical User Interface (GUI) to build the boot loader firmware and 
+to customize binary images. Using the development application you can perform the 
+following tasks:
+  - Create projects to customize and organize your firmware images for your specific 
+    target boards.
+  - Enable, disable, and configure firmware features in a binary image without 
+    removing code from the image.
+  - Utilize Boot Setting Files (BSF), to establish a known configuration as a 
+    derivative of the base image on new binary images.
+  - Use the built-in source code editor with syntax highlighting for source-level 
+    changes of boot image when source code is available.
+  - Initiate source-level builds of an image when source code is available by 
+    spawning a build process.
+
+
+================================================================================
+B.  FILES LIST
+================================================================================
+
+1. "ReleaseNote.txt"
+    (this file)
+
+2. "bldk-2.0.0-2010-07-12.i386.rpm"
+    RPM package files for IA32 platforms.
+
+3. "bldk-2.0.0-2010-07-12.x86_64.rpm"
+    RPM package files for X64 platforms.
+
+4. "install.sh"
+    The wrapper file, install shield for the RPM package file.
+
+5. "LICENSE.txt"
+    The License file.
+
+===================================================================================
+C.  HOW TO INSTALL AND USE THE Intel(R) BLDK DEVELOPMENT APPLICATION ON A LINUX* OS
+===================================================================================
+For complete instructions on installing and using the BLDK Development Application
+please refer to section 3.2.2 of the following document:
+
+  - Intel(R) Boot Loader Development Kit (Intel(R) BLDK)
+    Version 2.0 -- UEFI Standard Based Getting Started Guide, 
+    October 2011, 
+    Document Number: 325925-002
+
+================================================================================
+D.  NEW FEATURES AND/OR FIXES
+================================================================================
+1.  Support creating project for both EDKII and CEFDK code base.
+2.  Improved functionality and usability of project creation.
+3.  Added the ability to select an ABSF file when opening a project.
+4.  Added the ability to "save project as" to make creating multiple project easier.
+    Added "Save configuration as" to improve the usability of creating multiple 
+    configurations.  
+    Added the ability to see the binary values when configuring binary values.  
+5.  Added support for patching a binary with an ABSF file and a binary file directly 
+    without a project. 
+6.  Added a "Category" tab to display the BSF setting in categories to the left 
+    pane.
+7.  Added Support for new BSF features including Views, Categories and relationships
+   (inconsistency and one-of statements)
+
+================================================================================
+E.  KNOWN ISSUES
+================================================================================
+
+================================================================================
+Reference: 11223, 11337, 11455
+================================================================================
+Title:
+The print framework supplied by the underlying GUI toolkits does not provide
+enough error messages.
+
+Description:
+The print framework supplied by the underlying GUI toolkits does not provide
+enough error messages. For example,
+1) The print framework does not inform you that there is no print setup for the 
+system if one does not exist. 
+2) If an unsupported dimension is selected in the page setup or printer setup,
+the print setup does not provide an error message.
+
+Implication:
+You  may not get adequate error messages for erroneous inputs for printing
+functionality.
+
+Resolution:
+This will be fixed in future release if the underlying GUI tool kits fix the
+issue.
+
+Affected O/S:
+All Supported OS.
+
+================================================================================
+Reference: 11238
+================================================================================
+Title:
+The left/middle panel can be resized larger than main window and there
+is no way to restore it.
+
+Description:
+The left/middle panel can be resized larger than main window and there is no way 
+to restore it. This issue is caused by bugs in the underlying GUI tool kit.
+
+Implication:
+You  may need to restart the application to restore the size of panel.
+
+Resolution:
+This will be fixed in future release if the underlying GUI tool kits fix the
+issue.
+
+Affected O/S:
+All Supported OS.
+
+================================================================================
+Reference: 11847
+================================================================================
+
+Title:
+The access keys are not working for some input text boxes in dialog.
+ 
+Description:
+In the Preferences and Project Properties dialog, access keys for some input text
+boxes do not work correctly. The access keys may be different on different 
+distributions of Linux* and on different desktop environments. 
+
+Implication:
+You must use a mouse to get focus on those text boxes to input text. 
+
+Resolution:
+ 
+Affected O/S:
+Linux.
+
+================================================================================
+Reference: 11904
+================================================================================
+Title:
+Automatic indentation function is not correct.
+
+Description:
+The close brace will not indented correctly in some situations.
+
+Implication:
+You will need to indent the line manually when it happens.
+
+Resolution:
+ 
+Affected O/S: 
+All Supported OS.
+
+================================================================================
+F.  RESOLVED ISSUES
+================================================================================
+================================================================================
+Reference: 11132
+================================================================================
+Title:
+The tree control in Intel(R) BLDK sometimes does not refresh correctly.
+
+Description:
+The tree controls in Intel(R) BLDK  for example the project tree in the project
+explorer, sometimes do not refresh correctly. This issue is caused by a bug in
+the underlying GUI tool kit.
+
+================================================================================
+G.  OTHER NOTES   
+================================================================================
+  
+1. The syntax highlight and comment/uncomment functionality only support C files 
+   and Intel syntax of assembly code.
+
+================================================================================
+================================================================================
+

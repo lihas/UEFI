@@ -1,0 +1,74 @@
+========================================================================================================================
+                                                   NEW FEATURES AND CHANGES
+========================================================================================================================
+1.  Change "mv" command to support across file system moves.
+2.  Change "setvar" command to use existing attributes for updating existing variables.
+3.  Add optional extended decode for Vendor Device Nodes for consistent map names.
+4.  Add extended USB decoding for consistent device names.
+5.  Add decode for gEfiAdapterInformationProtocolGuid and add GUIDs for gEfiIsaIoProtocolGuid and
+    gEfiIsaAcpiProtocolGuid protocols in "dh" command display.
+6.  Change "reconnect" command to connect all the consoles in 'reconnect -r'.
+7.  Add envvironment variable name validation check before it is removed from command line.
+8.  Change shell to allow it creates required directory path when creating new files.
+9 . Add surrounded quotes when replace NSH index argument so that NSH script can execute correctly.
+10. Add SMBIOS features for "smbiosview" command
+    a.  Update "smbiosview" command to support parse new SMBIOS 3.0 fields in Type 4: Core Count 2, Core Enabled 2,
+        Thread Count 2.
+    b.  Add dump 64-bit entry point and table features for "smbiosview" as long as SMBIOS 3.0 table exists in system
+        configuration table.
+    c.  Update "smbiosview" command to decode SMBIOS Type 17 MinimumVoltage, MaximumVoltage, and ConfiguredVoltage.
+11. Add PersistentMemory range show for command "memmap".
+12. Add pipe support for "parse" command.
+13. Change shell to clean start row information after the console has been "reset" or "setmode".
+14. Replace all the string functions with safe string functions
+    a.  (Ascii)StrCpy   ->  (Ascii)StrCpyS
+    b.  (Ascii)StrnCpy  ->  (Ascii)StrnCpyS
+    c.  (Ascii)StrCat   ->  (Ascii)StrCatS
+    d.  (Ascii)StrnCat  ->  (Ascii)StrnCatS
+15. Change "ping" and "ifconfig" code to consume Ip4Config2 protocol.
+16. Change "setmode" command to decode serial console error status and report more information.
+17. Change shell components(UefiShellLevel2CommandsLib, UefiShellLevel1CommandsLib, UefiShellLevel2CommandsLib,
+    UefiShellDriver1CommandsLib, UefiShellDebug1CommandsLib, UefiShellNetwork1CommandsLib, UefiShellTftpCommandLib)
+    module type from UEFI_DRIVER into UEFI_APPLICATION .
+18. Replace the use cases of deprecated function GetVariable with GetVariable2.
+19. Added SMBIOS 3.0 support in "dmdem" command since SMBIOS 3.0 uses a different GUID in the System Configuration
+    Table.
+
+========================================================================================================================
+                                           UEFI SHELL SPECIFICATION 2.1 COMPLIANCE
+========================================================================================================================
+1.  Update 'parse' command to use ," for SFO column delimiter.
+
+========================================================================================================================
+                                                  PACKAGE INTERFACE CHANGES
+========================================================================================================================
+1.  Move libraries from ShellPkg into MdePkg and MdeMoudlePkg
+    a.  PathLib:        Incorporate into MdePkg/Library/BaseLib
+    b.  FileHandleLib:  MdePkg/Library/UefiFileHandleLib
+    c.  BaseSortLib:    MdeModulePkg/Library/BaseSortLib
+    d.  UefiSortLib:    MdeModulePkg/Library/UefiSortLib
+2.  Add TFTP command lib to support TFTP it can download a file from a TFTP server.
+
+========================================================================================================================
+                                                       BUG FIXES
+========================================================================================================================
+1.  Fix command to return lasterror equal to 0
+    a.  Fix "dmpstore" command to return lasterror equal to 0 when '-s' flag used to dump variables in file.
+    b.  Fix "hexedit" command to return lasterror equal to 0 when exiting from editor.
+2.  Fix split('|') character to make it work in quoted command lines.
+3.  Fix command "help" with -? flag to make it work correctly.
+4.  Fix "smbiosview" command to use correct value to parse Type 27.
+5.  Remove redundant quotes surrounding flag values.
+6.  Fix "setvar" command to make it check hex string correctly.
+7.  Fix "cp/mv" command unexpected behavior
+    a.  Fix "mv" to not delete file/directory when trying to move it to non-existing file system.
+    b.  Fix "mv" to not cause RSOD in system when trying to move same file at the same location.
+    c.  Remove redundant move status error message when file failed to move across file system.
+8.  Fix "help" command to make it show output in correct alphabetical.
+9.  Fix "parse" command to make escape character(^) work in a a quoted -sfo output string.
+10. Fix "ping" command to make ping IPv6 stack usage mode not fail and update the help information.
+11. Fix bad TimeZone (TZ) conversion to use local time if TZ is set to EFI_UNSPECIFIED_TIMEZONE.
+12. Fix "ping" command to use correct checksum in request message to prevent fail with IPv4.
+13. Fix "for" command to make it not fail when multi-fields exist in command line.
+14. Fix shell to not fail with redundant spaces following "-delay num" options.
+15. Fix shell to make it support ASCII pipe(|a).

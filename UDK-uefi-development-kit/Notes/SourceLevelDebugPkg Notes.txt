@@ -1,0 +1,18 @@
+================================================================================
+                            NEW FEATURES AND CHANGES
+================================================================================
+1. Add DebugCommunicationLibUsb3 instance to support USB3.0 debug port.
+2. Use RLE (Run Length Encoding) to improve debugging performance by 20%.
+3. Use CPU Local APIC timer to handle debug port communication time out.
+4. Remove any references on other files from DebugTimer.c to reduce image size.
+5. Support IA32 processors (Such as Quark) without debug extension feature.
+
+================================================================================
+                                    BUG FIXES
+================================================================================
+1. Fix a bug in DebugAgent that hang happens when the ACK for GO is lost.
+2. Restore debug registers in PeCoffExtraActionLibDebug.
+3. Fix the completed transfer length.
+4. Fix calculate the checksum issue.
+5. Fix pending interrupt issued during executing Stepping command.
+6. Fix the issue if CurrentTimer == Timer.

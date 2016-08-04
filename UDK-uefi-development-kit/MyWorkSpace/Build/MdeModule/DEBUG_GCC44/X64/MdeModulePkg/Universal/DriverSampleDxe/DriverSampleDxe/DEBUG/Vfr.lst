@@ -1,0 +1,1777 @@
+//
+//  VFR compiler version  2.01 (UEFI 2.4) 
+//
+extern unsigned char DriverSampleStrings[];
+extern EFI_GUID gEfiHiiPlatformSetupFormsetGuid;
+extern EFI_GUID gEfiHiiDriverHealthFormsetGuid;
+extern EFI_GUID gEfiHiiUserCredentialFormsetGuid;
+extern EFI_GUID gEfiHiiStandardFormGuid;
+extern EFI_GUID { 0xA04A27f4, 0xDF00, 0x4D42, { 0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D }};
+extern EFI_GUID { 0xb3f56470, 0x6141, 0x4621, { 0x8f, 0x19, 0x70, 0x4e, 0x57, 0x7a, 0xa9, 0xe8 }};
+extern EFI_GUID { 0xF5E655D9, 0x02A6, 0x46f2, { 0x9E, 0x76, 0xB8, 0xBE, 0x8E, 0x60, 0xAB, 0x22 }};
+extern EFI_GUID gZeroGuid;
+#pragma pack(1)
+typedef struct {
+  UINT16 WhatIsThePassword[20];
+  UINT16 WhatIsThePassword2[20];
+  UINT16 MyStringData[40];
+  UINT16 PasswordClearText[20];
+  UINT16 SomethingHiddenForHtml;
+  UINT8 HowOldAreYouInYearsManual;
+  UINT16 HowTallAreYouManual;
+  UINT8 HowOldAreYouInYears;
+  UINT16 HowTallAreYou;
+  UINT8 MyFavoriteNumber;
+  UINT8 TestLateCheck;
+  UINT8 TestLateCheck2;
+  UINT8 QuestionAboutTreeHugging;
+  UINT8 ChooseToActivateNuclearWeaponry;
+  UINT8 SuppressGrayOutSomething;
+  UINT8 OrderedList[8];
+  UINT16 BootOrder[8];
+  UINT8 BootOrderLarge;
+  UINT8 DynamicRefresh;
+  UINT8 DynamicOneof;
+  UINT8 DynamicOrderedList[5];
+  UINT8 Reserved;
+  EFI_HII_REF RefData;
+  UINT8 NameValueVar0;
+  UINT16 NameValueVar1;
+  UINT16 NameValueVar2[20];
+  UINT8 SerialPortNo;
+  UINT8 SerialPortStatus;
+  UINT16 SerialPortIo;
+  UINT8 SerialPortIrq;
+  UINT8 GetDefaultValueFromCallBack;
+  UINT8 GetDefaultValueFromAccess;
+  EFI_HII_TIME Time;
+  UINT8 RefreshGuidCount;
+  UINT8 Match2;
+  UINT8 GetDefaultValueFromCallBackForOrderedList[3];
+} DRIVER_SAMPLE_CONFIGURATION;
+typedef struct {
+  UINT8 Field8;
+  UINT16 Field16;
+  UINT8 OrderedList[3];
+  UINT16 SubmittedCallback;
+} MY_EFI_VARSTORE_DATA;
+#pragma pack()
+formset
+>00000000: 0E A7 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 13 00 14 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 5D 00 00 00 
+>0000002D: 5C 06 5F 00 01 00 
+  guid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} },
+  title = STRING_TOKEN(0x0013),
+  help = STRING_TOKEN(0x0014),
+  classguid = { 0x93039971, 0x8545, 0x4b04, { 0xb4, 0x5e, 0x32, 0xeb, 0x83, 0x26, 0x4, 0xe } },
+  varstore DRIVER_SAMPLE_CONFIGURATION,
+>00000033: 24 22 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 34 12 47 01 4D 79 49 66 72 4E 56 44 61 74 61 00 
+    varid = 0x1234,
+    name = MyIfrNVData,
+    guid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} };
+  efivarstore MY_EFI_VARSTORE_DATA,
+>00000055: 26 23 01 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 03 00 00 00 08 00 4D 79 45 66 69 56 61 72 00 
+    attribute = 0x00000002 | 0x00000001,
+    name = MyEfiVar,
+    guid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} };
+  namevaluevarstore MyNameValueVar,
+>00000078: 25 14 02 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 
+    name = STRING_TOKEN(0x0077),
+    name = STRING_TOKEN(0x0078),
+    name = STRING_TOKEN(0x0079),
+    guid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} };
+  defaultstore MyStandardDefault,
+    prompt = STRING_TOKEN(0x005D),
+    attribute = 0x0000;
+  defaultstore MyManufactureDefault,
+    prompt = STRING_TOKEN(0x005F),
+    attribute = 0x0001;
+  form formid = 1,
+>0000008C: 01 86 01 00 15 00 
+       title = STRING_TOKEN(0x0015);
+    subtitle text = STRING_TOKEN(0x001A);
+>00000092: 02 87 1A 00 00 00 00 
+>00000099: 29 02 
+    subtitle text = STRING_TOKEN(0x001B);
+>0000009B: 02 87 1B 00 00 00 00 
+>000000A2: 29 02 
+    text
+>000000A4: 03 08 1C 00 52 00 1D 00 
+      help = STRING_TOKEN(0x0052),
+      text = STRING_TOKEN(0x001C),
+        text = STRING_TOKEN(0x001D);
+    text
+      help = STRING_TOKEN(0x0056),
+      text = STRING_TOKEN(0x0056),
+      flags = INTERACTIVE,
+>000000AC: 0C 8F 56 00 56 00 37 12 00 00 FF FF 04 00 00 
+      key = 0x1237;
+>000000BB: 29 02 
+    text
+      help = STRING_TOKEN(0x0057),
+      text = STRING_TOKEN(0x0057),
+      flags = INTERACTIVE,
+>000000BD: 0C 8F 57 00 57 00 38 12 00 00 FF FF 04 00 00 
+      key = 0x1238;
+>000000CC: 29 02 
+    text
+      help = STRING_TOKEN(0x0059),
+      text = STRING_TOKEN(0x0059),
+      flags = INTERACTIVE,
+>000000CE: 0C 8F 59 00 59 00 43 12 00 00 FF FF 04 00 00 
+      key = 0x1243;
+>000000DD: 29 02 
+    text
+      help = STRING_TOKEN(0x005A),
+      text = STRING_TOKEN(0x005A),
+      flags = INTERACTIVE,
+>000000DF: 0C 8F 5A 00 5A 00 44 12 00 00 FF FF 04 00 00 
+      key = 0x1244;
+>000000EE: 29 02 
+    oneof name = MyOneOf,
+>000000F0: 05 91 1F 00 22 00 01 00 34 12 D5 00 00 10 00 02 00 
+      varid = MyIfrNVData.SuppressGrayOutSomething,
+      prompt = STRING_TOKEN(0x001F),
+      help = STRING_TOKEN(0x0022),
+      option text = STRING_TOKEN(0x0026), value = 0x0, flags = 0;
+>00000101: 09 07 26 00 00 00 00 
+      option text = STRING_TOKEN(0x0027), value = 0x1, flags = 0;
+>00000108: 09 07 27 00 00 00 01 
+      option text = STRING_TOKEN(0x0028), value = 0x2, flags = DEFAULT;
+>0000010F: 09 07 28 00 10 00 02 
+    endoneof;
+>00000116: 29 02 
+    oneof varid = MyIfrNVData.BootOrderLarge,
+>00000118: 05 91 1F 00 22 00 02 00 34 12 EE 00 00 10 00 01 00 
+      prompt = STRING_TOKEN(0x001F),
+      help = STRING_TOKEN(0x0022),
+      default value = cond (pushthis == 0 ? 0 : cond ((questionref(MyOneOf) >> 0x4 & 0xF00) == 0x0 + 0x2 ? 0 : 1)),
+>00000129: 5B 85 00 00 08 
+>0000012E: 5A 82 
+>00000130: 58 82 
+>00000132: 45 0A 00 00 00 00 00 00 00 00 
+>0000013C: 2F 02 
+>0000013E: 45 0A 00 00 00 00 00 00 00 00 
+>00000148: 40 04 01 00 
+>0000014C: 45 0A 04 00 00 00 00 00 00 00 
+>00000156: 39 02 
+>00000158: 45 0A 00 0F 00 00 00 00 00 00 
+>00000162: 35 02 
+>00000164: 45 0A 00 00 00 00 00 00 00 00 
+>0000016E: 45 0A 02 00 00 00 00 00 00 00 
+>00000178: 3A 02 
+>0000017A: 2F 02 
+>0000017C: 45 0A 00 00 00 00 00 00 00 00 
+>00000186: 45 0A 01 00 00 00 00 00 00 00 
+>00000190: 50 02 
+>00000192: 50 02 
+>00000194: 29 02 
+>00000196: 29 02 
+>00000198: 29 02 
+      option text = STRING_TOKEN(0x0029), value = 0x0, flags = 0;
+>0000019A: 09 07 29 00 00 00 00 
+      option text = STRING_TOKEN(0x002A), value = 0x1, flags = 0;
+>000001A1: 09 07 2A 00 00 00 01 
+    endoneof;
+>000001A8: 29 02 
+    grayoutif ideqval MyIfrNVData.SuppressGrayOutSomething == 0x1;
+>000001AA: 19 82 
+>000001AC: 12 06 01 00 01 00 
+      suppressif questionref(MyOneOf) == 0x0;
+>000001B2: 0A 82 
+>000001B4: 40 84 01 00 
+>000001B8: 45 0A 00 00 00 00 00 00 00 00 
+>000001C2: 2F 02 
+>000001C4: 29 02 
+        checkbox varid = MyIfrNVData.ChooseToActivateNuclearWeaponry,
+>000001C6: 06 8E 2B 00 2C 00 03 00 34 12 D4 00 00 03 
+                 prompt = STRING_TOKEN(0x002B),
+                 help = STRING_TOKEN(0x002C),
+                 flags = CHECKBOX_DEFAULT | CHECKBOX_DEFAULT_MFG,
+                 default = TRUE,
+>000001D4: 5B 06 00 00 00 01 
+        endcheckbox;
+>000001DA: 29 02 
+      endif;
+>000001DC: 29 02 
+    endif;
+>000001DE: 29 02 
+    suppressif ideqval MyIfrNVData.SuppressGrayOutSomething == 0x0;
+>000001E0: 0A 82 
+>000001E2: 12 06 01 00 00 00 
+      label 0x2222;
+>000001E8: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 22 22 
+      orderedlist
+>000001FD: 23 8F 72 00 5C 00 04 00 34 12 DE 00 10 08 00 
+                varid = MyIfrNVData.BootOrder,
+                prompt = STRING_TOKEN(0x0072),
+                help = STRING_TOKEN(0x005C),
+                flags = RESET_REQUIRED,
+                option text = STRING_TOKEN(0x0074), value = 2, flags = 0;
+>0000020C: 09 08 74 00 01 01 02 00 
+                option text = STRING_TOKEN(0x0073), value = 1, flags = 0;
+>00000214: 09 08 73 00 01 01 01 00 
+                option text = STRING_TOKEN(0x0075), value = 3, flags = 0;
+>0000021C: 09 08 75 00 01 01 03 00 
+              suppressif ideqval MyIfrNVData.BootOrderLarge == 0;
+>00000224: 0A 82 
+>00000226: 12 06 02 00 00 00 
+                option text = STRING_TOKEN(0x0076), value = 4, flags = 0;
+>0000022C: 09 08 76 00 01 01 04 00 
+              endif;
+>00000234: 29 02 
+      endlist;
+>00000236: 29 02 
+      label 0x2223;
+>00000238: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+    endif;
+>0000024D: 29 02 
+    disableif ideqval MyIfrNVData.SuppressGrayOutSomething == 0x2;
+>0000024F: 1E 82 
+>00000251: 12 06 01 00 02 00 
+      orderedlist
+>00000257: 23 8F 54 00 52 00 05 00 34 12 D6 00 10 08 00 
+        varid = MyIfrNVData.OrderedList,
+        prompt = STRING_TOKEN(0x0054),
+        help = STRING_TOKEN(0x0052),
+        flags = RESET_REQUIRED,
+        option text = STRING_TOKEN(0x0023), value = 3, flags = 0;
+>00000266: 09 07 23 00 00 00 03 
+        option text = STRING_TOKEN(0x0024), value = 2, flags = 0;
+>0000026D: 09 07 24 00 00 00 02 
+        option text = STRING_TOKEN(0x0025), value = 1, flags = 0;
+>00000274: 09 07 25 00 00 00 01 
+        default = {1,2,3},
+>0000027B: 5B 08 00 00 0B 01 02 03 
+      endlist;
+>00000283: 29 02 
+    endif;
+>00000285: 29 02 
+    label 100;
+>00000287: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 64 00 
+    goto 0x1234,
+>0000029C: 0F 0F 40 00 53 00 34 12 00 00 FF FF 04 34 12 
+      prompt = STRING_TOKEN(0x0040),
+      help = STRING_TOKEN(0x0053),
+      flags = INTERACTIVE,
+      key = 0x1234;
+    goto 0x1234,
+>000002AB: 0F 0F 41 00 53 00 35 12 00 00 FF FF 04 34 12 
+      prompt = STRING_TOKEN(0x0041),
+      help = STRING_TOKEN(0x0053),
+      flags = INTERACTIVE,
+      key = 0x1235;
+    oneof varid = MyIfrNVData.TestLateCheck,
+>000002BA: 05 91 54 00 22 00 06 00 34 12 D1 00 10 10 00 01 00 
+      prompt = STRING_TOKEN(0x0054),
+      help = STRING_TOKEN(0x0022),
+      flags = RESET_REQUIRED,
+      option text = STRING_TOKEN(0x0023), value = 0, flags = 0;
+>000002CB: 09 07 23 00 00 00 00 
+      option text = STRING_TOKEN(0x0024), value = 1, flags = DEFAULT;
+>000002D2: 09 07 24 00 10 00 01 
+      warningif prompt = STRING_TOKEN(0x0091), timeout = 5,
+>000002D9: 63 85 91 00 05 
+        ideqval MyIfrNVData.TestLateCheck == 0
+>000002DE: 12 06 06 00 00 00 
+      endif;
+>000002E4: 29 02 
+    endoneof;
+>000002E6: 29 02 
+    oneof varid = MyIfrNVData.TestLateCheck2,
+>000002E8: 05 91 55 00 22 00 07 00 34 12 D2 00 10 10 00 01 00 
+      prompt = STRING_TOKEN(0x0055),
+      help = STRING_TOKEN(0x0022),
+      flags = RESET_REQUIRED,
+      option text = STRING_TOKEN(0x0023), value = 0, flags = DEFAULT;
+>000002F9: 09 07 23 00 10 00 00 
+      option text = STRING_TOKEN(0x0024), value = 1, flags = 0;
+>00000300: 09 07 24 00 00 00 01 
+      inconsistentif prompt = STRING_TOKEN(0x0046),
+>00000307: 11 84 46 00 
+        ideqid MyIfrNVData.TestLateCheck == MyIfrNVData.TestLateCheck2
+>0000030B: 13 06 06 00 07 00 
+      endif;
+>00000311: 29 02 
+    endoneof;
+>00000313: 29 02 
+    oneof varid = MyIfrNVData.QuestionAboutTreeHugging,
+>00000315: 05 91 20 00 22 00 08 00 34 12 D3 00 10 10 00 03 00 
+      prompt = STRING_TOKEN(0x0020),
+      help = STRING_TOKEN(0x0022),
+      flags = RESET_REQUIRED,
+      option text = STRING_TOKEN(0x0023), value = 0, flags = 0;
+>00000326: 09 07 23 00 00 00 00 
+      option text = STRING_TOKEN(0x0024), value = 1, flags = DEFAULT;
+>0000032D: 09 07 24 00 10 00 01 
+      option text = STRING_TOKEN(0x0025), value = 3, flags = 0;
+>00000334: 09 07 25 00 00 00 03 
+    endoneof;
+>0000033B: 29 02 
+    string varid = MyIfrNVData.MyStringData,
+>0000033D: 1C 90 4A 00 4B 00 36 12 34 12 50 00 04 06 28 00 
+              prompt = STRING_TOKEN(0x004A),
+              help = STRING_TOKEN(0x004B),
+              flags = INTERACTIVE,
+              key = 0x1236,
+              minsize = 6,
+              maxsize = 40,
+              inconsistentif prompt = STRING_TOKEN(0x0065),
+>0000034D: 11 84 65 00 
+                pushthis != stringref(STRING_TOKEN(0x0064))
+>00000351: 58 82 
+>00000353: 4E 04 64 00 
+>00000357: 30 02 
+>00000359: 29 02 
+              endif;
+>0000035B: 29 02 
+    endstring;
+>0000035D: 29 02 
+    numeric varid = MyIfrNVData.HowOldAreYouInYearsManual,
+>0000035F: 07 91 2E 00 31 00 09 00 34 12 CA 00 01 10 00 F0 00 
+            prompt = STRING_TOKEN(0x002E),
+            help = STRING_TOKEN(0x0031),
+            flags = READ_ONLY,
+            minimum = 0,
+            maximum = 0xf0,
+            step = 0,
+            default = 21,
+>00000370: 5B 06 00 00 00 15 
+    endnumeric;
+>00000376: 29 02 
+    numeric varid = MyIfrNVData.HowOldAreYouInYearsManual,
+>00000378: 07 91 2F 00 31 00 0A 00 34 12 CA 00 00 10 00 F0 00 
+            prompt = STRING_TOKEN(0x002F),
+            help = STRING_TOKEN(0x0031),
+            minimum = 0,
+            maximum = 0xf0,
+            step = 0,
+            default value = questionrefval(devicepath = STRING_TOKEN (0x006F), guid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} }, 0x1111),
+>00000389: 5B 85 00 00 08 
+>0000038E: 5A 82 
+>00000390: 45 8A 11 11 00 00 00 00 00 00 
+>0000039A: 51 14 6F 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 
+>000003AE: 29 02 
+>000003B0: 29 02 
+>000003B2: 29 02 
+            inconsistentif prompt = STRING_TOKEN(0x0046),
+>000003B4: 11 84 46 00 
+              ideqval MyIfrNVData.HowOldAreYouInYearsManual == 99
+>000003B8: 12 86 0A 00 63 00 
+>000003D6: 29 02 
+              OR
+>000003C4: 16 02 
+              ideqid MyIfrNVData.HowOldAreYouInYearsManual == MyEfiVar.Field8
+>000003BE: 13 06 0A 00 11 11 
+              OR
+>000003D4: 16 02 
+              ideqvallist MyIfrNVData.HowOldAreYouInYearsManual == 1 3 5 7
+>000003C6: 14 0E 0A 00 04 00 01 00 03 00 05 00 07 00 
+            endif;
+>000003D8: 29 02 
+    endnumeric;
+>000003DA: 29 02 
+    numeric varid = MyEfiVar.Field8,
+>000003DC: 07 91 30 00 32 00 11 11 01 00 00 00 04 20 00 FA 00 
+            questionid = 0x1111,
+            prompt = STRING_TOKEN(0x0030),
+            help = STRING_TOKEN(0x0032),
+            flags = DISPLAY_UINT_HEX | INTERACTIVE,
+            minimum = 0,
+            maximum = 250,
+            default = 18, defaultstore = MyStandardDefault,
+>000003ED: 5B 06 00 00 00 12 
+            default = 19, defaultstore = MyManufactureDefault,
+>000003F3: 5B 06 01 00 00 13 
+    endnumeric;
+>000003F9: 29 02 
+    numeric varid = MyNameValueVar[0],
+>000003FB: 07 91 77 00 61 00 0B 00 02 00 77 00 00 10 00 FF 00 
+            prompt = STRING_TOKEN(0x0077),
+            help = STRING_TOKEN(0x0061),
+            flags = NUMERIC_SIZE_1,
+            minimum = 0,
+            maximum = 0xff,
+            step = 0,
+            locked,
+>0000040C: 0B 02 
+            default = 16, defaultstore = MyStandardDefault,
+>0000040E: 5B 06 00 00 00 10 
+            default = 17, defaultstore = MyManufactureDefault,
+>00000414: 5B 06 01 00 00 11 
+    endnumeric;
+>0000041A: 29 02 
+    numeric varid = MyNameValueVar[1],
+>0000041C: 07 94 78 00 62 00 0C 00 02 00 78 00 00 11 00 00 FF FF 00 00 
+            prompt = STRING_TOKEN(0x0078),
+            help = STRING_TOKEN(0x0062),
+            flags = NUMERIC_SIZE_2,
+            minimum = 0,
+            maximum = 0xffff,
+            step = 0,
+            default = 18, defaultstore = MyStandardDefault,
+>00000430: 5B 07 00 00 01 12 00 
+            default = 19, defaultstore = MyManufactureDefault,
+>00000437: 5B 07 01 00 01 13 00 
+    endnumeric;
+>0000043E: 29 02 
+    string varid = MyNameValueVar[2],
+>00000440: 1C 90 79 00 63 00 0D 00 02 00 79 00 00 02 14 00 
+              prompt = STRING_TOKEN(0x0079),
+              help = STRING_TOKEN(0x0063),
+              minsize = 2,
+              maxsize = 0x14,
+    endstring;
+>00000450: 29 02 
+    oneof varid = MyEfiVar.Field16,
+>00000452: 05 94 1F 00 1E 00 0E 00 01 00 01 00 00 11 00 00 01 00 00 00 
+      prompt = STRING_TOKEN(0x001F),
+      help = STRING_TOKEN(0x001E),
+      option text = STRING_TOKEN(0x0029), value = 0x0, flags = 0;
+>00000466: 09 08 29 00 01 01 00 00 
+      option text = STRING_TOKEN(0x002A), value = 0x1, flags = DEFAULT;
+>0000046E: 09 08 2A 00 11 01 01 00 
+    endoneof;
+>00000476: 29 02 
+    label 0x01;
+>00000478: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 01 00 
+    label 0x1000;
+>0000048D: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+    grayoutif ideqval MyIfrNVData.HowOldAreYouInYearsManual == 23 AND ideqval MyIfrNVData.SuppressGrayOutSomething == 0x1;
+>000004A2: 19 82 
+>000004A4: 12 86 0A 00 17 00 
+>000004AA: 12 06 01 00 01 00 
+>000004B0: 15 02 
+>000004B2: 29 02 
+      numeric varid = MyIfrNVData.HowOldAreYouInYears,
+>000004B4: 07 91 2D 00 33 00 0F 00 34 12 CD 00 00 10 00 F3 01 
+              prompt = STRING_TOKEN(0x002D),
+              help = STRING_TOKEN(0x0033),
+              minimum = 0,
+              maximum = 243,
+              step = 1,
+              default = 18, defaultstore = MyStandardDefault,
+>000004C5: 5B 06 00 00 00 12 
+              default = 19, defaultstore = MyManufactureDefault,
+>000004CB: 5B 06 01 00 00 13 
+      endnumeric;
+>000004D1: 29 02 
+    endif;
+>000004D3: 29 02 
+    numeric varid = MyIfrNVData.GetDefaultValueFromAccess,
+>000004D5: 07 91 6B 00 6C 00 39 12 34 12 3E 01 04 20 00 FF 01 
+            questionid = 0x1239,
+            prompt = STRING_TOKEN(0x006B),
+            help = STRING_TOKEN(0x006C),
+            flags = DISPLAY_UINT_HEX | INTERACTIVE,
+            minimum = 0,
+            maximum = 255,
+            step = 1,
+            default = 18,
+>000004E6: 5B 06 00 00 00 12 
+    endnumeric;
+>000004EC: 29 02 
+    numeric varid = MyIfrNVData.GetDefaultValueFromCallBack,
+>000004EE: 07 91 69 00 6A 00 40 12 34 12 3D 01 04 20 00 FF 01 
+            questionid = 0x1240,
+            prompt = STRING_TOKEN(0x0069),
+            help = STRING_TOKEN(0x006A),
+            flags = DISPLAY_UINT_HEX | INTERACTIVE,
+            minimum = 0,
+            maximum = 255,
+            step = 1,
+            default = 18,
+>000004FF: 5B 06 00 00 00 12 
+    endnumeric;
+>00000505: 29 02 
+    orderedlist
+>00000507: 23 8F 69 00 6A 00 52 12 34 12 44 01 04 03 00 
+        varid = MyIfrNVData.GetDefaultValueFromCallBackForOrderedList,
+        questionid = 0x1252,
+        prompt = STRING_TOKEN(0x0069),
+        help = STRING_TOKEN(0x006A),
+        flags = INTERACTIVE,
+        option text = STRING_TOKEN(0x0023), value = 1, flags = 0;
+>00000516: 09 07 23 00 00 00 01 
+        option text = STRING_TOKEN(0x0024), value = 2, flags = 0;
+>0000051D: 09 07 24 00 00 00 02 
+        option text = STRING_TOKEN(0x0025), value = 3, flags = 0;
+>00000524: 09 07 25 00 00 00 03 
+    endlist;
+>0000052B: 29 02 
+    resetbutton
+>0000052D: 0D 88 5D 00 5E 00 00 00 
+      defaultstore = MyStandardDefault,
+      prompt = STRING_TOKEN(0x005D),
+      help = STRING_TOKEN(0x005E),
+    endresetbutton;
+>00000535: 29 02 
+    resetbutton
+>00000537: 0D 88 5F 00 60 00 01 00 
+      defaultstore = MyManufactureDefault,
+      prompt = STRING_TOKEN(0x005F),
+      help = STRING_TOKEN(0x0060),
+    endresetbutton;
+>0000053F: 29 02 
+    password varid = MyIfrNVData.WhatIsThePassword,
+>00000541: 08 91 35 00 36 00 10 00 34 12 00 00 00 06 00 14 00 
+              prompt = STRING_TOKEN(0x0035),
+              help = STRING_TOKEN(0x0036),
+              minsize = 6,
+              maxsize = 20,
+    endpassword;
+>00000552: 29 02 
+    string varid = MyIfrNVData.PasswordClearText,
+>00000554: 1C 90 47 00 48 00 11 00 34 12 A0 00 00 06 14 00 
+              prompt = STRING_TOKEN(0x0047),
+              help = STRING_TOKEN(0x0048),
+              minsize = 6,
+              maxsize = 0x14,
+              default = STRING_TOKEN(0x0049),
+>00000564: 5B 07 00 00 07 49 00 
+    endstring;
+>0000056B: 29 02 
+    password varid = MyIfrNVData.WhatIsThePassword2,
+>0000056D: 08 91 34 00 36 00 00 20 34 12 28 00 04 06 00 14 00 
+              prompt = STRING_TOKEN(0x0034),
+              help = STRING_TOKEN(0x0036),
+              flags = INTERACTIVE,
+              key = 0x2000,
+              minsize = 6,
+              maxsize = 20,
+    endpassword;
+>0000057E: 29 02 
+    grayoutif NOT security ({ 0x85b75607, 0xf7ce, 0x471e, { 0xb7, 0xe4, 0x2a, 0xea, 0x5f, 0x72, 0x32, 0xee } });
+>00000580: 19 82 
+>00000582: 60 92 07 56 B7 85 CE F7 1E 47 B7 E4 2A EA 5F 72 32 EE 
+>00000594: 17 02 
+>00000596: 29 02 
+      text
+>00000598: 03 08 37 00 38 00 00 00 
+        help = STRING_TOKEN(0x0038),
+        text = STRING_TOKEN(0x0037);
+    endif;
+>000005A0: 29 02 
+    numeric varid = MyEfiVar.SubmittedCallback,
+>000005A2: 07 94 70 00 71 00 50 12 01 00 06 00 04 11 00 00 FF 00 00 00 
+            questionid = 0x1250,
+            prompt = STRING_TOKEN(0x0070),
+            help = STRING_TOKEN(0x0071),
+            flags = INTERACTIVE,
+            minimum = 0,
+            maximum = 255,
+            default = 18,
+>000005B6: 5B 07 00 00 01 12 00 
+    endnumeric;
+>000005BD: 29 02 
+    goto 2,
+>000005BF: 0F 0F 3A 00 53 00 12 00 00 00 FF FF 00 02 00 
+      prompt = STRING_TOKEN(0x003A),
+      help = STRING_TOKEN(0x0053);
+    goto 3,
+>000005CE: 0F 0F 3B 00 53 00 13 00 00 00 FF FF 00 03 00 
+      prompt = STRING_TOKEN(0x003B),
+      help = STRING_TOKEN(0x0053);
+    goto 4,
+>000005DD: 0F 0F 3C 00 53 00 14 00 00 00 FF FF 00 04 00 
+      prompt = STRING_TOKEN(0x003C),
+      help = STRING_TOKEN(0x0053);
+    goto 5,
+>000005EC: 0F 0F 3E 00 3F 00 15 00 00 00 FF FF 00 05 00 
+      prompt = STRING_TOKEN(0x003E),
+      help = STRING_TOKEN(0x003F);
+    goto 6,
+>000005FB: 0F 0F 3D 00 53 00 16 00 00 00 FF FF 00 06 00 
+      prompt = STRING_TOKEN(0x003D),
+      help = STRING_TOKEN(0x0053);
+    goto
+>0000060A: 0F 21 6D 00 6E 00 17 00 00 00 FF FF 00 01 00 01 00 70 64 F5 B3 41 61 21 46 8F 19 70 4E 57 7A A9 E8 
+      formsetguid = { 0xb3f56470, 0x6141, 0x4621, {0x8f, 0x19, 0x70, 0x4e, 0x57, 0x7a, 0xa9, 0xe8} },
+      formid = 0x1,
+      question = 0x1,
+      prompt = STRING_TOKEN(0x006D),
+      help = STRING_TOKEN(0x006E);
+    guidop
+>0000062B: 5F 9A F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 21 21 21 21 00 00 00 00 
+      guid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} },
+      datatype = MY_EFI_VARSTORE_DATA,
+        data.Field8 = 0x21,
+        data.Field16 = 0x2121,
+        data.OrderedList[0] = 0x21,
+    endguidop;
+>00000645: 29 02 
+  endform;
+>00000647: 29 02 
+  suppressif ideqval MyIfrNVData.BootOrderLarge == 0;
+>00000649: 0A 82 
+>0000064B: 12 06 02 00 00 00 
+    form formid = 2,
+>00000651: 01 86 02 00 16 00 
+      title = STRING_TOKEN(0x0016);
+      date
+>00000657: 1A 8E 4E 00 4F 00 18 00 00 00 FF FF 00 10 
+        name = Date,
+        prompt = STRING_TOKEN(0x004E),
+        help = STRING_TOKEN(0x004F),
+        flags = STORAGE_TIME,
+        default = 2004/1/1,
+>00000665: 5B 09 00 00 06 D4 07 01 01 
+        inconsistentif prompt = STRING_TOKEN(0x0046),
+>0000066E: 11 84 46 00 
+          ideqval Date.Day == 31
+>00000672: 40 84 18 00 
+>00000676: 44 06 00 00 00 FF 
+>0000067C: 35 02 
+>0000067E: 42 03 18 
+>00000681: 39 02 
+>00000683: 42 03 1F 
+>00000686: 2F 02 
+          AND
+>000006FE: 15 02 
+>00000700: 29 02 
+          ideqvallist Date.Month == 2 4 6 9 11
+>00000688: 40 04 18 00 
+>0000068C: 44 06 00 00 FF 00 
+>00000692: 35 02 
+>00000694: 42 03 10 
+>00000697: 39 02 
+>00000699: 42 03 02 
+>0000069C: 2F 02 
+>0000069E: 40 04 18 00 
+>000006A2: 44 06 00 00 FF 00 
+>000006A8: 35 02 
+>000006AA: 42 03 10 
+>000006AD: 39 02 
+>000006AF: 42 03 04 
+>000006B2: 2F 02 
+>000006B4: 16 02 
+>000006B6: 40 04 18 00 
+>000006BA: 44 06 00 00 FF 00 
+>000006C0: 35 02 
+>000006C2: 42 03 10 
+>000006C5: 39 02 
+>000006C7: 42 03 06 
+>000006CA: 2F 02 
+>000006CC: 16 02 
+>000006CE: 40 04 18 00 
+>000006D2: 44 06 00 00 FF 00 
+>000006D8: 35 02 
+>000006DA: 42 03 10 
+>000006DD: 39 02 
+>000006DF: 42 03 09 
+>000006E2: 2F 02 
+>000006E4: 16 02 
+>000006E6: 40 04 18 00 
+>000006EA: 44 06 00 00 FF 00 
+>000006F0: 35 02 
+>000006F2: 42 03 10 
+>000006F5: 39 02 
+>000006F7: 42 03 0B 
+>000006FA: 2F 02 
+>000006FC: 16 02 
+        endif;
+>00000702: 29 02 
+        inconsistentif prompt = STRING_TOKEN(0x0046),
+>00000704: 11 84 46 00 
+          ideqval Date.Day == 30
+>00000708: 40 84 18 00 
+>0000070C: 44 06 00 00 00 FF 
+>00000712: 35 02 
+>00000714: 42 03 18 
+>00000717: 39 02 
+>00000719: 42 03 1E 
+>0000071C: 2F 02 
+          AND
+>00000734: 15 02 
+>00000736: 29 02 
+          ideqval Date.Month == 2
+>0000071E: 40 04 18 00 
+>00000722: 44 06 00 00 FF 00 
+>00000728: 35 02 
+>0000072A: 42 03 10 
+>0000072D: 39 02 
+>0000072F: 42 03 02 
+>00000732: 2F 02 
+        endif;
+>00000738: 29 02 
+        inconsistentif prompt = STRING_TOKEN(0x0046),
+>0000073A: 11 84 46 00 
+          ideqval Date.Day == 0x1D
+>0000073E: 40 84 18 00 
+>00000742: 44 06 00 00 00 FF 
+>00000748: 35 02 
+>0000074A: 42 03 18 
+>0000074D: 39 02 
+>0000074F: 42 03 1D 
+>00000752: 2F 02 
+          AND
+>0000076A: 15 02 
+          ideqval Date.Month == 2
+>00000754: 40 04 18 00 
+>00000758: 44 06 00 00 FF 00 
+>0000075E: 35 02 
+>00000760: 42 03 10 
+>00000763: 39 02 
+>00000765: 42 03 02 
+>00000768: 2F 02 
+          AND
+>0000084D: 15 02 
+>0000084F: 29 02 
+          NOT
+>0000084B: 17 02 
+          ideqvallist Date.Year == 2004 2008 20012 20016 2020 2024 2028 2032 2036
+>0000076C: 40 04 18 00 
+>00000770: 44 06 FF FF 00 00 
+>00000776: 35 02 
+>00000778: 42 03 00 
+>0000077B: 39 02 
+>0000077D: 43 04 D4 07 
+>00000781: 2F 02 
+>00000783: 40 04 18 00 
+>00000787: 44 06 FF FF 00 00 
+>0000078D: 35 02 
+>0000078F: 42 03 00 
+>00000792: 39 02 
+>00000794: 43 04 D8 07 
+>00000798: 2F 02 
+>0000079A: 16 02 
+>0000079C: 40 04 18 00 
+>000007A0: 44 06 FF FF 00 00 
+>000007A6: 35 02 
+>000007A8: 42 03 00 
+>000007AB: 39 02 
+>000007AD: 43 04 2C 4E 
+>000007B1: 2F 02 
+>000007B3: 16 02 
+>000007B5: 40 04 18 00 
+>000007B9: 44 06 FF FF 00 00 
+>000007BF: 35 02 
+>000007C1: 42 03 00 
+>000007C4: 39 02 
+>000007C6: 43 04 30 4E 
+>000007CA: 2F 02 
+>000007CC: 16 02 
+>000007CE: 40 04 18 00 
+>000007D2: 44 06 FF FF 00 00 
+>000007D8: 35 02 
+>000007DA: 42 03 00 
+>000007DD: 39 02 
+>000007DF: 43 04 E4 07 
+>000007E3: 2F 02 
+>000007E5: 16 02 
+>000007E7: 40 04 18 00 
+>000007EB: 44 06 FF FF 00 00 
+>000007F1: 35 02 
+>000007F3: 42 03 00 
+>000007F6: 39 02 
+>000007F8: 43 04 E8 07 
+>000007FC: 2F 02 
+>000007FE: 16 02 
+>00000800: 40 04 18 00 
+>00000804: 44 06 FF FF 00 00 
+>0000080A: 35 02 
+>0000080C: 42 03 00 
+>0000080F: 39 02 
+>00000811: 43 04 EC 07 
+>00000815: 2F 02 
+>00000817: 16 02 
+>00000819: 40 04 18 00 
+>0000081D: 44 06 FF FF 00 00 
+>00000823: 35 02 
+>00000825: 42 03 00 
+>00000828: 39 02 
+>0000082A: 43 04 F0 07 
+>0000082E: 2F 02 
+>00000830: 16 02 
+>00000832: 40 04 18 00 
+>00000836: 44 06 FF FF 00 00 
+>0000083C: 35 02 
+>0000083E: 42 03 00 
+>00000841: 39 02 
+>00000843: 43 04 F4 07 
+>00000847: 2F 02 
+>00000849: 16 02 
+        endif;
+>00000851: 29 02 
+      enddate;
+>00000853: 29 02 
+      text
+        help = STRING_TOKEN(0x005B),
+        text = STRING_TOKEN(0x005B),
+        flags = INTERACTIVE,
+>00000855: 0C 8F 5B 00 5B 00 41 12 00 00 FF FF 04 00 00 
+        key = 0x1241;
+>00000864: 29 02 
+      text
+        help = STRING_TOKEN(0x0058),
+        text = STRING_TOKEN(0x0058),
+        flags = INTERACTIVE,
+>00000866: 0C 8F 58 00 58 00 42 12 00 00 FF FF 04 00 00 
+        key = 0x1242;
+>00000875: 29 02 
+      time
+>00000877: 1B 8E 50 00 51 00 19 00 00 00 FF FF 00 10 
+        prompt = STRING_TOKEN(0x0050),
+        help = STRING_TOKEN(0x0051),
+        flags = STORAGE_TIME,
+      endtime;
+>00000885: 29 02 
+      time
+>00000887: 1B 8E 50 00 50 00 1A 00 34 12 3F 01 00 04 
+            name = MyTime,
+            varid = MyIfrNVData.Time,
+            prompt = STRING_TOKEN(0x0050),
+            help = STRING_TOKEN(0x0050),
+            flags = STORAGE_NORMAL | SECOND_SUPPRESS,
+            default = 15:33:33,
+>00000895: 5B 08 00 00 05 0F 21 21 
+      endtime;
+>0000089D: 29 02 
+      checkbox varid = MyIfrNVData.ChooseToActivateNuclearWeaponry,
+>0000089F: 06 8E 2B 00 2C 00 1B 00 34 12 D4 00 00 01 
+              prompt = STRING_TOKEN(0x002B),
+              help = STRING_TOKEN(0x002C),
+              flags = CHECKBOX_DEFAULT,
+      endcheckbox;
+>000008AD: 29 02 
+      text
+>000008AF: 03 08 4C 00 52 00 00 00 
+        help = STRING_TOKEN(0x0052),
+        text = STRING_TOKEN(0x004C);
+      text
+>000008B7: 03 08 4C 00 52 00 4D 00 
+        help = STRING_TOKEN(0x0052),
+        text = STRING_TOKEN(0x004C),
+        text = STRING_TOKEN(0x004D);
+      goto 1,
+>000008BF: 0F 0F 39 00 53 00 1C 00 00 00 FF FF 00 01 00 
+        prompt = STRING_TOKEN(0x0039),
+        help = STRING_TOKEN(0x0053);
+    goto
+>000008CE: 0F 8D 42 00 44 00 48 12 34 12 F7 00 04 
+      varid = MyIfrNVData.RefData,
+      prompt = STRING_TOKEN(0x0042),
+      help = STRING_TOKEN(0x0044),
+      flags = INTERACTIVE,
+      key = 0x1248,
+>000008F6: 29 02 
+      default = 0;0;{ 0x0, 0x0, 0x0, {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0} };STRING_TOKEN(0x005C),
+>000008DB: 5B 1B 00 00 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5C 00 
+    ;
+    goto
+>000008F8: 0F 0D 43 00 45 00 49 12 00 00 FF FF 04 
+      prompt = STRING_TOKEN(0x0043),
+      help = STRING_TOKEN(0x0045),
+      flags = INTERACTIVE,
+      key = 0x1249;
+    endform;
+>00000905: 29 02 
+  endif;
+>00000907: 29 02 
+  form formid = 3, title = STRING_TOKEN(0x0017);
+>00000909: 01 86 03 00 17 00 
+    suppressif ideqval MyEfiVar.Field8 == 111;
+>0000090F: 0A 82 
+>00000911: 12 06 11 11 6F 00 
+      text
+>00000917: 03 08 4C 00 52 00 00 00 
+        help = STRING_TOKEN(0x0052),
+        text = STRING_TOKEN(0x004C);
+    endif;
+>0000091F: 29 02 
+    goto 1,
+>00000921: 0F 0F 39 00 53 00 1D 00 00 00 FF FF 00 01 00 
+      prompt = STRING_TOKEN(0x0039),
+      help = STRING_TOKEN(0x0053);
+    numeric varid = MyIfrNVData.DynamicRefresh,
+>00000930: 07 91 2F 00 31 00 78 56 34 12 EF 00 04 10 00 FF 00 
+            prompt = STRING_TOKEN(0x002F),
+            help = STRING_TOKEN(0x0031),
+            flags = INTERACTIVE,
+            key = 0x5678,
+            minimum = 0,
+            maximum = 0xff,
+            step = 0,
+            default = 0,
+>00000941: 5B 06 00 00 00 00 
+            refresh interval = 3
+>00000947: 1D 03 03 
+    endnumeric;
+>0000094A: 29 02 
+    grayoutif match2 (stringref(STRING_TOKEN(0x0095)), stringref(STRING_TOKEN(0x0094)), { 0x63E60A51, 0x497D, 0xD427, {0xC4, 0xA5, 0xB8, 0xAB, 0xDC, 0x3A, 0xAE, 0xB6 }});
+>0000094C: 19 82 
+>0000094E: 4E 84 95 00 
+>00000952: 4E 04 94 00 
+>00000956: 64 12 51 0A E6 63 7D 49 27 D4 C4 A5 B8 AB DC 3A AE B6 
+>00000968: 29 02 
+      numeric
+>0000096A: 07 91 92 00 93 00 1E 00 34 12 43 01 00 10 00 F3 00 
+        varid = MyIfrNVData.Match2,
+        prompt = STRING_TOKEN(0x0092),
+        help = STRING_TOKEN(0x0093),
+        minimum = 0,
+        maximum = 243,
+      endnumeric;
+>0000097B: 29 02 
+    endif;
+>0000097D: 29 02 
+    label 0x2234;
+>0000097F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 34 22 
+    label 0x2223;
+>00000994: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+  endform;
+>000009A9: 29 02 
+  formmap formid = 4,
+>000009AB: 5D A8 04 00 7A 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 7B 00 EC F4 D2 3B 24 E5 E4 46 A9 D8 51 01 17 42 55 62 
+    maptitle = STRING_TOKEN(0x007A);
+    mapguid = { 0xA04A27f4, 0xDF00, 0x4D42, {0xB5, 0x52, 0x39, 0x51, 0x13, 0x02, 0x11, 0x3D} };
+    maptitle = STRING_TOKEN(0x007B);
+    mapguid = { 0x3bd2f4ec, 0xe524, 0x46e4, { 0xa9, 0xd8, 0x51, 0x1, 0x17, 0x42, 0x55, 0x62 } };
+    oneof varid = MyIfrNVData.SerialPortNo,
+>000009D3: 05 91 7C 00 22 00 1F 00 34 12 38 01 00 10 00 04 00 
+      prompt = STRING_TOKEN(0x007C),
+      help = STRING_TOKEN(0x0022),
+      read cond (get(MyIfrNVData.SerialPortStatus) != 0 ? 0 : cond ((get(MyIfrNVData.SerialPortIo) & 0xF00) >> 0x8 == get(MyIfrNVData.SerialPortIrq) - 1 ? UNDEFINED : map (get(MyIfrNVData.SerialPortIo) : 0x3f8,1; 0x2F8,2; 0x3E8,3; 0x2E8,4;)));
+>000009E4: 2D 02 
+>000009E6: 2B 87 34 12 39 01 00 
+>000009ED: 45 0A 00 00 00 00 00 00 00 00 
+>000009F7: 30 02 
+>000009F9: 45 0A 00 00 00 00 00 00 00 00 
+>00000A03: 2B 07 34 12 3A 01 01 
+>00000A0A: 45 0A 00 0F 00 00 00 00 00 00 
+>00000A14: 35 02 
+>00000A16: 45 0A 08 00 00 00 00 00 00 00 
+>00000A20: 39 02 
+>00000A22: 2B 07 34 12 3C 01 00 
+>00000A29: 45 0A 01 00 00 00 00 00 00 00 
+>00000A33: 3B 02 
+>00000A35: 2F 02 
+>00000A37: 55 02 
+>00000A39: 2B 07 34 12 3A 01 01 
+>00000A40: 22 82 
+>00000A42: 45 0A F8 03 00 00 00 00 00 00 
+>00000A4C: 45 0A 01 00 00 00 00 00 00 00 
+>00000A56: 45 0A F8 02 00 00 00 00 00 00 
+>00000A60: 45 0A 02 00 00 00 00 00 00 00 
+>00000A6A: 45 0A E8 03 00 00 00 00 00 00 
+>00000A74: 45 0A 03 00 00 00 00 00 00 00 
+>00000A7E: 45 0A E8 02 00 00 00 00 00 00 
+>00000A88: 45 0A 04 00 00 00 00 00 00 00 
+>00000A92: 29 02 
+>00000A94: 50 02 
+>00000A96: 50 02 
+>00000A98: 29 02 
+      write set(MyIfrNVData.SerialPortStatus, pushthis != 0) AND set(MyIfrNVData.SerialPortIo, map (pushthis : 1,0x3F8; 2,0x2F8; 3,0x3E8; 4,0x2E8;)) AND set (MyIfrNVData.SerialPortIrq, map (pushthis: 1,4; 2,3; 3,4; 4,3;));
+>00000A9A: 2E 02 
+>00000A9C: 58 82 
+>00000A9E: 45 0A 00 00 00 00 00 00 00 00 
+>00000AA8: 30 02 
+>00000AAA: 2C 07 34 12 39 01 00 
+>00000AB1: 58 02 
+>00000AB3: 22 82 
+>00000AB5: 45 0A 01 00 00 00 00 00 00 00 
+>00000ABF: 45 0A F8 03 00 00 00 00 00 00 
+>00000AC9: 45 0A 02 00 00 00 00 00 00 00 
+>00000AD3: 45 0A F8 02 00 00 00 00 00 00 
+>00000ADD: 45 0A 03 00 00 00 00 00 00 00 
+>00000AE7: 45 0A E8 03 00 00 00 00 00 00 
+>00000AF1: 45 0A 04 00 00 00 00 00 00 00 
+>00000AFB: 45 0A E8 02 00 00 00 00 00 00 
+>00000B05: 29 02 
+>00000B07: 2C 07 34 12 3A 01 01 
+>00000B0E: 15 02 
+>00000B10: 58 02 
+>00000B12: 22 82 
+>00000B14: 45 0A 01 00 00 00 00 00 00 00 
+>00000B1E: 45 0A 04 00 00 00 00 00 00 00 
+>00000B28: 45 0A 02 00 00 00 00 00 00 00 
+>00000B32: 45 0A 03 00 00 00 00 00 00 00 
+>00000B3C: 45 0A 03 00 00 00 00 00 00 00 
+>00000B46: 45 0A 04 00 00 00 00 00 00 00 
+>00000B50: 45 0A 04 00 00 00 00 00 00 00 
+>00000B5A: 45 0A 03 00 00 00 00 00 00 00 
+>00000B64: 29 02 
+>00000B66: 2C 07 34 12 3C 01 00 
+>00000B6D: 15 02 
+>00000B6F: 29 02 
+      option text = STRING_TOKEN(0x007D), value = 0x0, flags = DEFAULT;
+>00000B71: 09 07 7D 00 10 00 00 
+      option text = STRING_TOKEN(0x007E), value = 0x1, flags = 0;
+>00000B78: 09 07 7E 00 00 00 01 
+      option text = STRING_TOKEN(0x007F), value = 0x2, flags = 0;
+>00000B7F: 09 07 7F 00 00 00 02 
+      option text = STRING_TOKEN(0x0080), value = 0x3, flags = 0;
+>00000B86: 09 07 80 00 00 00 03 
+      option text = STRING_TOKEN(0x0081), value = 0x4, flags = 0;
+>00000B8D: 09 07 81 00 00 00 04 
+    endoneof;
+>00000B94: 29 02 
+    grayoutif TRUE;
+>00000B96: 19 82 
+>00000B98: 46 02 
+      checkbox varid = MyIfrNVData.SerialPortStatus,
+>00000B9A: 06 8E 82 00 2C 00 20 00 34 12 39 01 00 00 
+        prompt = STRING_TOKEN(0x0082),
+        help = STRING_TOKEN(0x002C),
+      endcheckbox;
+>00000BA8: 29 02 
+    endif;
+>00000BAA: 29 02 
+    grayoutif TRUE;
+>00000BAC: 19 82 
+>00000BAE: 46 02 
+      suppressif ideqval MyIfrNVData.SerialPortStatus == 0;
+>00000BB0: 0A 82 
+>00000BB2: 12 06 20 00 00 00 
+        oneof varid = MyIfrNVData.SerialPortIo,
+>00000BB8: 05 94 83 00 22 00 21 00 34 12 3A 01 00 11 E8 02 F8 03 00 00 
+          prompt = STRING_TOKEN(0x0083),
+          help = STRING_TOKEN(0x0022),
+          option text = STRING_TOKEN(0x0085), value = 0x3F8, flags = DEFAULT;
+>00000BCC: 09 08 85 00 11 01 F8 03 
+          option text = STRING_TOKEN(0x0086), value = 0x2F8, flags = 0;
+>00000BD4: 09 08 86 00 01 01 F8 02 
+          option text = STRING_TOKEN(0x0087), value = 0x3E8, flags = 0;
+>00000BDC: 09 08 87 00 01 01 E8 03 
+          option text = STRING_TOKEN(0x0088), value = 0x2E8, flags = 0;
+>00000BE4: 09 08 88 00 01 01 E8 02 
+        endoneof;
+>00000BEC: 29 02 
+      endif;
+>00000BEE: 29 02 
+    endif;
+>00000BF0: 29 02 
+    grayoutif TRUE;
+>00000BF2: 19 82 
+>00000BF4: 46 02 
+      suppressif ideqval MyIfrNVData.SerialPortStatus == 0;
+>00000BF6: 0A 82 
+>00000BF8: 12 06 20 00 00 00 
+        oneof varid = MyIfrNVData.SerialPortIrq,
+>00000BFE: 05 91 84 00 22 00 22 00 34 12 3C 01 00 10 03 04 00 
+          prompt = STRING_TOKEN(0x0084),
+          help = STRING_TOKEN(0x0022),
+          option text = STRING_TOKEN(0x0089), value = 0x4, flags = DEFAULT;
+>00000C0F: 09 07 89 00 10 00 04 
+          option text = STRING_TOKEN(0x008A), value = 0x3, flags = 0;
+>00000C16: 09 07 8A 00 00 00 03 
+        endoneof;
+>00000C1D: 29 02 
+      endif;
+>00000C1F: 29 02 
+    endif;
+>00000C21: 29 02 
+    goto 1,
+>00000C23: 0F 0F 39 00 53 00 23 00 00 00 FF FF 00 01 00 
+      prompt = STRING_TOKEN(0x0039),
+      help = STRING_TOKEN(0x0053);
+  endform;
+>00000C32: 29 02 
+  form formid = 5,
+>00000C34: 01 86 05 00 68 00 
+       title = STRING_TOKEN(0x0068);
+    modal;
+>00000C3A: 61 02 
+    text
+      help = STRING_TOKEN(0x0056),
+      text = STRING_TOKEN(0x0056),
+      flags = INTERACTIVE,
+>00000C3C: 0C 8F 56 00 56 00 45 12 00 00 FF FF 04 00 00 
+      key = 0x1245;
+>00000C4B: 29 02 
+    text
+      help = STRING_TOKEN(0x0057),
+      text = STRING_TOKEN(0x0057),
+      flags = INTERACTIVE,
+>00000C4D: 0C 8F 57 00 57 00 46 12 00 00 FF FF 04 00 00 
+      key = 0x1246;
+>00000C5C: 29 02 
+  endform;
+>00000C5E: 29 02 
+  form formid = 6,
+>00000C60: 01 86 06 00 18 00 
+       title = STRING_TOKEN(0x0018);
+    text
+>00000C66: 03 08 66 00 66 00 00 00 
+      help = STRING_TOKEN(0x0066),
+      text = STRING_TOKEN(0x0066);
+    numeric varid = MyIfrNVData.RefreshGuidCount,
+>00000C6E: 07 91 67 00 31 00 47 12 34 12 42 01 04 10 00 FF 00 
+            prompt = STRING_TOKEN(0x0067),
+            help = STRING_TOKEN(0x0031),
+            flags = INTERACTIVE,
+            key = 0x1247,
+            minimum = 0,
+            maximum = 0xff,
+            step = 0,
+            default = 0,
+>00000C7F: 5B 06 00 00 00 00 
+            refreshguid = { 0xF5E655D9, 0x02A6, 0x46f2, {0x9E, 0x76, 0xB8, 0xBE, 0x8E, 0x60, 0xAB, 0x22} },
+>00000C85: 62 12 D9 55 E6 F5 A6 02 F2 46 9E 76 B8 BE 8E 60 AB 22 
+    endnumeric;
+>00000C97: 29 02 
+    label 0x3234;
+>00000C99: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 34 32 
+    label 0x2223;
+>00000CAE: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+  endform;
+>00000CC3: 29 02 
+  form formid = 0x1234,
+>00000CC5: 01 86 34 12 19 00 
+       title = STRING_TOKEN(0x0019);
+    label 0x1234;
+>00000CCB: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 34 12 
+    label 0x2223;
+>00000CE0: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+  endform;
+>00000CF5: 29 02 
+endformset;
+>00000CF7: 29 02 
+
+//
+// All Opcode Record List 
+//
+>00000000: 0E A7 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 13 00 14 00 01 71 99 03 93 45 85 04 4B B4 5E 32 EB 83 26 04 0E 
+>00000027: 5C 06 5D 00 00 00 
+>0000002D: 5C 06 5F 00 01 00 
+>00000033: 24 22 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 34 12 47 01 4D 79 49 66 72 4E 56 44 61 74 61 00 
+>00000055: 26 23 01 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 03 00 00 00 08 00 4D 79 45 66 69 56 61 72 00 
+>00000078: 25 14 02 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 
+>0000008C: 01 86 01 00 15 00 
+>00000092: 02 87 1A 00 00 00 00 
+>00000099: 29 02 
+>0000009B: 02 87 1B 00 00 00 00 
+>000000A2: 29 02 
+>000000A4: 03 08 1C 00 52 00 1D 00 
+>000000AC: 0C 8F 56 00 56 00 37 12 00 00 FF FF 04 00 00 
+>000000BB: 29 02 
+>000000BD: 0C 8F 57 00 57 00 38 12 00 00 FF FF 04 00 00 
+>000000CC: 29 02 
+>000000CE: 0C 8F 59 00 59 00 43 12 00 00 FF FF 04 00 00 
+>000000DD: 29 02 
+>000000DF: 0C 8F 5A 00 5A 00 44 12 00 00 FF FF 04 00 00 
+>000000EE: 29 02 
+>000000F0: 05 91 1F 00 22 00 01 00 34 12 D5 00 00 10 00 02 00 
+>00000101: 09 07 26 00 00 00 00 
+>00000108: 09 07 27 00 00 00 01 
+>0000010F: 09 07 28 00 10 00 02 
+>00000116: 29 02 
+>00000118: 05 91 1F 00 22 00 02 00 34 12 EE 00 00 10 00 01 00 
+>00000129: 5B 85 00 00 08 
+>0000012E: 5A 82 
+>00000130: 58 82 
+>00000132: 45 0A 00 00 00 00 00 00 00 00 
+>0000013C: 2F 02 
+>0000013E: 45 0A 00 00 00 00 00 00 00 00 
+>00000148: 40 04 01 00 
+>0000014C: 45 0A 04 00 00 00 00 00 00 00 
+>00000156: 39 02 
+>00000158: 45 0A 00 0F 00 00 00 00 00 00 
+>00000162: 35 02 
+>00000164: 45 0A 00 00 00 00 00 00 00 00 
+>0000016E: 45 0A 02 00 00 00 00 00 00 00 
+>00000178: 3A 02 
+>0000017A: 2F 02 
+>0000017C: 45 0A 00 00 00 00 00 00 00 00 
+>00000186: 45 0A 01 00 00 00 00 00 00 00 
+>00000190: 50 02 
+>00000192: 50 02 
+>00000194: 29 02 
+>00000196: 29 02 
+>00000198: 29 02 
+>0000019A: 09 07 29 00 00 00 00 
+>000001A1: 09 07 2A 00 00 00 01 
+>000001A8: 29 02 
+>000001AA: 19 82 
+>000001AC: 12 06 01 00 01 00 
+>000001B2: 0A 82 
+>000001B4: 40 84 01 00 
+>000001B8: 45 0A 00 00 00 00 00 00 00 00 
+>000001C2: 2F 02 
+>000001C4: 29 02 
+>000001C6: 06 8E 2B 00 2C 00 03 00 34 12 D4 00 00 03 
+>000001D4: 5B 06 00 00 00 01 
+>000001DA: 29 02 
+>000001DC: 29 02 
+>000001DE: 29 02 
+>000001E0: 0A 82 
+>000001E2: 12 06 01 00 00 00 
+>000001E8: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 22 22 
+>000001FD: 23 8F 72 00 5C 00 04 00 34 12 DE 00 10 08 00 
+>0000020C: 09 08 74 00 01 01 02 00 
+>00000214: 09 08 73 00 01 01 01 00 
+>0000021C: 09 08 75 00 01 01 03 00 
+>00000224: 0A 82 
+>00000226: 12 06 02 00 00 00 
+>0000022C: 09 08 76 00 01 01 04 00 
+>00000234: 29 02 
+>00000236: 29 02 
+>00000238: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+>0000024D: 29 02 
+>0000024F: 1E 82 
+>00000251: 12 06 01 00 02 00 
+>00000257: 23 8F 54 00 52 00 05 00 34 12 D6 00 10 08 00 
+>00000266: 09 07 23 00 00 00 03 
+>0000026D: 09 07 24 00 00 00 02 
+>00000274: 09 07 25 00 00 00 01 
+>0000027B: 5B 08 00 00 0B 01 02 03 
+>00000283: 29 02 
+>00000285: 29 02 
+>00000287: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 64 00 
+>0000029C: 0F 0F 40 00 53 00 34 12 00 00 FF FF 04 34 12 
+>000002AB: 0F 0F 41 00 53 00 35 12 00 00 FF FF 04 34 12 
+>000002BA: 05 91 54 00 22 00 06 00 34 12 D1 00 10 10 00 01 00 
+>000002CB: 09 07 23 00 00 00 00 
+>000002D2: 09 07 24 00 10 00 01 
+>000002D9: 63 85 91 00 05 
+>000002DE: 12 06 06 00 00 00 
+>000002E4: 29 02 
+>000002E6: 29 02 
+>000002E8: 05 91 55 00 22 00 07 00 34 12 D2 00 10 10 00 01 00 
+>000002F9: 09 07 23 00 10 00 00 
+>00000300: 09 07 24 00 00 00 01 
+>00000307: 11 84 46 00 
+>0000030B: 13 06 06 00 07 00 
+>00000311: 29 02 
+>00000313: 29 02 
+>00000315: 05 91 20 00 22 00 08 00 34 12 D3 00 10 10 00 03 00 
+>00000326: 09 07 23 00 00 00 00 
+>0000032D: 09 07 24 00 10 00 01 
+>00000334: 09 07 25 00 00 00 03 
+>0000033B: 29 02 
+>0000033D: 1C 90 4A 00 4B 00 36 12 34 12 50 00 04 06 28 00 
+>0000034D: 11 84 65 00 
+>00000351: 58 82 
+>00000353: 4E 04 64 00 
+>00000357: 30 02 
+>00000359: 29 02 
+>0000035B: 29 02 
+>0000035D: 29 02 
+>0000035F: 07 91 2E 00 31 00 09 00 34 12 CA 00 01 10 00 F0 00 
+>00000370: 5B 06 00 00 00 15 
+>00000376: 29 02 
+>00000378: 07 91 2F 00 31 00 0A 00 34 12 CA 00 00 10 00 F0 00 
+>00000389: 5B 85 00 00 08 
+>0000038E: 5A 82 
+>00000390: 45 8A 11 11 00 00 00 00 00 00 
+>0000039A: 51 14 6F 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 
+>000003AE: 29 02 
+>000003B0: 29 02 
+>000003B2: 29 02 
+>000003B4: 11 84 46 00 
+>000003B8: 12 86 0A 00 63 00 
+>000003BE: 13 06 0A 00 11 11 
+>000003C4: 16 02 
+>000003C6: 14 0E 0A 00 04 00 01 00 03 00 05 00 07 00 
+>000003D4: 16 02 
+>000003D6: 29 02 
+>000003D8: 29 02 
+>000003DA: 29 02 
+>000003DC: 07 91 30 00 32 00 11 11 01 00 00 00 04 20 00 FA 00 
+>000003ED: 5B 06 00 00 00 12 
+>000003F3: 5B 06 01 00 00 13 
+>000003F9: 29 02 
+>000003FB: 07 91 77 00 61 00 0B 00 02 00 77 00 00 10 00 FF 00 
+>0000040C: 0B 02 
+>0000040E: 5B 06 00 00 00 10 
+>00000414: 5B 06 01 00 00 11 
+>0000041A: 29 02 
+>0000041C: 07 94 78 00 62 00 0C 00 02 00 78 00 00 11 00 00 FF FF 00 00 
+>00000430: 5B 07 00 00 01 12 00 
+>00000437: 5B 07 01 00 01 13 00 
+>0000043E: 29 02 
+>00000440: 1C 90 79 00 63 00 0D 00 02 00 79 00 00 02 14 00 
+>00000450: 29 02 
+>00000452: 05 94 1F 00 1E 00 0E 00 01 00 01 00 00 11 00 00 01 00 00 00 
+>00000466: 09 08 29 00 01 01 00 00 
+>0000046E: 09 08 2A 00 11 01 01 00 
+>00000476: 29 02 
+>00000478: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 01 00 
+>0000048D: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 00 10 
+>000004A2: 19 82 
+>000004A4: 12 86 0A 00 17 00 
+>000004AA: 12 06 01 00 01 00 
+>000004B0: 15 02 
+>000004B2: 29 02 
+>000004B4: 07 91 2D 00 33 00 0F 00 34 12 CD 00 00 10 00 F3 01 
+>000004C5: 5B 06 00 00 00 12 
+>000004CB: 5B 06 01 00 00 13 
+>000004D1: 29 02 
+>000004D3: 29 02 
+>000004D5: 07 91 6B 00 6C 00 39 12 34 12 3E 01 04 20 00 FF 01 
+>000004E6: 5B 06 00 00 00 12 
+>000004EC: 29 02 
+>000004EE: 07 91 69 00 6A 00 40 12 34 12 3D 01 04 20 00 FF 01 
+>000004FF: 5B 06 00 00 00 12 
+>00000505: 29 02 
+>00000507: 23 8F 69 00 6A 00 52 12 34 12 44 01 04 03 00 
+>00000516: 09 07 23 00 00 00 01 
+>0000051D: 09 07 24 00 00 00 02 
+>00000524: 09 07 25 00 00 00 03 
+>0000052B: 29 02 
+>0000052D: 0D 88 5D 00 5E 00 00 00 
+>00000535: 29 02 
+>00000537: 0D 88 5F 00 60 00 01 00 
+>0000053F: 29 02 
+>00000541: 08 91 35 00 36 00 10 00 34 12 00 00 00 06 00 14 00 
+>00000552: 29 02 
+>00000554: 1C 90 47 00 48 00 11 00 34 12 A0 00 00 06 14 00 
+>00000564: 5B 07 00 00 07 49 00 
+>0000056B: 29 02 
+>0000056D: 08 91 34 00 36 00 00 20 34 12 28 00 04 06 00 14 00 
+>0000057E: 29 02 
+>00000580: 19 82 
+>00000582: 60 92 07 56 B7 85 CE F7 1E 47 B7 E4 2A EA 5F 72 32 EE 
+>00000594: 17 02 
+>00000596: 29 02 
+>00000598: 03 08 37 00 38 00 00 00 
+>000005A0: 29 02 
+>000005A2: 07 94 70 00 71 00 50 12 01 00 06 00 04 11 00 00 FF 00 00 00 
+>000005B6: 5B 07 00 00 01 12 00 
+>000005BD: 29 02 
+>000005BF: 0F 0F 3A 00 53 00 12 00 00 00 FF FF 00 02 00 
+>000005CE: 0F 0F 3B 00 53 00 13 00 00 00 FF FF 00 03 00 
+>000005DD: 0F 0F 3C 00 53 00 14 00 00 00 FF FF 00 04 00 
+>000005EC: 0F 0F 3E 00 3F 00 15 00 00 00 FF FF 00 05 00 
+>000005FB: 0F 0F 3D 00 53 00 16 00 00 00 FF FF 00 06 00 
+>0000060A: 0F 21 6D 00 6E 00 17 00 00 00 FF FF 00 01 00 01 00 70 64 F5 B3 41 61 21 46 8F 19 70 4E 57 7A A9 E8 
+>0000062B: 5F 9A F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 21 21 21 21 00 00 00 00 
+>00000645: 29 02 
+>00000647: 29 02 
+>00000649: 0A 82 
+>0000064B: 12 06 02 00 00 00 
+>00000651: 01 86 02 00 16 00 
+>00000657: 1A 8E 4E 00 4F 00 18 00 00 00 FF FF 00 10 
+>00000665: 5B 09 00 00 06 D4 07 01 01 
+>0000066E: 11 84 46 00 
+>00000672: 40 84 18 00 
+>00000676: 44 06 00 00 00 FF 
+>0000067C: 35 02 
+>0000067E: 42 03 18 
+>00000681: 39 02 
+>00000683: 42 03 1F 
+>00000686: 2F 02 
+>00000688: 40 04 18 00 
+>0000068C: 44 06 00 00 FF 00 
+>00000692: 35 02 
+>00000694: 42 03 10 
+>00000697: 39 02 
+>00000699: 42 03 02 
+>0000069C: 2F 02 
+>0000069E: 40 04 18 00 
+>000006A2: 44 06 00 00 FF 00 
+>000006A8: 35 02 
+>000006AA: 42 03 10 
+>000006AD: 39 02 
+>000006AF: 42 03 04 
+>000006B2: 2F 02 
+>000006B4: 16 02 
+>000006B6: 40 04 18 00 
+>000006BA: 44 06 00 00 FF 00 
+>000006C0: 35 02 
+>000006C2: 42 03 10 
+>000006C5: 39 02 
+>000006C7: 42 03 06 
+>000006CA: 2F 02 
+>000006CC: 16 02 
+>000006CE: 40 04 18 00 
+>000006D2: 44 06 00 00 FF 00 
+>000006D8: 35 02 
+>000006DA: 42 03 10 
+>000006DD: 39 02 
+>000006DF: 42 03 09 
+>000006E2: 2F 02 
+>000006E4: 16 02 
+>000006E6: 40 04 18 00 
+>000006EA: 44 06 00 00 FF 00 
+>000006F0: 35 02 
+>000006F2: 42 03 10 
+>000006F5: 39 02 
+>000006F7: 42 03 0B 
+>000006FA: 2F 02 
+>000006FC: 16 02 
+>000006FE: 15 02 
+>00000700: 29 02 
+>00000702: 29 02 
+>00000704: 11 84 46 00 
+>00000708: 40 84 18 00 
+>0000070C: 44 06 00 00 00 FF 
+>00000712: 35 02 
+>00000714: 42 03 18 
+>00000717: 39 02 
+>00000719: 42 03 1E 
+>0000071C: 2F 02 
+>0000071E: 40 04 18 00 
+>00000722: 44 06 00 00 FF 00 
+>00000728: 35 02 
+>0000072A: 42 03 10 
+>0000072D: 39 02 
+>0000072F: 42 03 02 
+>00000732: 2F 02 
+>00000734: 15 02 
+>00000736: 29 02 
+>00000738: 29 02 
+>0000073A: 11 84 46 00 
+>0000073E: 40 84 18 00 
+>00000742: 44 06 00 00 00 FF 
+>00000748: 35 02 
+>0000074A: 42 03 18 
+>0000074D: 39 02 
+>0000074F: 42 03 1D 
+>00000752: 2F 02 
+>00000754: 40 04 18 00 
+>00000758: 44 06 00 00 FF 00 
+>0000075E: 35 02 
+>00000760: 42 03 10 
+>00000763: 39 02 
+>00000765: 42 03 02 
+>00000768: 2F 02 
+>0000076A: 15 02 
+>0000076C: 40 04 18 00 
+>00000770: 44 06 FF FF 00 00 
+>00000776: 35 02 
+>00000778: 42 03 00 
+>0000077B: 39 02 
+>0000077D: 43 04 D4 07 
+>00000781: 2F 02 
+>00000783: 40 04 18 00 
+>00000787: 44 06 FF FF 00 00 
+>0000078D: 35 02 
+>0000078F: 42 03 00 
+>00000792: 39 02 
+>00000794: 43 04 D8 07 
+>00000798: 2F 02 
+>0000079A: 16 02 
+>0000079C: 40 04 18 00 
+>000007A0: 44 06 FF FF 00 00 
+>000007A6: 35 02 
+>000007A8: 42 03 00 
+>000007AB: 39 02 
+>000007AD: 43 04 2C 4E 
+>000007B1: 2F 02 
+>000007B3: 16 02 
+>000007B5: 40 04 18 00 
+>000007B9: 44 06 FF FF 00 00 
+>000007BF: 35 02 
+>000007C1: 42 03 00 
+>000007C4: 39 02 
+>000007C6: 43 04 30 4E 
+>000007CA: 2F 02 
+>000007CC: 16 02 
+>000007CE: 40 04 18 00 
+>000007D2: 44 06 FF FF 00 00 
+>000007D8: 35 02 
+>000007DA: 42 03 00 
+>000007DD: 39 02 
+>000007DF: 43 04 E4 07 
+>000007E3: 2F 02 
+>000007E5: 16 02 
+>000007E7: 40 04 18 00 
+>000007EB: 44 06 FF FF 00 00 
+>000007F1: 35 02 
+>000007F3: 42 03 00 
+>000007F6: 39 02 
+>000007F8: 43 04 E8 07 
+>000007FC: 2F 02 
+>000007FE: 16 02 
+>00000800: 40 04 18 00 
+>00000804: 44 06 FF FF 00 00 
+>0000080A: 35 02 
+>0000080C: 42 03 00 
+>0000080F: 39 02 
+>00000811: 43 04 EC 07 
+>00000815: 2F 02 
+>00000817: 16 02 
+>00000819: 40 04 18 00 
+>0000081D: 44 06 FF FF 00 00 
+>00000823: 35 02 
+>00000825: 42 03 00 
+>00000828: 39 02 
+>0000082A: 43 04 F0 07 
+>0000082E: 2F 02 
+>00000830: 16 02 
+>00000832: 40 04 18 00 
+>00000836: 44 06 FF FF 00 00 
+>0000083C: 35 02 
+>0000083E: 42 03 00 
+>00000841: 39 02 
+>00000843: 43 04 F4 07 
+>00000847: 2F 02 
+>00000849: 16 02 
+>0000084B: 17 02 
+>0000084D: 15 02 
+>0000084F: 29 02 
+>00000851: 29 02 
+>00000853: 29 02 
+>00000855: 0C 8F 5B 00 5B 00 41 12 00 00 FF FF 04 00 00 
+>00000864: 29 02 
+>00000866: 0C 8F 58 00 58 00 42 12 00 00 FF FF 04 00 00 
+>00000875: 29 02 
+>00000877: 1B 8E 50 00 51 00 19 00 00 00 FF FF 00 10 
+>00000885: 29 02 
+>00000887: 1B 8E 50 00 50 00 1A 00 34 12 3F 01 00 04 
+>00000895: 5B 08 00 00 05 0F 21 21 
+>0000089D: 29 02 
+>0000089F: 06 8E 2B 00 2C 00 1B 00 34 12 D4 00 00 01 
+>000008AD: 29 02 
+>000008AF: 03 08 4C 00 52 00 00 00 
+>000008B7: 03 08 4C 00 52 00 4D 00 
+>000008BF: 0F 0F 39 00 53 00 1C 00 00 00 FF FF 00 01 00 
+>000008CE: 0F 8D 42 00 44 00 48 12 34 12 F7 00 04 
+>000008DB: 5B 1B 00 00 0C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 5C 00 
+>000008F6: 29 02 
+>000008F8: 0F 0D 43 00 45 00 49 12 00 00 FF FF 04 
+>00000905: 29 02 
+>00000907: 29 02 
+>00000909: 01 86 03 00 17 00 
+>0000090F: 0A 82 
+>00000911: 12 06 11 11 6F 00 
+>00000917: 03 08 4C 00 52 00 00 00 
+>0000091F: 29 02 
+>00000921: 0F 0F 39 00 53 00 1D 00 00 00 FF FF 00 01 00 
+>00000930: 07 91 2F 00 31 00 78 56 34 12 EF 00 04 10 00 FF 00 
+>00000941: 5B 06 00 00 00 00 
+>00000947: 1D 03 03 
+>0000094A: 29 02 
+>0000094C: 19 82 
+>0000094E: 4E 84 95 00 
+>00000952: 4E 04 94 00 
+>00000956: 64 12 51 0A E6 63 7D 49 27 D4 C4 A5 B8 AB DC 3A AE B6 
+>00000968: 29 02 
+>0000096A: 07 91 92 00 93 00 1E 00 34 12 43 01 00 10 00 F3 00 
+>0000097B: 29 02 
+>0000097D: 29 02 
+>0000097F: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 34 22 
+>00000994: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+>000009A9: 29 02 
+>000009AB: 5D A8 04 00 7A 00 F4 27 4A A0 00 DF 42 4D B5 52 39 51 13 02 11 3D 7B 00 EC F4 D2 3B 24 E5 E4 46 A9 D8 51 01 17 42 55 62 
+>000009D3: 05 91 7C 00 22 00 1F 00 34 12 38 01 00 10 00 04 00 
+>000009E4: 2D 02 
+>000009E6: 2B 87 34 12 39 01 00 
+>000009ED: 45 0A 00 00 00 00 00 00 00 00 
+>000009F7: 30 02 
+>000009F9: 45 0A 00 00 00 00 00 00 00 00 
+>00000A03: 2B 07 34 12 3A 01 01 
+>00000A0A: 45 0A 00 0F 00 00 00 00 00 00 
+>00000A14: 35 02 
+>00000A16: 45 0A 08 00 00 00 00 00 00 00 
+>00000A20: 39 02 
+>00000A22: 2B 07 34 12 3C 01 00 
+>00000A29: 45 0A 01 00 00 00 00 00 00 00 
+>00000A33: 3B 02 
+>00000A35: 2F 02 
+>00000A37: 55 02 
+>00000A39: 2B 07 34 12 3A 01 01 
+>00000A40: 22 82 
+>00000A42: 45 0A F8 03 00 00 00 00 00 00 
+>00000A4C: 45 0A 01 00 00 00 00 00 00 00 
+>00000A56: 45 0A F8 02 00 00 00 00 00 00 
+>00000A60: 45 0A 02 00 00 00 00 00 00 00 
+>00000A6A: 45 0A E8 03 00 00 00 00 00 00 
+>00000A74: 45 0A 03 00 00 00 00 00 00 00 
+>00000A7E: 45 0A E8 02 00 00 00 00 00 00 
+>00000A88: 45 0A 04 00 00 00 00 00 00 00 
+>00000A92: 29 02 
+>00000A94: 50 02 
+>00000A96: 50 02 
+>00000A98: 29 02 
+>00000A9A: 2E 02 
+>00000A9C: 58 82 
+>00000A9E: 45 0A 00 00 00 00 00 00 00 00 
+>00000AA8: 30 02 
+>00000AAA: 2C 07 34 12 39 01 00 
+>00000AB1: 58 02 
+>00000AB3: 22 82 
+>00000AB5: 45 0A 01 00 00 00 00 00 00 00 
+>00000ABF: 45 0A F8 03 00 00 00 00 00 00 
+>00000AC9: 45 0A 02 00 00 00 00 00 00 00 
+>00000AD3: 45 0A F8 02 00 00 00 00 00 00 
+>00000ADD: 45 0A 03 00 00 00 00 00 00 00 
+>00000AE7: 45 0A E8 03 00 00 00 00 00 00 
+>00000AF1: 45 0A 04 00 00 00 00 00 00 00 
+>00000AFB: 45 0A E8 02 00 00 00 00 00 00 
+>00000B05: 29 02 
+>00000B07: 2C 07 34 12 3A 01 01 
+>00000B0E: 15 02 
+>00000B10: 58 02 
+>00000B12: 22 82 
+>00000B14: 45 0A 01 00 00 00 00 00 00 00 
+>00000B1E: 45 0A 04 00 00 00 00 00 00 00 
+>00000B28: 45 0A 02 00 00 00 00 00 00 00 
+>00000B32: 45 0A 03 00 00 00 00 00 00 00 
+>00000B3C: 45 0A 03 00 00 00 00 00 00 00 
+>00000B46: 45 0A 04 00 00 00 00 00 00 00 
+>00000B50: 45 0A 04 00 00 00 00 00 00 00 
+>00000B5A: 45 0A 03 00 00 00 00 00 00 00 
+>00000B64: 29 02 
+>00000B66: 2C 07 34 12 3C 01 00 
+>00000B6D: 15 02 
+>00000B6F: 29 02 
+>00000B71: 09 07 7D 00 10 00 00 
+>00000B78: 09 07 7E 00 00 00 01 
+>00000B7F: 09 07 7F 00 00 00 02 
+>00000B86: 09 07 80 00 00 00 03 
+>00000B8D: 09 07 81 00 00 00 04 
+>00000B94: 29 02 
+>00000B96: 19 82 
+>00000B98: 46 02 
+>00000B9A: 06 8E 82 00 2C 00 20 00 34 12 39 01 00 00 
+>00000BA8: 29 02 
+>00000BAA: 29 02 
+>00000BAC: 19 82 
+>00000BAE: 46 02 
+>00000BB0: 0A 82 
+>00000BB2: 12 06 20 00 00 00 
+>00000BB8: 05 94 83 00 22 00 21 00 34 12 3A 01 00 11 E8 02 F8 03 00 00 
+>00000BCC: 09 08 85 00 11 01 F8 03 
+>00000BD4: 09 08 86 00 01 01 F8 02 
+>00000BDC: 09 08 87 00 01 01 E8 03 
+>00000BE4: 09 08 88 00 01 01 E8 02 
+>00000BEC: 29 02 
+>00000BEE: 29 02 
+>00000BF0: 29 02 
+>00000BF2: 19 82 
+>00000BF4: 46 02 
+>00000BF6: 0A 82 
+>00000BF8: 12 06 20 00 00 00 
+>00000BFE: 05 91 84 00 22 00 22 00 34 12 3C 01 00 10 03 04 00 
+>00000C0F: 09 07 89 00 10 00 04 
+>00000C16: 09 07 8A 00 00 00 03 
+>00000C1D: 29 02 
+>00000C1F: 29 02 
+>00000C21: 29 02 
+>00000C23: 0F 0F 39 00 53 00 23 00 00 00 FF FF 00 01 00 
+>00000C32: 29 02 
+>00000C34: 01 86 05 00 68 00 
+>00000C3A: 61 02 
+>00000C3C: 0C 8F 56 00 56 00 45 12 00 00 FF FF 04 00 00 
+>00000C4B: 29 02 
+>00000C4D: 0C 8F 57 00 57 00 46 12 00 00 FF FF 04 00 00 
+>00000C5C: 29 02 
+>00000C5E: 29 02 
+>00000C60: 01 86 06 00 18 00 
+>00000C66: 03 08 66 00 66 00 00 00 
+>00000C6E: 07 91 67 00 31 00 47 12 34 12 42 01 04 10 00 FF 00 
+>00000C7F: 5B 06 00 00 00 00 
+>00000C85: 62 12 D9 55 E6 F5 A6 02 F2 46 9E 76 B8 BE 8E 60 AB 22 
+>00000C97: 29 02 
+>00000C99: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 34 32 
+>00000CAE: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+>00000CC3: 29 02 
+>00000CC5: 01 86 34 12 19 00 
+>00000CCB: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 34 12 
+>00000CE0: 5F 15 35 17 0B 0F A0 87 93 41 B2 66 53 8C 38 AF 48 CE 00 23 22 
+>00000CF5: 29 02 
+>00000CF7: 29 02 
+
+Total Size of all record is 0x00000CF9
+
+
+***************************************************************
+		mPackAlign = 1
+		struct MY_EFI_VARSTORE_DATA : mAlign [1] mTotalSize [0x8]
+
+		struct MY_EFI_VARSTORE_DATA {
+			+00000000[00000000] Field8 <UINT8>
+			+00000001[00000001] Field16 <UINT16>
+			+00000003[00000003] OrderedList[3] <UINT8>
+			+00000006[00000006] SubmittedCallback <UINT16>
+		};
+---------------------------------------------------------------
+		struct DRIVER_SAMPLE_CONFIGURATION : mAlign [1] mTotalSize [0x147]
+
+		struct DRIVER_SAMPLE_CONFIGURATION {
+			+00000000[00000000] WhatIsThePassword[20] <UINT16>
+			+00000040[00000028] WhatIsThePassword2[20] <UINT16>
+			+00000080[00000050] MyStringData[40] <UINT16>
+			+00000160[000000a0] PasswordClearText[20] <UINT16>
+			+00000200[000000c8] SomethingHiddenForHtml <UINT16>
+			+00000202[000000ca] HowOldAreYouInYearsManual <UINT8>
+			+00000203[000000cb] HowTallAreYouManual <UINT16>
+			+00000205[000000cd] HowOldAreYouInYears <UINT8>
+			+00000206[000000ce] HowTallAreYou <UINT16>
+			+00000208[000000d0] MyFavoriteNumber <UINT8>
+			+00000209[000000d1] TestLateCheck <UINT8>
+			+00000210[000000d2] TestLateCheck2 <UINT8>
+			+00000211[000000d3] QuestionAboutTreeHugging <UINT8>
+			+00000212[000000d4] ChooseToActivateNuclearWeaponry <UINT8>
+			+00000213[000000d5] SuppressGrayOutSomething <UINT8>
+			+00000214[000000d6] OrderedList[8] <UINT8>
+			+00000222[000000de] BootOrder[8] <UINT16>
+			+00000238[000000ee] BootOrderLarge <UINT8>
+			+00000239[000000ef] DynamicRefresh <UINT8>
+			+00000240[000000f0] DynamicOneof <UINT8>
+			+00000241[000000f1] DynamicOrderedList[5] <UINT8>
+			+00000246[000000f6] Reserved <UINT8>
+			+00000247[000000f7] RefData <EFI_HII_REF>
+			+00000269[0000010d] NameValueVar0 <UINT8>
+			+00000270[0000010e] NameValueVar1 <UINT16>
+			+00000272[00000110] NameValueVar2[20] <UINT16>
+			+00000312[00000138] SerialPortNo <UINT8>
+			+00000313[00000139] SerialPortStatus <UINT8>
+			+00000314[0000013a] SerialPortIo <UINT16>
+			+00000316[0000013c] SerialPortIrq <UINT8>
+			+00000317[0000013d] GetDefaultValueFromCallBack <UINT8>
+			+00000318[0000013e] GetDefaultValueFromAccess <UINT8>
+			+00000319[0000013f] Time <EFI_HII_TIME>
+			+00000322[00000142] RefreshGuidCount <UINT8>
+			+00000323[00000143] Match2 <UINT8>
+			+00000324[00000144] GetDefaultValueFromCallBackForOrderedList[3] <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_REF : mAlign [16] mTotalSize [0x16]
+
+		struct EFI_HII_REF {
+			+00000000[00000000] QuestionId <UINT16>
+			+00000002[00000002] FormId <UINT16>
+			+00000004[00000004] FormSetGuid <(null)>
+			+00000020[00000014] DevicePath <EFI_STRING_ID>
+		};
+---------------------------------------------------------------
+		struct EFI_HII_TIME : mAlign [1] mTotalSize [0x3]
+
+		struct EFI_HII_TIME {
+			+00000000[00000000] Hours <UINT8>
+			+00000001[00000001] Minutes <UINT8>
+			+00000002[00000002] Seconds <UINT8>
+		};
+---------------------------------------------------------------
+		struct EFI_STRING_ID : mAlign [2] mTotalSize [0x2]
+
+		struct EFI_STRING_ID {
+		};
+---------------------------------------------------------------
+		struct EFI_HII_DATE : mAlign [2] mTotalSize [0x4]
+
+		struct EFI_HII_DATE {
+			+00000000[00000000] Year <UINT16>
+			+00000002[00000002] Month <UINT8>
+			+00000003[00000003] Day <UINT8>
+		};
+---------------------------------------------------------------
+		struct BOOLEAN : mAlign [1] mTotalSize [0x1]
+
+		struct BOOLEAN {
+		};
+---------------------------------------------------------------
+		struct UINT8 : mAlign [1] mTotalSize [0x1]
+
+		struct UINT8 {
+		};
+---------------------------------------------------------------
+		struct UINT16 : mAlign [2] mTotalSize [0x2]
+
+		struct UINT16 {
+		};
+---------------------------------------------------------------
+		struct UINT32 : mAlign [4] mTotalSize [0x4]
+
+		struct UINT32 {
+		};
+---------------------------------------------------------------
+		struct UINT64 : mAlign [8] mTotalSize [0x8]
+
+		struct UINT64 {
+		};
+---------------------------------------------------------------
+***************************************************************

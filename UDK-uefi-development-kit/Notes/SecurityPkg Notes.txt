@@ -1,0 +1,94 @@
+================================================================================
+                            NEW FEATURES AND CHANGES
+================================================================================
+1. UEFI 2.5 new features
+    1)  Implement PKCS7 Verify Protocol in PKCS7VerifyDxe.
+        (NOTE: The VerifySignature interface is not supported in this version,
+         due to openssl interface limitation).
+    2)  Implement HASH2 Protocol in HASH2DxeCrypto, including Hash2 Service
+        Binding Protocol and Hash2 Protocol.
+
+2. Authenticated variable and secure boot
+    1)  Implement variable quota management to prevent NV variable resource
+        draining under DOS attack. PcdMaxUserNvVariableSpaceSize &
+        PcdBoottimeReservedNvVariableSpaceSize are introduced to control this
+        feature.
+    2)  Implement VarCheck PROTOCOL. Specific variable check will be performed
+        before setting variable.
+    3)  Allow delete operation to common auth variable with the indication of
+        user physical presence.
+    4)  Remove VariableDxe/Pei/Info module from SecurityPkg. Move auth variable
+        service into AuthVariableLib library. Variable logic become common.
+    5)  Support RFC3161 timestamp countersignature checking in image verification.
+        It is an UEFI 2.4 feature.
+    6)  Other bug fixes and enhancements:
+        a) Make time based AuthVariable update atomic
+        b) Make PK & SecureBootMode state consistent
+        c) Reuse scratch data area(at the end of volatile variable store) as
+           serialization runtime buffer to reduce SMRAM consumption in SMM
+           variable driver
+        d) Support PcdMaxAuthVariableSize for auth variable
+        e) Update SecureBootConfigDxe to support ARM or AARCH64 image digest
+           enrollment
+
+3. TCG TPM
+    1)  Add >=128 operation value support in TPM Physical Presence, OEM can
+        create OemPpVendorLib to handle >=128 operation value.
+    2)  Add TpmInitializationDonePpi to TPM PEI module.
+    3)  Add TPM2 commands which can be used for field upgrade, provision and NV
+        related function.
+    4)  Add UEFI TPM2 support defined by trusted computing group. Spec version is
+        TCG EFI Protocol Specification for TPM Family 2.0 Revision 1.0 Version 9
+        TCG Physical Presence Interface Specification Version 1.30, Revision 00.52
+    5)  Change TPM MMIO range attribute for TCG spec compliance.
+    6)  Other bug fixes and enhancements
+        a) Add error check in Tcg/TrEE Pei/Dxe module to avoid unnecessary
+           hardware check for performance optimization
+        b) Handle TPM device error and avoid deadloop
+        c) Correct the variable measurement behavior to include whole EFI_VARIABLE_DATA
+           structure
+        d) Remove redundant ASSERT in TcgDxe & TreeDxe. Some asserts are removed
+           directly, some are replaced by debug output
+
+4. Misc
+    1)  Add Secure MOR lock feature. Variable MemoryOverwriteRequestControl is
+        added to defend against new threats.
+    2)  Add TPer Reset operation common logic to TcgMor module. The logic is called
+        on EndOfDxe event.
+
+================================================================================
+                            PACKAGE INTERFACE CHANGES
+================================================================================
+1. Auth VariableDxe/Pei/Info modules are removed from SecurityPkg. New auth variable
+   solution is to use corresponding modules in MdeModulePkg plus AuthVariableLib.
+
+2. Tcg2PpVendorLib library class is added. OEM/IHV can implement specific library
+   instance to support >=128 operation value in TPM Physical Presence.
+
+3. New Tcg2 modules are added to support Tcg TPM 2.0 & Physical Presence 1.3 spec,
+   including Tcg2Pei/Dxe/Smm, Dxe/Pei/SmmTcg2PhysicalPresenceLib, Tpm2DeviceLib.
+   TrEE ones can be replaced.
+
+4. New guid gTcgEvent2EntryHobGuid, gTpmErrorHobGuid, gEfiTcg2PhysicalPresenceGuid,
+   gTcg2ConfigFormSetGuid are added for Tcg2.0 & TPM performance enhancement.
+
+5. New ppi gPeiTpmInitializationDonePpi is added to indicate that TPM initialization
+   is done.
+
+6. Header file changes
+   1) TpmMeasurementLib.h is moved to MdeModulePkg/Include/Library
+   2) gEfiAuthenticatedVariableGuid definition is moved to mdemodulepkg/include/guid/
+      VariableFormat.h
+
+7. PCD changes
+   1) PcdTpm2HashMask attribute is changed to PcdsDynamic, PcdsDynamicEx.
+   2) PcdTcg2HashAlgorithmBitmap is added to indicated final BIOS supported Hash
+      algorithm.
+   3) PcdStatusCodeSubClassTpmDevice is added to define Progress Code for TPM device
+      subclass definitions.
+   4) PcdTcg2NumberOfPCRBanks is added for OEM to configure PCR banks number.
+
+================================================================================
+                            INCOMPATIBLE CHANGES
+================================================================================
+1. GUID gEfiAuthenticatedVariableGuid is moved to MdeModulePkg dec.

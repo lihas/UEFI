@@ -1,0 +1,106 @@
+================================================================================
+                            NEW FEATURES AND CHANGES
+================================================================================
+1. Add following new modules to support HTTP boot defined in UEFI 2.5.
+   1) HTTP boot driver
+      Module INF: NetworkPkg\HttpBootDxe\HttpBootDxe.inf
+      This module produces the EFI Load File Protocol which implements UEFI HTTP
+      boot capability over IPv4.
+   2) HTTP driver
+      Module INF: NetworkPkg\HttpDxe\HttpDxe.inf
+      This module produces the EFI HTTP Service Binding Protocol and EFI HTTP
+      Portocol, only IPv4 network stack is supported.
+   3) HTTP utilities driver
+      Module INF: NetworkPkg\HttpUtilitiesDxe\HttpUtilitiesDxe.inf
+      This module produces the EFI HTTP Utilities Protocol.
+   4) DNS driver
+      Module INF: NetworkPkg\DnsDxe\DnsDxe.inf
+      This module produces the EFI DNS4 & DNS6 Service Binding Protocol and EFI
+      DNS4 & DNS6 Protocol.
+2. Remove the EFI_IP4_CONFIG_PROTOCOL dependency from the EDKII network stack.
+3. PXE Update
+   1) Support PXE boot cross subnet on IPv6 network.
+   2) Update the parameter check of EFI_PXE_BASE_CODE_PROTOCOL.UdpRead() to
+      align with spec definition.
+   3) Check UNDI driver's IPv6 compatibility before start PXE boot over IPv6
+      network.
+   4) Check the input FilePath parameter of EFI_LOAD_FILE_PROTOCOL.LoadFile() to
+      see whether it's a supported devcie path before start PXE boot.
+   5) Fix a bug that a failed PXEv6 after a success PXEv4 may cause ASSERT.
+   6) Fix a bug that the EFI_PXE_BASE_CODE_PROTOCOL.Dhcp() may return incorrect
+      status code if the DHCP process has completed.
+4. DHCPv6 Update
+   1) Add a new PCD to allow the platform to control the default DUID format.
+   2) Fix a bug that the driver may produce incorrect DUID-LLT Client Identifier.
+   3) Fix a bug that the driver won't process more message if receive a DHCP
+      message with unrecognized Xid field.
+5. iSCSI Update
+   1) Fix a bug that the driver incorrectly returning EFI_SUCCESS for a child it
+      doesn't own for EFI_COMPONENT_NAME_PROTOCOL/EFI_COMPONENT_NAME2_PROTOCOL.
+   2) Check the format of IPv4 and IPv6 device path node to see whether it contains
+      the new added field in UEFI Specification.
+6. TCP Update
+   1) Fix a bug that the driver will reply an ACK with a TSecr=0 which may be
+      rejected by TCP server during 3-way handshake.
+7. IPv6 Update
+   1) Fix the DAD fail issue when user changing the IP configuration policy or
+      setting a same IPv6 address before the previous DAD is finished.
+   2) Locate IPsec protocol on IP package processing only if it has installed
+      for performance enhancement.
+8. IPSec Update
+   1) Fix a reconnect hang issue when IPSec has set up.
+   2) Fix a hang issue when setting a SPD entry in IPSec database.
+
+================================================================================
+                            PACKAGE INTERFACE CHANGES
+================================================================================
+1. New added network stack modules.
+     NetworkPkg\HttpBootDxe\HttpBootDxe.inf
+     NetworkPkg\HttpDxe\HttpDxe.inf
+     NetworkPkg\HttpUtilitiesDxe\HttpUtilitiesDxe.inf
+     NetworkPkg\DnsDxe\DnsDxe.inf
+   The HttpDxe and HttpBootDxe consumes new added library HttpLib.
+2. A new PCD PcdDhcp6UidType is defined in NetworkPkg.dec to allow platform to
+   set the default IPv6 DHCP Unique Identifier (DUID) Type.
+
+================================================================================
+                      UEFI/PI SPECIFICATION COMPLIANCE
+================================================================================
+1. Add new protocol support in UEFI 2.5.
+     EFI_HTTP_SERVICE_BINDING_PROTOCOL (Only support IPv4 network stack now)
+     EFI_HTTP_PROTOCOL (Only support IPv4 network stack now)
+     EFI_HTTP_UTILITIES_PROTOCOL
+     EFI_DNS4_SERVICE_BINDING_PROTOCOL
+     EFI_DNS4_PROTOCOL
+     EFI_DNS6_SERVICE_BINDING_PROTOCOL
+     EFI_DNS6_PROTOCOL
+2. In UEFI 2.5, the EFI_IP4_CONFIG_PROTOCOL is marked to be deprecated in next
+   revision of UEFI specification, a new protocol EFI_IP4_CONFIG2_PROTOCOL is
+   defined. All EDKII network stack modules have been updated to use the new
+   protocol and remove the dependency on the old one.
+
+================================================================================
+                            INCOMPATIBLE CHANGES
+================================================================================
+1. This version of EDK2 network stack modules can't work with the network drivers
+   in previous release version. For example, there was an Ip4ConfigDxe driver in
+   previous release of MdeModulePkg which has been removed in this release, and
+   all EDK2 network stank modules can't work with it now.
+
+================================================================================
+                               KNOWN ISSUES
+================================================================================
+1. iSCSI remote OS installation/boot with IPsec enabled.
+   In the current implementation, iSCSI driver is capable to access the storage
+   server in pre-OS environment when IPsec is enabled; while iSCSI remote OS
+   installation/boot cannot work with IPsec since the IPsec required parameters
+   are not conveyed to operating system. One possible way to handover such parameters
+   to the operating system is to use the GUIDed device path.
+
+2. Reenter an "UEFI Http" boot option in "Boot Manager Menu" will fail and go back
+   to the same page directly. This is because BDS couldn't find a proper boot device
+   after the device path updated by HTTP boot driver in pervious HTTP boot. To restart
+   HTTP boot, user need to exit and reenter the "Boot Manager Menu" or reset the
+   platform.
+
+* Other names and brands may be claimed as the property of others.

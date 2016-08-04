@@ -1,0 +1,7 @@
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/MdeModulePkg/Universal/Disk/RamDiskDxe
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/Build/MdeModule/DEBUG_GCC44/X64/MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe/DEBUG
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/MdePkg
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/MdePkg/Include
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/MdePkg/Include/X64
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/MdeModulePkg
+-I/home/neo/development/uefi/UDK-uefi-development-kit/MyWorkSpace/MdeModulePkg/Include

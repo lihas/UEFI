@@ -1,0 +1,153 @@
+========================================================================================================================
+                                                   NEW FEATURES AND CHANGES
+========================================================================================================================
+1.  Add Unified Extensible Firmware(UEFI) specification 2.5 defined Protocols/PPIs/GUIDs and their related data
+    structure definitions.
+    1)  Protocols:
+        EFI_HTTP_UTILITIES_PROTOCOL
+        EFI_HTTP_PROTOCOL
+        EFI_REST_PROTOCOL
+        EFI_DNS4_PROTOCOL
+        EFI_DNS4_SERVICE_BINDING_PROTOCOL
+        EFI_DNS6_PROTOCOL
+        EFI_DNS6_SERVICE_BINDING_PROTOCOL
+        EFI_IP4_CONFIG2_PROTOCOL
+        EFI_PKCS7_VERIFY_PROTOCOL
+        EFI_EAP_CONFIGURATION_PROTOCOL
+        EFI_EAP_MANAGEMENT2_PROTOCOL
+        EFI_WIRELESS_MAC_CONNECTION_PROTOCOL
+        EFI_CONFIG_KEYWORD_HANDLER_PROTOCOL
+        EFI_BOOT_MANAGER_POLICY_PROTOCOL
+        EFI_REGULAR_EXPRESSION_PROTOCOL
+        EFI_BLUETOOTH_CONFIG_PROTOCOL
+        EFI_BLUETOOTH_HC_PROTOCOL
+        EFI_BLUETOOTH_IO_PROTOCOL
+        EFI_BLUETOOTH_IO_SERVICE_BINDING_PROTOCOL
+        EFI_USBFN_IO_PROTOCOL
+        EFI_SMART_CARD_EDGE_PROTOCOL
+        EFI_SMART_CARD_READER_PROTOCOL
+        EFI_BLOCK_IO_CRYPTO_PROTOCOL
+        EFI_HASH2_PROTOCOL
+        EFI_HASH2_SERVICE_BINDING_PROTOCOL
+        EFI_NVM_EXPRESS_PASS_THRU_PROTOCOL
+    2)  GUIDs:
+        EFI_PROPERTIES_TABLE_GUID
+        SMBIOS3_TABLE_GUID
+        EFI_ADAPTER_INFO_UNDI_IPV6_SUPPORT_GUID
+        EFI_DISK_INFO_NVME_INTERFACE_GUID
+        EFI_DISK_INFO_UFS_INTERFACE_GUID
+        EFI_SYSTEM_RESOURCE_TABLE_GUID
+    3)  Miscellaneous UEFI 2.5 elements:
+        a) Add BMC, Ramdisk, Wifi, SD (Secure Digital), URI, bluetooth,  Universal Flash Storage (UFS) device path
+        b) Add Sys Prep string and macro
+        c) Add HII RECONNECT action and flag
+        d) Clarify OEM Reserved Memory type
+        e) Add more reliable, RO memory attribute, and PersistentMemory type.
+        f) Add EFI_LOAD_OPTION definition.
+        g) Comment Signature field in image execution info table.
+        h) Add EFI_IFR_MATCH2_OP opcode.
+
+2.  Add Platform Initialization(PI) specification 1.4 defined Protocols/PPIs/GUIDs and their related data
+    structure definitions.
+    1)  Protocols:
+        EFI_SECURITY2_ARCH_PROTOCOL
+        EFI_ISA_HC_PROTOCOL
+        EFI_ISA_HC_SERVICE_BINDING_PROTOCOL_GUID
+        EFI_SIO_CONTROL_PROTOCOL
+    2)  PPIs:
+        EFI_SEC_PLATFORM_INFORMATION2_PPI
+        EFI_ISA_HC_PPI
+        EFI_SIO_PPI
+        EFI_PEI_RECOVERY_BLOCK_IO2_PPI
+        EFI_PEI_RESET2_PPI
+        PEI_CAPSULE_PPI
+        EFI_PEI_MP_SERVICES_PPI
+        EFI_PEI_GRAPHICS_PPI
+    3)  GUIDs:
+        EFI_PEI_GRAPHICS_INFO_HOB_GUID
+    4)  Miscellaneous P1 1.4 elements:
+        a) Add EFI_ACPI_TABLE_VERSION_5_0 definition.
+        b) Add more reliable, RO, PersistentMemory Resource memory attribute.
+        c) PEI EFI_PEI_ALLOCATE_PAGES to allow EfiReservedMemoryType type.
+        d) SMM GpiNum meaning clarification
+        e) SMM register protocol notify function clarify
+        f) Update ExtendedSize in EFI_FFS_FILE_HEADER2
+
+3.  Add/Upgrade Industry standard definitions.
+    1)  Add PCI P2P Bridge Secondary Latency Timer register
+    2)  Add Microsoft UX capsule GUID & layout
+    3)  Add Bluetooth 4.0 definitions
+    4)  Add ACPI6.0 tables.
+    5)  Update ACPI5.0 tables
+        a) Added PlatformNotification to PCCT structure.
+    6)  Add new definitions for SMBIOS 3.0
+    7)  Add HSTI (Microsoft Hardware Security Testability) 1.0 definitions.
+    8)  Add USB Subset of Class and Subclass definitions
+    9)  Add TPM2 definition in trusted computing group.
+        a) TCG Physical Presence definition
+        b) TCG EFI Protocol Specification for TPM 2.0
+    10) Add Microsoft Secure MOR definitions.
+
+4.  Add PCD PcdHardwareErrorRecordLevel, PcdPlatformBootTimeout, PcdFixedDebugPrintErrorLevel and
+    PcdUefiFileHandleLibPrintBufferSize.
+
+5.  Add new Library classes:
+    1)  SmmMemLib
+    2)  HstiLib
+    3)  FileHandleLib moved from ShellPkg
+
+6.  Add new library APIs in existing library classes:
+    1)  Add FixedPcdGetSize(), PatchPcdGetSize(), PcdGetSize(), PcdGetExSize(), LibPatchPcdSetPtrAndSize(), and
+        LibPatchPcdSetPtrAndSizeS() in PcdLib.
+    2)  Add a set of PcdSetXXS APIs into PcdLib and remove the ASSERT in original PcdSetXX APIs.
+    3)  Add DebugPrintLevelEnabled() in DebugLib
+    4)  Add PathRemoveLastItem(), PathCleanUpDirectories() in BaseLib
+    5)  Add safe string functions to BaseLib.
+    6)  Add BuildResourceDescriptorWithOwnerHob() API in HobLib
+
+7.  Add new library instances:
+    1)  UefiDebugLibDebugPortProtocol
+    2)  SmmMemLib
+    3)  DxeHstiLib
+    4)  UefiFileHandleLib moved from ShellPkg
+
+8.  Add RETURN_ADDRESS macro into Base.h.
+
+9.  Disable the C4701 and C4703 warnings for VS2013
+
+10. Add %u and %lu support in PrintLib
+
+========================================================================================================================
+                                             UEFI/PI SPECIFICATION COMPLIANCE
+========================================================================================================================
+1.  Add the missing SetMemorySpaceCapabilities function.
+2.  UEFI 2.4 X509 Certificate Hash and RFC3161 Timestamp Verification support for Secure Boot.
+3.  Refine EFI_DARKGRAY definition to EFI_BLACK | EFI_BRIGHT.
+4.  Add EFI Capsule Report data structure and GUID.
+5.  Updated Memory Error Record to support up to 64GiB DIMMS, and DDR4 and Chip Identification.
+
+========================================================================================================================
+                                                       BUG FIXES
+========================================================================================================================
+1.  Do not assert when the device path node length is invalid.
+2.  Do not encode LUN in CDB for READ, WRITE, and other SCSI commands in UefiScsiLib.
+3.  Describe PCD service can't be used at Runtime phase.
+4.  Use safe string functions.
+5.  Return NULL when GetFileBufferByFilePath() API reads directory
+6.  Add support for flexible array members
+7.  Support IA32 processors without CMOVx
+8.  Support IA32 processors without CLFLUSH
+9.  Update macro ACPI_DISPLAY_ADR() to pass ARM toolchain
+10. Do not assert when the device path node length is invalid.
+11. Describe PCD service can't be used at Runtime phase.
+12. Update PeiMemoryAllocationLib to allocate EfiReservedMemoryType memory directly.
+
+========================================================================================================================
+                                                    KNOWN ISSUES
+========================================================================================================================
+1.  EFI_SIZE_TO_PAGES() macro requires that the input parameter is UINTN data type.
+2.  SecPeiDxeTimerLibCpu library instance can be used by drivers of type DXE_RUNTIME_DRIVER and DXE_SMM_DRIVER in
+    their initialization without any issues. But, those driver needs be careful in the implementation
+    of runtime services and SMI handlers.
+3.  BaseExtractGuidedSectionLib library instance can be used by drivers of type DXE_RUNTIME_DRIVER and DXE_SMM_DRIVER in
+    their initialization without any issues.

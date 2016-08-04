@@ -1,0 +1,40 @@
+========================================================================================================================
+                                               UEFI/PI SPECIFICATION COMPLIANCE
+========================================================================================================================
+1.  PI: Put report status code after event was signal per PI specification.
+2.  UEFI2.5: PersistentMemory support in LegacyBiosDxe.
+
+========================================================================================================================
+                                                PACKAGE INTERFACE CHANGES
+========================================================================================================================
+1.  Move LzmaDecompress GUID definition from IntelFrameworkModulePkg to MdeModulePkg.
+2.  Remove obsolete PCDs (new ones are moved to MdePkg and MdeModulePkg):
+    PcdHardwareErrorRecordLevel, PcdPlatformBootTimeout, PcdSetupConOutColumn, PcdSetupConOutRow,
+    PcdSetupVideoHorizontalResolution, PcdSetupVideoVerticalResolution
+
+========================================================================================================================
+                                                NEW FEATURES AND CHANGES
+========================================================================================================================
+1.  Removes dependencies on SMBIOS in the IntelFrameworkModulePkg's BDS.
+2.  PeiDxeDebugLibReportStatusCode: Implement new API DebugPrintLevelEnabled() to base on PCD PcdFixedDebugPrintErrorLevel.
+3.  Update LegacyBiosDxe to use UmaAddress and UmaSize in CSM 0.98.
+4.  Add comments to clarify runtime memory usage for legacy OS.
+5.  Change BdsDxe to use new PCDs defined in MdePkg and MdeModulePkg.
+6.  Add LegacyBootManagerLib.
+7.  Remove Framework HII "class\subclass"  in all VFR.
+8.  Add %u and %lu support for DebugLib.
+9.  Use PcdSerialClockRate instead of hard code value
+10. Use safe string functions.
+11. AcpiS3SaveDxe: call S3Ready() at End-of-DXE.
+12. GenericBdsLib: Remove AcpiS3->S3Save() call.
+13. AcpiS3SaveDxe: Reduce reserved memory consumption.
+14. Legacy Boot Maintenance UI part code split from IntelFrameworkModulePkg/Universal/BdsDxe driver.
+
+=======================================================================================================================
+                                                       BUG FIXES
+=======================================================================================================================
+1.  FwVol: Move the check of FV Header signature and file system to GetFwVolHeader() to avoid reading the whole
+    unexpected FvHeader.
+2.  Fix the potential system TPL does not been restore.
+3.  Modify IsaSerialDxe to follow driver rules.
+4.  Fix a memory leak bug in BdsDxe driver.
