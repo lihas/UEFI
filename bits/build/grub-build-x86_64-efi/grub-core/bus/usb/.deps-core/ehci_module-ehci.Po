@@ -1,0 +1,86 @@
+bus/usb/ehci_module-ehci.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/bus/usb/ehci.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/usb.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/usbdesc.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/usbtrans.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/pci.h \
+ ../include/grub/cpu/pci.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/pci.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/io.h \
+ ../include/grub/cpu/io.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/time.h \
+ ../include/grub/cpu/time.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/loader.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/cs5536.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/smbus.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/usb.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/usbdesc.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/usbtrans.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/pci.h:
+
+../include/grub/cpu/pci.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/pci.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/io.h:
+
+../include/grub/cpu/io.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/time.h:
+
+../include/grub/cpu/time.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/loader.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/cs5536.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/smbus.h:

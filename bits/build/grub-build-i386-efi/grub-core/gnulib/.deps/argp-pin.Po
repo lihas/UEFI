@@ -1,0 +1,9 @@
+argp-pin.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/argp-pin.c \
+ /usr/include/stdc-predef.h ../../config.h ../../config-util.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+../../config-util.h:

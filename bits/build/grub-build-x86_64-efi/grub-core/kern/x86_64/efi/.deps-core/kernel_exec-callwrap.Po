@@ -1,0 +1,8 @@
+kern/x86_64/efi/kernel_exec-callwrap.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/kern/x86_64/efi/callwrap.S \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:

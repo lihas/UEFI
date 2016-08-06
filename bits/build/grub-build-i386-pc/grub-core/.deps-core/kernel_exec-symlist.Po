@@ -1,0 +1,152 @@
+kernel_exec-symlist.o: symlist.c ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/cache.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/command.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/disk.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/env.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/menu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/env_private.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/env.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/kernel.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/parser.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/reader.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/partition.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/term.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/unicode.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/time.h \
+ ../include/grub/cpu/time.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm_private.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/net.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/net/netbuff.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/libgcc.h \
+ ../config-util.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/memory.h \
+ ../include/grub/machine/kernel.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/offsets.h \
+ ../include/grub/machine/pxe.h ../include/grub/machine/int.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/pit.h
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/cache.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/command.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/disk.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/env.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/menu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/env_private.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/env.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/kernel.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/parser.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/reader.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/partition.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/term.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/unicode.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/time.h:
+
+../include/grub/cpu/time.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm_private.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/net.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/net/netbuff.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/libgcc.h:
+
+../config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/memory.h:
+
+../include/grub/machine/kernel.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/offsets.h:
+
+../include/grub/machine/pxe.h:
+
+../include/grub/machine/int.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/pit.h:

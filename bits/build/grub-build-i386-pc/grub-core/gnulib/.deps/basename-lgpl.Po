@@ -1,0 +1,39 @@
+basename-lgpl.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/basename-lgpl.c \
+ /usr/include/stdc-predef.h ../../config.h ../../config-util.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/dirname.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h string.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/xlocale.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+../../config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/dirname.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+string.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/xlocale.h:

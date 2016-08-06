@@ -1,0 +1,18 @@
+asnprintf.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/asnprintf.c \
+ /usr/include/stdc-predef.h ../../config.h ../../config-util.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/vasnprintf.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+../../config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/vasnprintf.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:

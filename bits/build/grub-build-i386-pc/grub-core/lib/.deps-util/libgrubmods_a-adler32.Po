@@ -1,0 +1,31 @@
+grub-core/lib/libgrubmods_a-adler32.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/adler32.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ config.h config-util.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/crypto.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+config.h:
+
+config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/crypto.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:

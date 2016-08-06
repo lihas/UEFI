@@ -1,0 +1,82 @@
+loader/i386/bsd_module-bsd64.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/loader/i386/bsd64.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/loader/i386/bsdXX.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/loader.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/bsd.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/memory.h \
+ ../include/grub/cpu/memory.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/freebsd_reboot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/netbsd_reboot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/openbsd_reboot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/freebsd_linker.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/netbsd_bootinfo.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/openbsd_bootarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/relocator.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/loader/i386/bsdXX.c:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/loader.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/bsd.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/memory.h:
+
+../include/grub/cpu/memory.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/freebsd_reboot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/netbsd_reboot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/openbsd_reboot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/freebsd_linker.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/netbsd_bootinfo.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/openbsd_bootarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/relocator.h:

@@ -1,0 +1,5 @@
+COMMAND_LIST_MARKER(const char *name, grub_command_func_t func, const char *summary, const char *description)
+P1COMMAND_LIST_MARKER(const char *name, grub_command_func_t func, const char *summary, const char *description)
+grub_extcmd_t EXTCOMMAND_LIST_MARKER(const char *name, grub_extcmd_func_t func, grub_command_flags_t flags, const char *summary, const char *description, const struct grub_arg_option *parser)
+    cmd1 = EXTCOMMAND_LIST_MARKER("mcu_load", grub_cmd_mcu_load, 0, "[-v] [file | directory]...", "Find and load microcode update.", options)
+    cmd2 = EXTCOMMAND_LIST_MARKER("mcu_status", grub_cmd_mcu_status, 0, "[-v] [file | directory]...", "Show CPU microcode status.", options)

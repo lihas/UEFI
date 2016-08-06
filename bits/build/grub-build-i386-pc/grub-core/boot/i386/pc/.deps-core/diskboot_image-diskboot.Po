@@ -1,0 +1,13 @@
+boot/i386/pc/diskboot_image-diskboot.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/diskboot.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h ../include/grub/machine/boot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/offsets.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+../include/grub/machine/boot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/offsets.h:

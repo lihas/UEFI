@@ -1,0 +1,89 @@
+fs/squash4_module-squash4.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/fs/squash4.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/disk.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fshelp.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/deflate.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/minilzo.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzoconf.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzodefs.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/xzembed/xz.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdint.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/sys/types.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/unistd.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/string.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/xzembed/xz_stream.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/disk.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fshelp.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/deflate.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/minilzo.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzoconf.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzodefs.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/xzembed/xz.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdint.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/sys/types.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/unistd.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/string.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/xzembed/xz_stream.h:

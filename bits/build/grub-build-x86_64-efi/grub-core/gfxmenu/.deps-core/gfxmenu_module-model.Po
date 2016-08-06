@@ -1,0 +1,2 @@
+gfxmenu/gfxmenu_module-model.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gfxmenu/model.c

@@ -1,0 +1,8 @@
+boot/i386/pc/pxeboot_image-pxeboot.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/pxeboot.S \
+ ../include/grub/machine/boot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/offsets.h
+
+../include/grub/machine/boot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/offsets.h:

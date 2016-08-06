@@ -1,0 +1,214 @@
+videotest: font video gfxmenu
+odc:
+loopback: extcmd
+gcry_des: crypto
+memrw: extcmd
+terminfo: extcmd
+part_gpt:
+romfs: fshelp
+read:
+aout:
+gcry_arcfour: crypto
+tftp: net priority_queue
+newc:
+minix2_be:
+vga_text:
+elf:
+password_pbkdf2: crypto gcry_sha512 pbkdf2 normal
+gcry_seed: crypto
+bsd: elf serial gcry_md5 extcmd vbe video boot aout cpuid relocator mmap
+sfs: fshelp
+reiserfs: fshelp
+part_sunpc:
+gfxmenu: trig bitmap_scale gfxterm font normal video bitmap
+backtrace:
+jfs:
+help: extcmd normal
+configfile: normal
+ohci: cs5536 usb boot pci
+afs:
+usb_keyboard: usb keylayouts
+xzio: crypto
+search_fs_file:
+vga: video video_fb
+usbms: scsi usb
+test_blockarg: extcmd normal
+true:
+affs: fshelp
+iso9660: fshelp
+exfat:
+gfxterm: bitmap_scale font extcmd video bitmap
+xfs: fshelp
+cpio_be:
+functional_test: extcmd
+pxechain: pxe video boot relocator
+mcu: extcmd python
+sleep: extcmd normal
+memdisk:
+gcry_rijndael: crypto
+mdraid09_be: diskfilter
+gettext:
+gcry_sha1: crypto
+cmp:
+hashsum: crypto extcmd normal
+usb: pci
+halt: extcmd acpi
+gdb: serial backtrace
+search_fs_uuid:
+keystatus: extcmd
+linux: normal vbe video boot relocator mmap
+geli: cryptodisk crypto gcry_sha512 pbkdf2 gcry_sha256
+part_sun:
+plan9: extcmd video boot relocator
+sendkey: extcmd boot
+video_bochs: video pci video_fb
+bufio:
+usbserial_ftdi: serial usb usbserial_common
+cpuid: extcmd
+bfs:
+hdparm: extcmd
+gcry_blowfish: crypto
+test:
+nilfs2: fshelp
+cryptodisk: crypto extcmd
+minicmd:
+ata: scsi
+udf: fshelp
+gzio:
+xnu_uuid: gcry_md5
+uhci: usb pci
+pata: ata pci
+adler32: crypto
+terminal:
+ehci: cs5536 usb boot pci
+crypto:
+part_bsd: part_msdos
+cs5536: pci
+biosdisk:
+lsapm:
+gcry_sha512: crypto
+password: crypto normal
+efiemu: gcry_crc acpi
+fshelp:
+iorw: extcmd
+xnu: bitmap_scale extcmd video bitmap boot efiemu relocator
+mmap: boot
+exfctest: functional_test
+zfsinfo: zfs
+ldm: part_gpt diskfilter
+cmostest:
+part_dvh:
+ext2: fshelp
+blocklist:
+net: priority_queue bufio datetime boot
+drivemap: extcmd boot mmap
+part_acorn:
+videoinfo: video
+btrfs: lzopio gzio
+lsmmap:
+bitmap:
+vbe: video video_fb
+ntfs: fshelp
+multiboot: net vbe video boot relocator mmap lsapm
+gcry_crc: crypto
+png: bufio bitmap
+jpeg: bufio bitmap
+regexp: extcmd normal
+parttool: normal
+usbserial_pl2303: serial usb usbserial_common
+cpio:
+gcry_rmd160: crypto
+fat:
+raid6rec: diskfilter
+ntldr: chain video boot relocator
+http: net
+zfs: gzio
+minix2:
+lsacpi: extcmd acpi
+datehook: datetime normal
+loadenv: extcmd
+bitmap_scale: bitmap
+probe: extcmd
+minix3:
+tar:
+hfs:
+boot:
+keylayouts:
+kernel:
+usbtest: usb
+relocator: mmap
+python: extcmd datetime normal mmap
+acpi: extcmd mmap
+tga: bufio bitmap
+reboot: relocator
+serial: extcmd terminfo
+zfscrypt: crypto pbkdf2 zfs extcmd gcry_sha1 gcry_rijndael
+dm_nv: diskfilter
+luks: cryptodisk crypto pbkdf2
+font: bufio video
+raid5rec: diskfilter
+crc64: crypto
+datetime:
+video:
+pci:
+hfsplus: fshelp
+gcry_cast5: crypto
+extcmd:
+squash4: fshelp lzopio xzio gzio
+part_plan:
+minix_be:
+gcry_whirlpool: crypto
+pxe: net boot
+gcry_tiger: crypto
+search: search_fs_uuid search_fs_file extcmd search_label
+lspci: extcmd pci
+video_fb: video
+minix3_be:
+trig:
+msdospart: parttool
+priority_queue:
+gcry_twofish: crypto
+diskfilter:
+testload:
+part_apple:
+hexdump: extcmd
+date: datetime normal
+pbkdf2: crypto
+gcry_sha256: crypto
+ls: extcmd normal
+usbserial_common: serial usb
+ntfscomp: ntfs
+lzopio: crypto
+video_cirrus: video pci video_fb
+hello: extcmd
+scsi:
+cat: extcmd
+ahci: ata boot pci
+normal: terminal crypto extcmd boot gettext
+linux16: video boot relocator mmap
+ufs1:
+mdraid09: diskfilter
+lvm: diskfilter
+chain: video boot relocator
+ufs2:
+time:
+setpci: extcmd pci
+gptsync:
+freedos: video boot relocator
+search_label:
+setjmp:
+multiboot2: vbe video boot relocator mmap lsapm acpi
+gcry_rfc2268: crypto
+mdraid1x: diskfilter
+legacycfg: linux password crypto gcry_md5 normal
+play:
+part_amiga:
+minix:
+echo: extcmd
+gcry_serpent: crypto
+gcry_md4: crypto
+gcry_md5: crypto
+at_keyboard: keylayouts boot
+part_msdos:
+gcry_camellia: crypto
+all_video: vbe vga video_bochs video_cirrus

@@ -1,0 +1,19 @@
+boot/i386/pc/cdboot_image-cdboot.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/cdboot.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h ../include/grub/machine/boot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/offsets.h \
+ ../include/grub/machine/kernel.h \
+ /home/neo/development/uefi/bits/build/grub/include/multiboot.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+../include/grub/machine/boot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/offsets.h:
+
+../include/grub/machine/kernel.h:
+
+/home/neo/development/uefi/bits/build/grub/include/multiboot.h:

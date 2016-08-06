@@ -1,0 +1,26 @@
+kern/kernel_exec-err.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/kern/err.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:

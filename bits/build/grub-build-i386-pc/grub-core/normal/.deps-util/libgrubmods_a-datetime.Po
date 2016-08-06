@@ -1,0 +1,25 @@
+grub-core/normal/libgrubmods_a-datetime.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/normal/datetime.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/datetime.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h config.h \
+ config-util.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/datetime.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+config.h:
+
+config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:

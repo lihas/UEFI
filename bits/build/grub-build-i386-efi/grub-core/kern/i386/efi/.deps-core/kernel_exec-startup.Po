@@ -1,0 +1,8 @@
+kern/i386/efi/kernel_exec-startup.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/kern/i386/efi/startup.S \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:

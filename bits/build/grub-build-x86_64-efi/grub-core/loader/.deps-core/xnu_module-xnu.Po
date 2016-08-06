@@ -1,0 +1,121 @@
+loader/xnu_module-xnu.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/loader/xnu.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/xnu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/bitmap.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/video.h \
+ ../include/grub/cpu/xnu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/xnu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/efi/api.h \
+ ../include/grub/cpu/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/memory.h \
+ ../include/grub/cpu/memory.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/loader.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/machoload.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/macho.h \
+ ../include/grub/cpu/macho.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/macho.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/command.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/extcmd.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/lib/arg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/script_sh.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/parser.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/reader.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/env.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/menu.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/xnu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/bitmap.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/video.h:
+
+../include/grub/cpu/xnu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/xnu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/efi/api.h:
+
+../include/grub/cpu/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/memory.h:
+
+../include/grub/cpu/memory.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/loader.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/machoload.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/macho.h:
+
+../include/grub/cpu/macho.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/macho.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/command.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/extcmd.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/lib/arg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/script_sh.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/parser.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/reader.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/env.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/menu.h:

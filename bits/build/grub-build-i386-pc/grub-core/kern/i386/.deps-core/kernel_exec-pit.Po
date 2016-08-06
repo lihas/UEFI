@@ -1,0 +1,22 @@
+kern/i386/kernel_exec-pit.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/kern/i386/pit.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/io.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/pit.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/io.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/pit.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:

@@ -1,0 +1,128 @@
+loader/i386/xnu_module-xnu.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/loader/i386/xnu.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/env.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/menu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/disk.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/xnu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/bitmap.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/video.h \
+ ../include/grub/cpu/xnu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/xnu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/efi/api.h \
+ ../include/grub/cpu/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/relocator.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/memory.h \
+ ../include/grub/cpu/memory.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/loader.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/autoefi.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/efi/efi.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/tsc.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/pit.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/charset.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/term.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/unicode.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/command.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/bitmap_scale.h \
+ ../include/grub/cpu/io.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/io.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/env.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/menu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/disk.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/xnu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/bitmap.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/video.h:
+
+../include/grub/cpu/xnu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/xnu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/efi/api.h:
+
+../include/grub/cpu/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/relocator.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/memory.h:
+
+../include/grub/cpu/memory.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/loader.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/autoefi.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/efi/efi.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/tsc.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/pit.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/charset.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/term.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/unicode.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/command.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/bitmap_scale.h:
+
+../include/grub/cpu/io.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/io.h:

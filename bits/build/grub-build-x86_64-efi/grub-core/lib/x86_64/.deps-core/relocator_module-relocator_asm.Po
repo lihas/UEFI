@@ -1,0 +1,11 @@
+lib/x86_64/relocator_module-relocator_asm.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/x86_64/relocator_asm.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h:

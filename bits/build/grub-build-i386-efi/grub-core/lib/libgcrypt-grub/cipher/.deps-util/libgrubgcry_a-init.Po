@@ -1,0 +1,25 @@
+grub-core/lib/libgcrypt-grub/cipher/libgrubgcry_a-init.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/libgcrypt-grub/cipher/init.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/crypto.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ config.h config-util.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/crypto.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+config.h:
+
+config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:

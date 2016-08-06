@@ -1,0 +1,83 @@
+commands/videotest_module-videotest.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/commands/videotest.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/video.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/font.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/unicode.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/term.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/command.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/gfxmenu_view.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/menu.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/gfxwidgets.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/bitmap.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/gui.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/icon_manager.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/env.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/video.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/font.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/unicode.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/term.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/command.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/gfxmenu_view.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/menu.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/gfxwidgets.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/bitmap.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/gui.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/icon_manager.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/env.h:

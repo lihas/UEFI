@@ -1,0 +1,8 @@
+commands/i386/pc/drivemap_module-drivemap_int13h.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/commands/i386/pc/drivemap_int13h.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:

@@ -1,0 +1,14 @@
+kern/i386/pc/kernel_exec-startup.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/kern/i386/pc/startup.S \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/multiboot.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/kern/i386/pc/../int.S
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/multiboot.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/kern/i386/pc/../int.S:

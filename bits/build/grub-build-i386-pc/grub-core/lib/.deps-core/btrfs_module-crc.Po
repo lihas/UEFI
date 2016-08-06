@@ -1,0 +1,13 @@
+lib/btrfs_module-crc.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/crc.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/lib/crc.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/lib/crc.h:

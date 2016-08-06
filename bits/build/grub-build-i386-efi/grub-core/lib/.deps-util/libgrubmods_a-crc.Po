@@ -1,0 +1,16 @@
+grub-core/lib/libgrubmods_a-crc.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/crc.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h config.h \
+ config-util.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/lib/crc.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+config.h:
+
+config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/lib/crc.h:

@@ -1,0 +1,28 @@
+lib/crc64_module-crc64.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/crc64.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/crypto.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/crypto.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:

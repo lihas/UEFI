@@ -1,0 +1,14 @@
+lib/i386/relocator_module-relocator64.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/i386/relocator64.S \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/i386/relocator_common.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/i386/relocator_common.S:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h:

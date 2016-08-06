@@ -1,0 +1,20 @@
+grub_fstest-grub_fstest_init.o: grub_fstest_init.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/emu/misc.h \
+ config.h config-util.h /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/emu/misc.h:
+
+config.h:
+
+config-util.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:

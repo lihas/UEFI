@@ -1,0 +1,33 @@
+lib/datetime_module-cmos_datetime.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/cmos_datetime.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/datetime.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/cmos.h \
+ ../include/grub/cpu/io.h ../include/grub/cpu/cmos.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/dl.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/elf.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/datetime.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/cmos.h:
+
+../include/grub/cpu/io.h:
+
+../include/grub/cpu/cmos.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/elf.h:

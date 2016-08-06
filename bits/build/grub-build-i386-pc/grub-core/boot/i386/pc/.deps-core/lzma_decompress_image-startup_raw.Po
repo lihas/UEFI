@@ -1,0 +1,34 @@
+boot/i386/pc/lzma_decompress_image-startup_raw.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/startup_raw.S \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/offsets.h \
+ ../include/grub/machine/boot.h ../include/grub/machine/memory.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h \
+ ../include/grub/machine/kernel.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/../../../kern/i386/realmode.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/pc/memory.h \
+ rs_decoder.S \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/lzma_decode.S
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/offsets.h:
+
+../include/grub/machine/boot.h:
+
+../include/grub/machine/memory.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/memory.h:
+
+../include/grub/machine/kernel.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/../../../kern/i386/realmode.S:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/pc/memory.h:
+
+rs_decoder.S:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/lzma_decode.S:

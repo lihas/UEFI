@@ -1,0 +1,47 @@
+lib/minilzo/lzopio_module-minilzo.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/minilzo.c \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/limits.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/minilzo.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzoconf.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzodefs.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/string.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/assert.h
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/limits.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/minilzo.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzoconf.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/minilzo/lzodefs.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/string.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/assert.h:

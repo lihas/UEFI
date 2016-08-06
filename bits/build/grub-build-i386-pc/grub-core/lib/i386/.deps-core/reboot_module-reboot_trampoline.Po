@@ -1,0 +1,11 @@
+lib/i386/reboot_module-reboot_trampoline.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/i386/reboot_trampoline.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/reboot.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/reboot.h:

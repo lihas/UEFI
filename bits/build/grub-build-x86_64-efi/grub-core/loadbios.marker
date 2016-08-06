@@ -1,0 +1,4 @@
+COMMAND_LIST_MARKER(const char *name, grub_command_func_t func, const char *summary, const char *description)
+P1COMMAND_LIST_MARKER(const char *name, grub_command_func_t func, const char *summary, const char *description)
+  cmd_fakebios = COMMAND_LIST_MARKER("fakebios", grub_cmd_fakebios, 0, "Create BIOS-like structures for" " backward compatibility with" " existing OS.")
+  cmd_loadbios = COMMAND_LIST_MARKER("loadbios", grub_cmd_loadbios, "BIOS_DUMP [INT10_DUMP]", "Load BIOS dump.")

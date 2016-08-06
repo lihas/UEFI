@@ -1,0 +1,11 @@
+gdb/i386/gdb_module-machdep.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gdb/i386/machdep.S \
+ ../include/grub/cpu/gdb.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h
+
+../include/grub/cpu/gdb.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:

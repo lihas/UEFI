@@ -1,0 +1,13 @@
+loader/xnu_module-lzss.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/loader/lzss.c \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../config.h ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/macho.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../config.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/macho.h:

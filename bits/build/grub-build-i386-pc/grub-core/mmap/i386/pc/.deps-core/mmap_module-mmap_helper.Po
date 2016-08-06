@@ -1,0 +1,8 @@
+mmap/i386/pc/mmap_module-mmap_helper.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/mmap/i386/pc/mmap_helper.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:

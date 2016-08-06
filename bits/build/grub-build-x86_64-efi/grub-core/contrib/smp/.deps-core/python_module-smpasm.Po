@@ -1,0 +1,14 @@
+contrib/smp/python_module-smpasm.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib/smp/smpasm.S \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib/acpica/acenv.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib/smp/smpequ.h
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib/acpica/acenv.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib/smp/smpequ.h:

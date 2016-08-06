@@ -1,0 +1,20 @@
+contrib-deps/libffi/src/x86/python_module-unix64.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/unix64.S \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib/acpica/acenv.h \
+ /home/neo/development/uefi/bits/build/grub/contrib/python/fficonfig.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/include/ffi.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/ffitarget.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/internal64.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/asmnames.h
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib/acpica/acenv.h:
+
+/home/neo/development/uefi/bits/build/grub/contrib/python/fficonfig.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/include/ffi.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/ffitarget.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/internal64.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/asmnames.h:

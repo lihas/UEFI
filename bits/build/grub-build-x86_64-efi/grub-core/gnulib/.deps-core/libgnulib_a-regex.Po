@@ -1,0 +1,104 @@
+gnulib/libgnulib_a-regex.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex.c \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/limits.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h \
+ ../include/grub/cpu/types.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/sys/types.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex_internal.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/assert.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/ctype.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdio.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/file.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/device.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/fs.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdlib.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/string.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/langinfo.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/localcharset.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/localcharset.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/wchar.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/charset.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/wctype.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdint.h \
+ ../grub-core/gnulib/alloca.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex_internal.c \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regcomp.c \
+ /home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regexec.c
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/limits.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+../include/grub/cpu/types.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/sys/types.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex_internal.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/assert.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/ctype.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdio.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/file.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/device.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/fs.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdlib.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/string.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/langinfo.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/localcharset.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/localcharset.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/wchar.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/charset.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/wctype.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/posix_wrap/stdint.h:
+
+../grub-core/gnulib/alloca.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regex_internal.c:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regcomp.c:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/gnulib/regexec.c:

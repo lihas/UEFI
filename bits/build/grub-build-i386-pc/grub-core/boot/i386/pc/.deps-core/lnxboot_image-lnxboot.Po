@@ -1,0 +1,20 @@
+boot/i386/pc/lnxboot_image-lnxboot.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/boot/i386/pc/lnxboot.S \
+ ../config.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../include/grub/machine/boot.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/offsets.h \
+ ../include/grub/machine/kernel.h \
+ /home/neo/development/uefi/bits/build/grub/include/multiboot.h
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../include/grub/machine/boot.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/offsets.h:
+
+../include/grub/machine/kernel.h:
+
+/home/neo/development/uefi/bits/build/grub/include/multiboot.h:

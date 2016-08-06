@@ -1,0 +1,13 @@
+lib/setjmp_module-setjmp.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/setjmp.S \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/./x86_64/setjmp.S \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ ../config.h /home/neo/development/uefi/bits/build/grub/include/grub/dl.h
+
+/home/neo/development/uefi/bits/build/grub/grub-core/lib/./x86_64/setjmp.S:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+../config.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/dl.h:

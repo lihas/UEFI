@@ -1,0 +1,17 @@
+contrib-deps/libffi/src/x86/python_module-sysv.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/sysv.S \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib/acpica/acenv.h \
+ /home/neo/development/uefi/bits/build/grub/contrib/python/fficonfig.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/include/ffi.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/ffitarget.h \
+ /home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/internal.h
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib/acpica/acenv.h:
+
+/home/neo/development/uefi/bits/build/grub/contrib/python/fficonfig.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/include/ffi.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/ffitarget.h:
+
+/home/neo/development/uefi/bits/build/grub/grub-core/contrib-deps/libffi/src/x86/internal.h:

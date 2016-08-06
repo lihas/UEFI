@@ -1,0 +1,58 @@
+grub-core/lib/libgrubkern_a-arg.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/arg.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/misc.h \
+ /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h config.h \
+ config-util.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/symbol.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/err.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i18n.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/mm.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/term.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/unicode.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/list.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/extcmd.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/lib/arg.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/command.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/script_sh.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/parser.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/reader.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/misc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+config.h:
+
+config-util.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/symbol.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/err.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i18n.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/mm.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/term.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/unicode.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/list.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/extcmd.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/lib/arg.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/command.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/script_sh.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/parser.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/reader.h:

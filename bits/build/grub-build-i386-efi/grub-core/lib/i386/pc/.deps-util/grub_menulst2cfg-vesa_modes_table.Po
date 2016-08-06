@@ -1,0 +1,16 @@
+grub-core/lib/i386/pc/grub_menulst2cfg-vesa_modes_table.o: \
+ /home/neo/development/uefi/bits/build/grub/grub-core/lib/i386/pc/vesa_modes_table.c \
+ /usr/include/stdc-predef.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/i386/pc/vesa_modes_table.h \
+ /home/neo/development/uefi/bits/build/grub/include/grub/types.h config.h \
+ config-util.h
+
+/usr/include/stdc-predef.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/i386/pc/vesa_modes_table.h:
+
+/home/neo/development/uefi/bits/build/grub/include/grub/types.h:
+
+config.h:
+
+config-util.h:
